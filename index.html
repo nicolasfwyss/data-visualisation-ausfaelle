@@ -1,0 +1,47 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Bubble Chart v4</title>
+  <meta name="description" content="Using D3v4 to create a Bubble chart. Based on NYT visualization">
+  <meta name="author" content="Nicolas Wyss">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="assets/css/visualisation.css">
+  <link rel="stylesheet" href="assets/bootstrap5/css/bootstrap.min.css">
+
+</head>
+<body id=#page-top>
+<nav class="navbar bg-dark">
+  <div class="container">
+    <a href="#page-top" class="navbar-brand text-white">Home</a>
+  </div>
+</nav>
+<div class="container">
+  <div class="card m-5">
+    <div class="card-header">
+      <h1>Verkehrsausfälle 2022</h1>
+      <div id="sortButtons" class="container">
+        <button class="btn btn-success px-3 m-2" id="sort_all">Alle</button>
+        <button class="btn btn-success px-3 m-2">Wochentag</button>
+        <button class="btn btn-success px-3 m-2">Tageszeit</button>
+        <button class="btn btn-success px-3 m-2">Ausfalldauer</button>
+        <button class="btn btn-success px-3 m-2">Haltestellen</button>
+        <button class="btn btn-success px-3 m-2">Ausfalltyp</button>
+        <button class="btn btn-info px-3 m-2 float-end" id="scaling_all">Alle</button>
+        <button class="btn btn-info px-3 m-2 float-end" id="scaling_line">Linien</button>
+        <button class="btn btn-info px-3 m-2 float-end" id="scaling_line_bundles">Linienbündel</button>
+      </div>
+    </div>
+    <div class="card-body">
+      <div id="vis"></div>
+    </div>
+  </div>
+
+
+</div>
+</body>
+
+<script src="assets/D3js/d3.v4.min.js"></script>
+<script src="assets/js/tooltip.js"></script>
+<script src="assets/js/chart.js"></script>
+</html>
