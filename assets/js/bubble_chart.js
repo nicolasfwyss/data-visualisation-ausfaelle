@@ -672,7 +672,7 @@ function display(error, data) {
 
 // Einrichten der Button und der Aktion beim Drücken
 function setupButtons() {
-    d3.select('#buttons')
+    d3.select('#buttons_scale')
         .selectAll('.scale')
         .on('click', function () {
             // Remove active class from all buttons
@@ -688,7 +688,7 @@ function setupButtons() {
 
             myBubbleChart.scaleBubbles();
         });
-    d3.select('#buttons')
+    d3.select('#buttons_sort')
         .selectAll('.sort')
         .on('click', function () {
             // Remove active class from all buttons

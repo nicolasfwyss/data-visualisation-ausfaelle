@@ -20,19 +20,23 @@
   <div class="card m-5">
     <div class="card-header">
       <h1>Verkehrsausfälle 2022</h1>
-      <div id="buttons" class="container">
-        <button data="all" class="btn btn-outline-success px-3 m-2 sort btn-success text-white" id="sort_all">Alle</button>
-        <button data="day" class="btn btn-outline-success px-3 m-2 sort">Wochentag</button>
-        <button data="time" class="btn btn-outline-success px-3 m-2 sort">Tageszeit</button>
-        <button data="duration" class="btn btn-outline-success px-3 m-2 sort">Ausfalldauer</button>
-        <button data="stops" class="btn btn-outline-success px-3 m-2 sort">Haltestellen</button>
-        <button data="cause" class="btn btn-outline-success px-3 m-2 sort">Ausfallmeldung</button>
-        <button data="type" class="btn btn-outline-success px-3 m-2 sort">Verkehrsmittel</button>
-        <button class="btn btn-outline-primary px-3 m-2 float-end scale" scale="all">Alle</button>
-        <button class="btn btn-outline-primary px-3 m-2 float-end scale btn-primary text-white" scale="line">Linien</button>
-<!--
-        <button class="btn btn-outline-primary px-3 m-2 float-end scale" scale="line_bundles">Linienbündel</button>
--->
+      <div class="row">
+        <div id="buttons_sort" class="col-10">
+          <h3 class="px-3">Sortierung</h3>
+          <button data="all" class="btn btn-outline-success px-3 m-2 sort btn-success text-white" id="sort_all">Alle</button>
+          <button data="day" class="btn btn-outline-success px-3 m-2 sort">Wochentag</button>
+          <button data="time" class="btn btn-outline-success px-3 m-2 sort">Tageszeit</button>
+          <button data="duration" class="btn btn-outline-success px-3 m-2 sort">Ausfalldauer</button>
+          <button data="stops" class="btn btn-outline-success px-3 m-2 sort">Haltestellen</button>
+          <button data="cause" class="btn btn-outline-success px-3 m-2 sort">Ausfallmeldung</button>
+          <button data="type" class="btn btn-outline-success px-3 m-2 sort">Verkehrsmittel</button>
+        </div>
+        <div id="buttons_scale" class="col-2">
+          <h3 class="px-3">Skalierung</h3>
+          <button scale="all" class="btn btn-outline-primary px-3 m-2 scale" >Alle</button>
+          <button scale="line" class="btn btn-outline-primary px-3 m-2 scale btn-primary text-white" >Linien</button>
+          <!--<button class="btn btn-outline-primary px-3 m-2 float-end scale" scale="line_bundles">Linienbündel</button>-->
+        </div>
       </div>
     </div>
     <div class="card-body">
