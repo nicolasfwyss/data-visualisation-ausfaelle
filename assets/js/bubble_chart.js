@@ -64,7 +64,67 @@ var sort = {
             '21:00 - 01:00': 1066,
         },
         'csv': 'assets/data/ausfaelle_tu_time.csv',
-    }
+    },
+    'duration': {
+        'center': {
+            'Unter 5 Minuten': {x: 133 + 1000 / 8 * 1, y: height / 2},
+            '5-15 Minuten': {x: 133 + 1000 / 8 * 2, y: height / 2},
+            '15-30 Minuten': {x: 133 + 1000 / 8 * 3, y: height / 2},
+            '30-60 Minuten': {x: 133 + 1000 / 8 * 4, y: height / 2},
+            '60+ Minuten': {x: 133 + 1000 / 8 * 5, y: height / 2},
+            'unbekannt': {x: 133 + 1000 / 8 * 6, y: height / 2},
+        },
+        'titles': {
+            'Unter 5 Minuten': 100,
+            '5-15 Minuten': 293,
+            '15-30 Minuten': 486,
+            '30-60 Minuten': 680,
+            '60+ Minuten': 873,
+            'unbekannt': 1066,
+        },
+        'csv': 'assets/data/ausfaelle_tu_duration.csv',
+    },
+
+    'stops': {
+        'center': {
+            '0 Haltestellen': {x: 133 + 1000 / 9 * 1, y: height / 2},
+            '1-2 Haltestellen': {x: 133 + 1000 / 9 * 2, y: height / 2},
+            '3-6 Haltestellen': {x: 133 + 1000 / 9 * 3, y: height / 2},
+            '7-13 Haltestellen': {x: 133 + 1000 / 9 * 4, y: height / 2},
+            '14-21 Haltestellen': {x: 133 + 1000 / 9 * 5, y: height / 2},
+            '22-39 Haltestellen': {x: 133 + 1000 / 9 * 6, y: height / 2},
+            '40+ Haltestellen': {x: 133 + 1000 / 9 * 7, y: height / 2}
+        },
+        'titles': {
+            '0 Haltestellen': 100,
+            '1-2 Haltestellen': 261,
+            '3-6 Haltestellen': 422,
+            '7-13 Haltestellen': 583,
+            '14-21 Haltestellen': 744,
+            '22-39 Haltestellen': 905,
+            '40+ Haltestellen': 1066,
+        },
+        'csv': 'assets/data/ausfaelle_tu_stops.csv',
+    },
+    'cause': {
+        'center': {
+            'Ausfall ganze Fahrt': {x: 133 + 1000 / 8 * 1, y: height / 2},
+            'Keine Daten': {x: 133 + 1000 / 8 * 2, y: height / 2},
+            'Status Unbekannt': {x: 133 + 1000 / 8 * 3, y: height / 2},
+            'Verspätung': {x: 133 + 1000 / 8 * 4, y: height / 2},
+            'Keine Daten Teilstrecke': {x: 133 + 1000 / 8 * 5, y: height / 2},
+            'Status Unbekannt Teilstrecke': {x: 133 + 1000 / 8 * 6, y: height / 2},
+        },
+        'titles': {
+            'Ausfall ganze Fahrt': 100,
+            'Keine Daten': 293,
+            'Status Unbekannt': 486,
+            'Verspätung': 680,
+            'Keine Daten Teilstrecke': 873,
+            'Status Unbekannt Teilstrecke': 1066,
+        },
+        'csv': 'assets/data/ausfaelle_tu_cause.csv',
+    },
 }
 
 var scales = {
@@ -87,9 +147,9 @@ var scales = {
     },
     'day': {
         'all': {
-            'exponent': 0.4,
+            'exponent': 0.5,
             'range_min': 2,
-            'range_max': 60
+            'range_max': 40
         },
         'line': {
             'exponent': 0.5,
@@ -106,7 +166,7 @@ var scales = {
         'all': {
             'exponent': 0.4,
             'range_min': 2,
-            'range_max': 60
+            'range_max': 40
         },
         'line': {
             'exponent': 0.5,
@@ -117,6 +177,57 @@ var scales = {
             'exponent': 0.5,
             'range_min': 2,
             'range_max': 35
+        }
+    },
+    'duration': {
+        'all': {
+            'exponent': 0.4,
+            'range_min': 2,
+            'range_max': 75
+        },
+        'line': {
+            'exponent': 0.5,
+            'range_min': 2,
+            'range_max': 60
+        },
+        'line_bundles': {
+            'exponent': 0.5,
+            'range_min': 2,
+            'range_max': 60
+        }
+    },
+    'stops': {
+        'all': {
+            'exponent': 0.4,
+            'range_min': 2,
+            'range_max': 100
+        },
+        'line': {
+            'exponent': 0.5,
+            'range_min': 2,
+            'range_max': 60
+        },
+        'line_bundles': {
+            'exponent': 0.5,
+            'range_min': 2,
+            'range_max': 60
+        }
+    },
+    'cause': {
+        'all': {
+            'exponent': 0.4,
+            'range_min': 2,
+            'range_max': 100
+        },
+        'line': {
+            'exponent': 0.5,
+            'range_min': 2,
+            'range_max': 60
+        },
+        'line_bundles': {
+            'exponent': 0.5,
+            'range_min': 2,
+            'range_max': 60
         }
     }
 }
@@ -207,14 +318,14 @@ function bubbleChart() {
                 case "zeit":
                     node.sort = d.zeit;
                     break;
-                case "dauer":
-                    node.sort = d.dauer;
+                case "anzahl_minuten":
+                    node.sort = d.anzahl_minuten;
                     break;
-                case "halte":
-                    node.sort = d.halte;
+                case "anzahl_halte":
+                    node.sort = d.anzahl_halte;
                     break;
-                case "grund":
-                    node.sort = d.grund;
+                case "ausfall_grund":
+                    node.sort = d.ausfall_grund;
                     break;
             }
             return node;
@@ -224,6 +335,9 @@ function bubbleChart() {
         myNodes.sort(function (a, b) {
             return b.value - a.value
         });
+
+        console.log('sort');
+        console.log(nodes);
 
         nodes = myNodes;
     }
@@ -310,9 +424,12 @@ function bubbleChart() {
             if (error) {
                 console.log(error);
             }
+            console.log('updateChart');
+            console.log(sort_type);
             chart(data);
             splitBubbles();
             updateTitles();
+            myBubbleChart.scaleBubbles();
         });
     }
 
@@ -340,57 +457,8 @@ function bubbleChart() {
                 });
         }
     }
-
-    function clearChart() {
-        svgE = d3.select('#vis');
-
-        svgE.selectAll('.bubble').remove();
-        svgE.selectAll('text').remove();
-
-        bubbles = null;
-        text_name = null;
-        text_value = null;
-        nodes = [];
-
-        simulation.stop();
-    }
-
-    function newChart() {
-        d3.csv('assets/data/ausfaelle_tu_day.csv', function (error, data) {
-            if (error) {
-                console.log(error);
-            }
-            sort_type = 'day';
-
-            chart(data);
-
-            splitBubbles();
-            showDayTitles();
-        });
-    }
-
-/*    function showDayTitles() {
-        // Another way to do this would be to create
-        // the year texts once and then just hide them.
-        var daysData = d3.keys(locations.title_day);
-        var days = svg.selectAll('.day')
-            .data(daysData);
-
-        console.log(daysData);
-
-        days.enter().append('text')
-            .attr('class', 'year')
-            .attr('x', function (d) {
-                return locations.title_day[d];
-            })
-            .attr('y', 40)
-            .attr('text-anchor', 'middle')
-            .text(function (d) {
-                return d;
-            });
-    }*/
-
     function nodePos(d) {
+        console.log(d.sort);
         if (d.sort) {
             return sort[sort_type].center[d.sort].x;
         }
@@ -398,6 +466,7 @@ function bubbleChart() {
     }
 
     function splitBubbles() {
+        console.log('split');
         // @v4 Reset the 'x' force to draw the bubbles to their year centers
         simulation.force('x', d3.forceX().strength(forceStrength).x(nodePos));
 
@@ -440,7 +509,7 @@ function bubbleChart() {
             });
 
         bubbles.transition()
-            .duration(2000)
+            .duration(1000)
             .attr('r', function (d) {
                 return d.radius;
             });
@@ -451,44 +520,6 @@ function bubbleChart() {
         simulation.alpha(1).restart();
 
     }
-
-    function sortBubblesAll() {
-        d3.csv('assets/data/ausfaelle_tu_day.csv', function (error, data) {
-            if (error) {
-                console.log(error);
-            }
-            updateNodes(data);
-
-            d3.select("svg").selectAll("circle")
-                .data(data, function (d) {
-                    return d.id;
-                })
-                .exit()
-                .remove();
-
-            d3.select("svg").selectAll("text")
-                .exit()
-                .remove();
-
-
-            bubbles.exit().remove();
-            text_name.exit().remove();
-            text_value.exit().remove();
-
-            bubbles = null;
-            text_name = null;
-            text_value = null;
-
-            simulation.alpha(1).restart();
-
-            /*!// @v4 Reset the 'x' force to draw the bubbles to the center.
-            simulation.force('x', d3.forceX().strength(forceStrength).x(center.x));*/
-
-            // @v4 We can reset the alpha value and restart the simulation
-
-        });
-    }
-
     // Funktion für anzeigen der Tooltips
     function showDetail(d) {
         // change outline to indicate hover state.
@@ -525,6 +556,31 @@ function bubbleChart() {
                     d.sort +
                     '</span>';
                 break;
+            case "time":
+                content += '<br/>' +
+                    '<span class="name">Zeitraum: </span><span class="value">' +
+                    d.sort +
+                    '</span>';
+                break;
+            case "duration":
+                content += '<br/>' +
+                    '<span class="name">Ausfalldauer: </span><span class="value">' +
+                    d.sort +
+                    '</span>';
+                break;
+            case "stops":
+                content += '<br/>' +
+                    '<span class="name">Anzahl Haltestellen: </span><span class="value">' +
+                    d.sort +
+                    '</span>';
+                break;
+            case "cause":
+                content += '<br/>' +
+                    '<span class="name">Ausfall Meldung: </span><span class="value">' +
+                    d.sort +
+                    '</span>';
+                break;
+
         }
 
         tooltip.showTooltip(content, d3.event);

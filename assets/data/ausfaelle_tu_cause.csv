@@ -1,0 +1,324 @@
+"id","tu","name","anzahl_ausfaelle","id_vmkat","vmkat","anzahl_linien","anzahl_linien_buendel","ausfall_grund"
+1,PAG, PostAuto Schweiz AG,675460,"1",Bus - Überland/Berg,570,83,Keine Daten
+2,TL, Transports Publics de la Région Lausannoise sa,255558,"2",Bus - Agglomeration,15,3,Keine Daten
+3,VMCV, VMCV SA,62465,"1",Bus - Überland/Berg,3,1,Keine Daten
+4,BOS, BUS Ostschweiz AG,52942,"1",Bus - Überland/Berg,40,5,Keine Daten
+5,SBB, Schweizerische Bundesbahnen SBB,46275,"4",Bahn - Überland/Regionalverkehr,98,16,Ausfall ganze Fahrt
+6,TMR, TMR Transports de Martigny et Régions SA,43901,"1",Bus - Überland/Berg,9,2,Keine Daten
+7,PAG, PostAuto Schweiz AG,34604,"1",Bus - Überland/Berg,453,73,Status Unbekannt Teilstrecke
+8,RBS, Regionalverkehr Bern-Solothurn AG,29454,"2",Bus - Agglomeration,24,5,Keine Daten
+9,BOGG, Busbetrieb Olten Gösgen Gäu AG,29014,"2",Bus - Agglomeration,12,2,Keine Daten
+10,VBD, Landschaft Davos,25275,"1",Bus - Überland/Berg,3,1,Keine Daten
+11,BLAG, Busland AG,23361,"1",Bus - Überland/Berg,20,2,Keine Daten
+12,PAG, PostAuto Schweiz AG,21837,"1",Bus - Überland/Berg,402,79,Ausfall ganze Fahrt
+13,VBZ, Stadt Zürich,21297,"1",Bus - Überland/Berg,18,3,Ausfall ganze Fahrt
+14,TRN, Transports Publics Neuchâtelois SA,20915,"1",Bus - Überland/Berg,10,3,Status Unbekannt Teilstrecke
+15,AB, Appenzeller Bahnen AG,20125,"3",Bahn - Überland/Berg,7,2,Status Unbekannt
+16,VB, Verkehrsbetriebe Biel,19892,"1",Bus - Überland/Berg,11,1,Keine Daten
+17,SBB, Schweizerische Bundesbahnen SBB,18977,"4",Bahn - Überland/Regionalverkehr,86,16,Status Unbekannt Teilstrecke
+18,SVB, Städtische Verkehrsbetriebe Bern (SVB),18178,"2",Bus - Agglomeration,33,3,Keine Daten
+19,MBC, Transports de la région Morges-Bière-Cossonay SA,18050,"3",Bahn - Überland/Berg,9,2,Status Unbekannt
+20,TPG, Transports publics genevois (TPG),18039,"2",Bus - Agglomeration,18,3,Keine Daten
+21,TPG, Transports publics genevois (TPG),17259,"2",Bus - Agglomeration,18,3,Ausfall ganze Fahrt
+22,ABG, Alsa Bustours Gex S.A.S,16987,"1",Bus - Überland/Berg,2,1,Keine Daten
+23,SVB, Städtische Verkehrsbetriebe Bern (SVB),14888,"2",Bus - Agglomeration,33,3,Ausfall ganze Fahrt
+24,TL, Transports Publics de la Région Lausannoise sa,13608,"2",Bus - Agglomeration,14,3,Ausfall ganze Fahrt
+25,TPF, Transports publics fribourgeois SA,13033,"1",Bus - Überland/Berg,58,10,Keine Daten
+26,VZO, Verkehrsbetriebe Zürichsee und Oberland (VZO) AG,12846,"2",Bus - Agglomeration,22,3,Ausfall ganze Fahrt
+27,VBSH, Stadt Schaffhausen,12581,"1",Bus - Überland/Berg,4,1,Keine Daten Teilstrecke
+28,SZU, Sihltal Zürich Uetliberg Bahn SZU AG,12327,"1",Bus - Überland/Berg,8,2,Keine Daten
+29,TPL, TRASPORTI PUBBLICI LUGANESI SA (TPL),11944,"1",Bus - Überland/Berg,9,1,Keine Daten
+30,BOS, BUS Ostschweiz AG,11832,"1",Bus - Überland/Berg,2,1,Keine Daten Teilstrecke
+31,BSU, Busbetrieb Solothurn und Umgebung AG,11737,"2",Bus - Agglomeration,13,2,Keine Daten
+32,TRAVYS, TRAVYS - Transports Vallée-de-Joux - Yverdon-les-B,11682,"1",Bus - Überland/Berg,9,3,Ausfall ganze Fahrt
+33,ZVB, Zugerland Verkehrsbetriebe AG,11487,"1",Bus - Überland/Berg,22,3,Keine Daten
+34,AVJ, Société anonyme des auto-transports de la Vallée d,11103,"1",Bus - Überland/Berg,1,1,Keine Daten
+35,VZO, Verkehrsbetriebe Zürichsee und Oberland (VZO) AG,10563,"2",Bus - Agglomeration,22,3,Keine Daten
+36,AMSA, Autolinea Mendrisiense SA,10507,"1",Bus - Überland/Berg,7,1,Keine Daten
+37,AAGR, Auto AG Rothenburg,10382,"2",Bus - Agglomeration,4,1,Keine Daten
+38,TPG, Transports publics genevois (TPG),10077,"2",Bus - Agglomeration,16,3,Keine Daten Teilstrecke
+39,VBSG, Stadt St. Gallen,10027,"2",Bus - Agglomeration,15,5,Keine Daten
+40,SBB, Schweizerische Bundesbahnen SBB,9970,"4",Bahn - Überland/Regionalverkehr,11,5,Keine Daten Teilstrecke
+41,ARL, Società Autolinee Regionali Luganesi,9894,"1",Bus - Überland/Berg,2,1,Keine Daten Teilstrecke
+42,BLS, BLS AG,9062,"4",Bahn - Überland/Regionalverkehr,31,5,Ausfall ganze Fahrt
+43,MBC, Transports de la région Morges-Bière-Cossonay SA,8837,"3",Bahn - Überland/Berg,9,2,Ausfall ganze Fahrt
+44,TL, Transports Publics de la Région Lausannoise sa,8762,"2",Bus - Agglomeration,11,3,Status Unbekannt
+45,AVA, Aargau Verkehr AG,8716,"1",Bus - Überland/Berg,12,4,Keine Daten
+46,AAGS, Auto AG Schwyz,8622,"1",Bus - Überland/Berg,11,2,Keine Daten
+47,VBG, VBG Verkehrsbetriebe Glattal AG,8531,"1",Bus - Überland/Berg,21,3,Keine Daten
+48,BLT, BLT Baselland Transport AG,8460,"1",Bus - Überland/Berg,17,4,Keine Daten
+49,REGO, Regiobus (St. Gallen),8452,"1",Bus - Überland/Berg,8,1,Keine Daten
+50,VBSH, Stadt Schaffhausen,8319,"1",Bus - Überland/Berg,7,1,Keine Daten
+51,TRN, Transports Publics Neuchâtelois SA,8155,"1",Bus - Überland/Berg,10,3,Keine Daten
+52,TRAVYS, TRAVYS - Transports Vallée-de-Joux - Yverdon-les-B,8078,"1",Bus - Überland/Berg,9,3,Status Unbekannt
+53,TPN, TPN Transports publics de la Région Nyonnaise SA,7793,"1",Bus - Überland/Berg,4,1,Ausfall ganze Fahrt
+54,VBZ, Stadt Zürich,7706,"1",Bus - Überland/Berg,18,3,Keine Daten
+55,SVB, Städtische Verkehrsbetriebe Bern (SVB),7432,"2",Bus - Agglomeration,33,3,Status Unbekannt Teilstrecke
+56,BLT, BLT Baselland Transport AG,7199,"1",Bus - Überland/Berg,16,4,Ausfall ganze Fahrt
+57,TPG, Transports publics genevois (TPG),7041,"2",Bus - Agglomeration,18,3,Status Unbekannt
+58,STI, STI Bus AG,6824,"1",Bus - Überland/Berg,24,2,Keine Daten
+59,FLP, Ferrovie Luganesi SA,6689,"4",Bahn - Agglomeration,1,1,Status Unbekannt
+60,SBB, Schweizerische Bundesbahnen SBB,6595,"4",Bahn - Überland/Regionalverkehr,93,16,Keine Daten
+61,TL, Transports Publics de la Région Lausannoise sa,6572,"2",Bus - Agglomeration,11,3,Keine Daten Teilstrecke
+62,VBG, VBG Verkehrsbetriebe Glattal AG,6515,"1",Bus - Überland/Berg,21,3,Ausfall ganze Fahrt
+63,STI, STI Bus AG,6322,"1",Bus - Überland/Berg,24,2,Ausfall ganze Fahrt
+64,NStCM, Compagnie du chemin de fer Nyon-St-Cergue-Morez SA,6007,"3",Bahn - Überland/Berg,1,1,Status Unbekannt
+65,VBL, Verkehrsbetriebe Luzern AG,5760,"2",Bus - Agglomeration,2,1,Keine Daten
+66,TPC, Transports Publics du Chablais SA,5676,"1",Bus - Überland/Berg,10,1,Keine Daten
+67,BGU, BGU Busbetrieb Grenchen und Umgebung AG,5602,"2",Bus - Agglomeration,12,2,Keine Daten
+68,LEB, Compagnie du chemin de fer Lausanne-Echallens-Berc,5231,"3",Bahn - Überland/Berg,1,1,Status Unbekannt
+69,BuS, Bus und Service AG,5080,"1",Bus - Überland/Berg,4,1,Keine Daten
+70,VBG, VBG Verkehrsbetriebe Glattal AG,4828,"1",Bus - Überland/Berg,21,3,Status Unbekannt Teilstrecke
+71,PAG, PostAuto Schweiz AG,4610,"1",Bus - Überland/Berg,357,63,Status Unbekannt
+72,BuS, Bus und Service AG,4448,"1",Bus - Überland/Berg,4,1,Ausfall ganze Fahrt
+73,RA, REGIONALPS SA ,4382,"4",Bahn - Überland/Regionalverkehr,4,2,Keine Daten
+74,TRAVYS, TRAVYS - Transports Vallée-de-Joux - Yverdon-les-B,4349,"1",Bus - Überland/Berg,8,3,Keine Daten
+75,RBS, Regionalverkehr Bern-Solothurn AG,4246,"2",Bus - Agglomeration,4,1,Status Unbekannt
+76,TPL, TRASPORTI PUBBLICI LUGANESI SA (TPL),4245,"1",Bus - Überland/Berg,2,1,Keine Daten Teilstrecke
+77,ZVB, Zugerland Verkehrsbetriebe AG,4172,"1",Bus - Überland/Berg,21,3,Ausfall ganze Fahrt
+78,VZO, Verkehrsbetriebe Zürichsee und Oberland (VZO) AG,4135,"2",Bus - Agglomeration,22,3,Status Unbekannt Teilstrecke
+79,VBZ, Stadt Zürich,4134,"1",Bus - Überland/Berg,18,3,Status Unbekannt Teilstrecke
+80,THURBO, Thurbo AG,4111,"4",Bahn - Überland/Regionalverkehr,23,3,Ausfall ganze Fahrt
+81,SBG, SBG SüdbadenBus GmbH,3900,"1",Bus - Überland/Berg,1,1,Keine Daten Teilstrecke
+82,ARAG, Rottal Auto AG,3853,"1",Bus - Überland/Berg,8,1,Keine Daten
+83,RA, REGIONALPS SA ,3814,"4",Bahn - Überland/Regionalverkehr,4,2,Status Unbekannt
+84,VBSG, Stadt St. Gallen,3786,"2",Bus - Agglomeration,15,3,Ausfall ganze Fahrt
+85,BVB, Basler Verkehrs-Betriebe,3769,"2",Bus - Agglomeration,3,2,Ausfall ganze Fahrt
+86,TPC, Transports Publics du Chablais SA,3663,"1",Bus - Überland/Berg,9,1,Status Unbekannt
+87,NStCM, Compagnie du chemin de fer Nyon-St-Cergue-Morez SA,3532,"3",Bahn - Überland/Berg,1,1,Ausfall ganze Fahrt
+88,SZU, Sihltal Zürich Uetliberg Bahn SZU AG,3527,"1",Bus - Überland/Berg,8,2,Ausfall ganze Fahrt
+89,ASGS," René Ballestraz et fils, transports SA",3501,"1",Bus - Überland/Berg,1,1,Status Unbekannt
+90,TRN, Transports Publics Neuchâtelois SA,3464,"1",Bus - Überland/Berg,9,3,Status Unbekannt
+91,asm, Aare Seeland mobil AG,3348,"1",Bus - Überland/Berg,15,3,Keine Daten
+92,AOT, Autokurse Oberthurgau AG (AOT),3249,"1",Bus - Überland/Berg,5,1,Keine Daten
+93,AS, Autobetrieb Sernftal AG,3248,"1",Bus - Überland/Berg,3,1,Keine Daten
+94,BLT, BLT Baselland Transport AG,3194,"1",Bus - Überland/Berg,17,4,Status Unbekannt Teilstrecke
+95,PAG, PostAuto Schweiz AG,3155,"1",Bus - Überland/Berg,67,36,Keine Daten Teilstrecke
+96,RBS, Regionalverkehr Bern-Solothurn AG,3155,"2",Bus - Agglomeration,24,5,Ausfall ganze Fahrt
+97,MGB, Matterhorn Gotthard Verkehrs AG,3029,"3",Bahn - Überland/Berg,2,1,Status Unbekannt
+98,SMC, Compagnie de Chemin de Fer et d'Autobus Sierre-Mon,2966,"1",Bus - Überland/Berg,2,1,Keine Daten
+99,TPF, Transports publics fribourgeois SA,2948,"1",Bus - Überland/Berg,6,2,Status Unbekannt Teilstrecke
+100,AAGU, AUTO AG URI,2943,"1",Bus - Überland/Berg,9,1,Keine Daten
+101,TPN, TPN Transports publics de la Région Nyonnaise SA,2787,"1",Bus - Überland/Berg,4,1,Status Unbekannt
+102,STI, STI Bus AG,2640,"1",Bus - Überland/Berg,24,2,Status Unbekannt Teilstrecke
+103,BVB, Basler Verkehrs-Betriebe,2299,"2",Bus - Agglomeration,3,2,Keine Daten
+104,TPN, TPN Transports publics de la Région Nyonnaise SA,2060,"1",Bus - Überland/Berg,4,1,Keine Daten
+105,MBC, Transports de la région Morges-Bière-Cossonay SA,2052,"3",Bahn - Überland/Berg,9,2,Keine Daten
+106,ZVB, Zugerland Verkehrsbetriebe AG,2037,"1",Bus - Überland/Berg,21,3,Status Unbekannt Teilstrecke
+107,RBS, Regionalverkehr Bern-Solothurn AG,2010,"2",Bus - Agglomeration,13,5,Status Unbekannt Teilstrecke
+108,TMR, TMR Transports de Martigny et Régions SA,1975,"1",Bus - Überland/Berg,4,2,Status Unbekannt
+109,AAGL, Autobus AG Liestal Öffentlicher Verkehr,1954,"1",Bus - Überland/Berg,6,1,Keine Daten
+110,VBL, Verkehrsbetriebe Luzern AG,1935,"2",Bus - Agglomeration,2,1,Ausfall ganze Fahrt
+111,BSU, Busbetrieb Solothurn und Umgebung AG,1863,"2",Bus - Agglomeration,13,2,Ausfall ganze Fahrt
+112,BLS, BLS AG,1855,"4",Bahn - Überland/Regionalverkehr,31,5,Keine Daten
+113,SBW, Stadt Winterthur,1792,"1",Bus - Überland/Berg,4,1,Keine Daten
+114,RBL, Regionalbus Lenzburg AG,1698,"1",Bus - Überland/Berg,7,1,Keine Daten
+115,REGO, Regiobus (St. Gallen),1648,"1",Bus - Überland/Berg,8,1,Ausfall ganze Fahrt
+116,ZVB, Zugerland Verkehrsbetriebe AG,1597,"1",Bus - Überland/Berg,15,3,Keine Daten Teilstrecke
+117,GWB, Grindelwald Bus AG,1574,"1",Bus - Überland/Berg,3,1,Keine Daten
+118,FART, Società per le Ferrovie Autolinee Regionali Ticine,1551,"1",Bus - Überland/Berg,8,1,Keine Daten
+119,TPF, Transports publics fribourgeois SA,1493,"1",Bus - Überland/Berg,6,2,Ausfall ganze Fahrt
+120,BVB, Basler Verkehrs-Betriebe,1436,"2",Bus - Agglomeration,2,2,Keine Daten Teilstrecke
+121,LLB, Société anonyme des transports publics de Loèche-l,1412,"1",Bus - Überland/Berg,8,1,Keine Daten
+122,AB, Appenzeller Bahnen AG,1344,"3",Bahn - Überland/Berg,7,2,Ausfall ganze Fahrt
+123,BVB, Basler Verkehrs-Betriebe,1344,"2",Bus - Agglomeration,3,2,Status Unbekannt Teilstrecke
+124,TSD, Theytaz Excursions SA,1332,"1",Bus - Überland/Berg,2,1,Status Unbekannt
+125,FART, Società per le Ferrovie Autolinee Regionali Ticine,1322,"1",Bus - Überland/Berg,3,1,Keine Daten Teilstrecke
+126,AAGS, Auto AG Schwyz,1273,"1",Bus - Überland/Berg,8,2,Keine Daten Teilstrecke
+127,SOB, Schweizerische Südostbahn AG,1255,"4",Bahn - Überland/Regionalverkehr,7,1,Ausfall ganze Fahrt
+128,SBW, Stadt Winterthur,1236,"1",Bus - Überland/Berg,4,1,Ausfall ganze Fahrt
+129,asm, Aare Seeland mobil AG,1178,"1",Bus - Überland/Berg,8,1,Keine Daten Teilstrecke
+130,SVB, Städtische Verkehrsbetriebe Bern (SVB),1175,"2",Bus - Agglomeration,19,3,Keine Daten Teilstrecke
+131,THURBO, Thurbo AG,1168,"4",Bahn - Überland/Regionalverkehr,22,3,Keine Daten
+132,TPC, Transports Publics du Chablais SA,1160,"1",Bus - Überland/Berg,9,1,Ausfall ganze Fahrt
+133,zb, zb Zentralbahn AG,1126,"3",Bahn - Überland/Berg,7,1,Keine Daten
+134,RA, REGIONALPS SA ,1100,"4",Bahn - Überland/Regionalverkehr,2,1,Status Unbekannt Teilstrecke
+135,BuS, Bus und Service AG,1088,"1",Bus - Überland/Berg,4,1,Status Unbekannt Teilstrecke
+136,BGU, BGU Busbetrieb Grenchen und Umgebung AG,1082,"2",Bus - Agglomeration,12,2,Ausfall ganze Fahrt
+137,VBSG, Stadt St. Gallen,1009,"2",Bus - Agglomeration,8,2,Keine Daten Teilstrecke
+138,ASGS," René Ballestraz et fils, transports SA",996,"1",Bus - Überland/Berg,1,1,Keine Daten
+139,asm, Aare Seeland mobil AG,978,"1",Bus - Überland/Berg,15,3,Ausfall ganze Fahrt
+140,BBA, Busbetrieb Aarau AG (BBA),968,"2",Bus - Agglomeration,3,2,Keine Daten
+141,SZU, Sihltal Zürich Uetliberg Bahn SZU AG,920,"1",Bus - Überland/Berg,8,2,Status Unbekannt Teilstrecke
+142,TRN, Transports Publics Neuchâtelois SA,875,"1",Bus - Überland/Berg,10,3,Ausfall ganze Fahrt
+143,asm, Aare Seeland mobil AG,873,"1",Bus - Überland/Berg,12,3,Status Unbekannt
+144,MGB, Matterhorn Gotthard Verkehrs AG,872,"3",Bahn - Überland/Berg,3,1,Ausfall ganze Fahrt
+145,AVA, Aargau Verkehr AG,821,"1",Bus - Überland/Berg,6,4,Status Unbekannt Teilstrecke
+146,SBW, Stadt Winterthur,810,"1",Bus - Überland/Berg,4,1,Status Unbekannt Teilstrecke
+147,ARAG, Rottal Auto AG,809,"1",Bus - Überland/Berg,7,1,Ausfall ganze Fahrt
+148,BRER, O. Schneider AG,809,"1",Bus - Überland/Berg,3,1,Keine Daten
+149,AAGU, AUTO AG URI,782,"1",Bus - Überland/Berg,9,1,Ausfall ganze Fahrt
+150,LEB, Compagnie du chemin de fer Lausanne-Echallens-Berc,776,"3",Bahn - Überland/Berg,1,1,Ausfall ganze Fahrt
+151,TSD, Theytaz Excursions SA,756,"1",Bus - Überland/Berg,2,1,Keine Daten
+152,ABl, Autolinee Bleniesi SA,755,"1",Bus - Überland/Berg,5,1,Keine Daten
+153,TPF, Transports publics fribourgeois SA,754,"1",Bus - Überland/Berg,6,2,Status Unbekannt
+154,TPF, Transports publics fribourgeois SA,744,"1",Bus - Überland/Berg,15,7,Keine Daten Teilstrecke
+155,VB, Verkehrsbetriebe Biel,740,"1",Bus - Überland/Berg,11,1,Ausfall ganze Fahrt
+156,AAGR, Auto AG Rothenburg,723,"2",Bus - Agglomeration,4,1,Ausfall ganze Fahrt
+157,SNL, SOCIETA' NAVIGAZIONE DEL LAGO DI LUGANO SA,722,"4",Bus - Überland/Berg,1,1,Keine Daten Teilstrecke
+158,RVBW, Regionale Verkehrsbetriebe Baden-Wettingen (RVBW) ,716,"2",Bus - Agglomeration,2,1,Keine Daten
+159,AVJ, Société anonyme des auto-transports de la Vallée d,712,"1",Bus - Überland/Berg,1,1,Status Unbekannt
+160,BLAG, Busland AG,699,"1",Bus - Überland/Berg,20,2,Ausfall ganze Fahrt
+161,MBC, Transports de la région Morges-Bière-Cossonay SA,685,"3",Bahn - Überland/Berg,6,1,Keine Daten Teilstrecke
+162,WAB, Wengernalpbahn AG,681,"3",Bahn - Überland/Berg,1,1,Status Unbekannt
+163,FLP, Ferrovie Luganesi SA,672,"4",Bahn - Agglomeration,1,1,Keine Daten
+164,STI, STI Bus AG,662,"1",Bus - Überland/Berg,13,2,Keine Daten Teilstrecke
+165,AFA, Automobilverkehr Frutigen-Adelboden AG,658,"1",Bus - Überland/Berg,6,1,Keine Daten
+166,RA, REGIONALPS SA ,649,"4",Bahn - Überland/Regionalverkehr,3,2,Ausfall ganze Fahrt
+167,ARL, Società Autolinee Regionali Luganesi,628,"1",Bus - Überland/Berg,4,1,Keine Daten
+168,VMCV, VMCV SA,611,"1",Bus - Überland/Berg,4,1,Ausfall ganze Fahrt
+169,VZO, Verkehrsbetriebe Zürichsee und Oberland (VZO) AG,583,"2",Bus - Agglomeration,8,3,Keine Daten Teilstrecke
+170,VBL, Verkehrsbetriebe Luzern AG,579,"2",Bus - Agglomeration,2,1,Status Unbekannt Teilstrecke
+171,SBB, Schweizerische Bundesbahnen SBB,576,"4",Bahn - Überland/Regionalverkehr,89,16,Status Unbekannt
+172,MGB, Matterhorn Gotthard Verkehrs AG,547,"3",Bahn - Überland/Berg,3,1,Keine Daten
+173,VBG, VBG Verkehrsbetriebe Glattal AG,541,"1",Bus - Überland/Berg,8,3,Keine Daten Teilstrecke
+174,AVA, Aargau Verkehr AG,540,"1",Bus - Überland/Berg,9,3,Ausfall ganze Fahrt
+175,RhB, Rhätische Bahn AG  (RhB),529,"4",Bahn - Überland/Regionalverkehr,12,2,Ausfall ganze Fahrt
+176,AAGR, Auto AG Rothenburg,507,"2",Bus - Agglomeration,4,1,Status Unbekannt Teilstrecke
+177,SBG, SBG SüdbadenBus GmbH,498,"1",Bus - Überland/Berg,1,1,Keine Daten
+178,ARAG, Rottal Auto AG,494,"1",Bus - Überland/Berg,8,1,Status Unbekannt Teilstrecke
+179,TRAVYS, TRAVYS - Transports Vallée-de-Joux - Yverdon-les-B,489,"1",Bus - Überland/Berg,1,1,Status Unbekannt Teilstrecke
+180,LEB, Compagnie du chemin de fer Lausanne-Echallens-Berc,472,"3",Bahn - Überland/Berg,1,1,Keine Daten
+181,AB, Appenzeller Bahnen AG,462,"3",Bahn - Überland/Berg,7,2,Keine Daten
+182,RBL, Regionalbus Lenzburg AG,460,"1",Bus - Überland/Berg,7,1,Ausfall ganze Fahrt
+183,TRAVYS, TRAVYS - Transports Vallée-de-Joux - Yverdon-les-B,458,"1",Bus - Überland/Berg,5,1,Keine Daten Teilstrecke
+184,BBA, Busbetrieb Aarau AG (BBA),455,"2",Bus - Agglomeration,3,2,Ausfall ganze Fahrt
+185,RVBW, Regionale Verkehrsbetriebe Baden-Wettingen (RVBW) ,454,"2",Bus - Agglomeration,2,1,Ausfall ganze Fahrt
+186,SOB, Schweizerische Südostbahn AG,433,"4",Bahn - Überland/Regionalverkehr,7,1,Keine Daten
+187,TMR, TMR Transports de Martigny et Régions SA,430,"1",Bus - Überland/Berg,4,2,Ausfall ganze Fahrt
+188,BOGG, Busbetrieb Olten Gösgen Gäu AG,426,"2",Bus - Agglomeration,11,2,Ausfall ganze Fahrt
+189,VBSH, Stadt Schaffhausen,422,"1",Bus - Überland/Berg,7,1,Ausfall ganze Fahrt
+190,LLB, Société anonyme des transports publics de Loèche-l,414,"1",Bus - Überland/Berg,3,1,Verspätung
+191,GWB, Grindelwald Bus AG,412,"1",Bus - Überland/Berg,3,1,Keine Daten Teilstrecke
+192,AAGU, AUTO AG URI,411,"1",Bus - Überland/Berg,9,1,Status Unbekannt Teilstrecke
+193,GWB, Grindelwald Bus AG,398,"1",Bus - Überland/Berg,3,1,Status Unbekannt Teilstrecke
+194,AVA, Aargau Verkehr AG,393,"1",Bus - Überland/Berg,3,2,Status Unbekannt
+195,TRN, Transports Publics Neuchâtelois SA,384,"1",Bus - Überland/Berg,3,1,Keine Daten Teilstrecke
+196,NStCM, Compagnie du chemin de fer Nyon-St-Cergue-Morez SA,372,"3",Bahn - Überland/Berg,1,1,Keine Daten
+197,BWS, Busbetriebe Bamert GmbH,365,"1",Bus - Überland/Berg,1,1,Keine Daten
+198,BCS, Commune de Sion,353,"1",Bus - Überland/Berg,4,1,Status Unbekannt Teilstrecke
+199,BGU, BGU Busbetrieb Grenchen und Umgebung AG,339,"2",Bus - Agglomeration,1,1,Keine Daten Teilstrecke
+200,BLAG, Busland AG,314,"1",Bus - Überland/Berg,10,2,Keine Daten Teilstrecke
+201,BOB, Berner Oberland-Bahnen AG,300,"3",Bahn - Überland/Berg,2,1,Status Unbekannt
+202,BOB, Berner Oberland-Bahnen AG,291,"3",Bahn - Überland/Berg,2,1,Status Unbekannt Teilstrecke
+203,SNL, SOCIETA' NAVIGAZIONE DEL LAGO DI LUGANO SA,285,"4",Bus - Überland/Berg,2,1,Keine Daten
+204,AAGS, Auto AG Schwyz,281,"1",Bus - Überland/Berg,11,2,Ausfall ganze Fahrt
+205,BOS, BUS Ostschweiz AG,281,"1",Bus - Überland/Berg,20,5,Verspätung
+206,AWA, Ortsgemeinde Amden,275,"1",Bus - Überland/Berg,1,1,Keine Daten
+207,REGO, Regiobus (St. Gallen),274,"1",Bus - Überland/Berg,5,1,Keine Daten Teilstrecke
+208,BLT, BLT Baselland Transport AG,273,"1",Bus - Überland/Berg,5,2,Keine Daten Teilstrecke
+209,BLWE, Genossenschaft Busbetrieb Lichtensteig-Wattwil-Ebn,273,"1",Bus - Überland/Berg,1,1,Keine Daten
+210,VBSG, Stadt St. Gallen,257,"2",Bus - Agglomeration,7,3,Verspätung
+211,VBZ, Stadt Zürich,252,"1",Bus - Überland/Berg,9,3,Keine Daten Teilstrecke
+212,zb, zb Zentralbahn AG,243,"3",Bahn - Überland/Berg,7,1,Ausfall ganze Fahrt
+213,BLS, BLS AG,241,"4",Bahn - Überland/Regionalverkehr,29,5,Status Unbekannt Teilstrecke
+214,TPC, Transports Publics du Chablais SA,236,"1",Bus - Überland/Berg,3,1,Keine Daten Teilstrecke
+215,PAG, PostAuto Schweiz AG,232,"1",Bus - Überland/Berg,114,58,Verspätung
+216,RBS, Regionalverkehr Bern-Solothurn AG,232,"2",Bus - Agglomeration,13,4,Verspätung
+217,VB, Verkehrsbetriebe Biel,226,"1",Bus - Überland/Berg,7,1,Keine Daten Teilstrecke
+218,BCS, Commune de Sion,225,"1",Bus - Überland/Berg,4,1,Keine Daten
+219,GWB, Grindelwald Bus AG,215,"1",Bus - Überland/Berg,3,1,Ausfall ganze Fahrt
+220,BOB, Berner Oberland-Bahnen AG,206,"3",Bahn - Überland/Berg,2,1,Ausfall ganze Fahrt
+221,AB, Appenzeller Bahnen AG,196,"3",Bahn - Überland/Berg,5,2,Status Unbekannt Teilstrecke
+222,TPN, TPN Transports publics de la Région Nyonnaise SA,193,"1",Bus - Überland/Berg,4,1,Keine Daten Teilstrecke
+223,RhB, Rhätische Bahn AG  (RhB),192,"4",Bahn - Überland/Regionalverkehr,11,2,Keine Daten
+224,BOB, Berner Oberland-Bahnen AG,158,"3",Bahn - Überland/Berg,2,1,Keine Daten
+225,BuS, Bus und Service AG,157,"1",Bus - Überland/Berg,2,1,Keine Daten Teilstrecke
+226,BGU, BGU Busbetrieb Grenchen und Umgebung AG,155,"2",Bus - Agglomeration,6,1,Verspätung
+227,BLS, BLS AG,147,"4",Bahn - Überland/Regionalverkehr,29,5,Status Unbekannt
+228,MGB, Matterhorn Gotthard Verkehrs AG,145,"3",Bahn - Überland/Berg,2,1,Status Unbekannt Teilstrecke
+229,THURBO, Thurbo AG,144,"4",Bahn - Überland/Regionalverkehr,19,3,Status Unbekannt Teilstrecke
+230,SBW, Stadt Winterthur,143,"1",Bus - Überland/Berg,2,1,Keine Daten Teilstrecke
+231,RBS, Regionalverkehr Bern-Solothurn AG,138,"2",Bus - Agglomeration,5,2,Keine Daten Teilstrecke
+232,THURBO, Thurbo AG,130,"4",Bahn - Überland/Regionalverkehr,21,3,Status Unbekannt
+233,WAB, Wengernalpbahn AG,127,"3",Bahn - Überland/Berg,1,1,Ausfall ganze Fahrt
+234,VZO, Verkehrsbetriebe Zürichsee und Oberland (VZO) AG,119,"2",Bus - Agglomeration,10,3,Verspätung
+235,REGO, Regiobus (St. Gallen),109,"1",Bus - Überland/Berg,7,1,Verspätung
+236,AAGL, Autobus AG Liestal Öffentlicher Verkehr,96,"1",Bus - Überland/Berg,5,1,Verspätung
+237,SZU, Sihltal Zürich Uetliberg Bahn SZU AG,87,"1",Bus - Überland/Berg,4,1,Keine Daten Teilstrecke
+238,zb, zb Zentralbahn AG,73,"3",Bahn - Überland/Berg,7,1,Status Unbekannt
+239,BLWE, Genossenschaft Busbetrieb Lichtensteig-Wattwil-Ebn,72,"1",Bus - Überland/Berg,1,1,Verspätung
+240,BOGG, Busbetrieb Olten Gösgen Gäu AG,72,"2",Bus - Agglomeration,7,2,Keine Daten Teilstrecke
+241,BSU, Busbetrieb Solothurn und Umgebung AG,71,"2",Bus - Agglomeration,8,2,Keine Daten Teilstrecke
+242,FART, Società per le Ferrovie Autolinee Regionali Ticine,63,"1",Bus - Überland/Berg,5,1,Ausfall ganze Fahrt
+243,WAB, Wengernalpbahn AG,58,"3",Bahn - Überland/Berg,1,1,Keine Daten
+244,RhB, Rhätische Bahn AG  (RhB),53,"4",Bahn - Überland/Regionalverkehr,12,2,Status Unbekannt
+245,BSU, Busbetrieb Solothurn und Umgebung AG,52,"2",Bus - Agglomeration,9,2,Verspätung
+246,SOB, Schweizerische Südostbahn AG,41,"4",Bahn - Überland/Regionalverkehr,7,1,Status Unbekannt Teilstrecke
+247,WAB, Wengernalpbahn AG,40,"3",Bahn - Überland/Berg,1,1,Status Unbekannt Teilstrecke
+248,AOT, Autokurse Oberthurgau AG (AOT),38,"1",Bus - Überland/Berg,5,1,Verspätung
+249,ARAG, Rottal Auto AG,38,"1",Bus - Überland/Berg,5,1,Verspätung
+250,VMCV, VMCV SA,36,"1",Bus - Überland/Berg,3,1,Status Unbekannt
+251,SZU, Sihltal Zürich Uetliberg Bahn SZU AG,35,"1",Bus - Überland/Berg,2,1,Status Unbekannt
+252,SOB, Schweizerische Südostbahn AG,32,"4",Bahn - Überland/Regionalverkehr,7,1,Status Unbekannt
+253,RhB, Rhätische Bahn AG  (RhB),30,"4",Bahn - Überland/Regionalverkehr,2,2,Keine Daten Teilstrecke
+254,BuS, Bus und Service AG,29,"1",Bus - Überland/Berg,3,1,Verspätung
+255,VBL, Verkehrsbetriebe Luzern AG,28,"2",Bus - Agglomeration,2,1,Keine Daten Teilstrecke
+256,BRER, O. Schneider AG,26,"1",Bus - Überland/Berg,3,1,Verspätung
+257,STI, STI Bus AG,26,"1",Bus - Überland/Berg,10,2,Status Unbekannt
+258,ZVB, Zugerland Verkehrsbetriebe AG,26,"1",Bus - Überland/Berg,7,3,Verspätung
+259,BCS, Commune de Sion,23,"1",Bus - Überland/Berg,4,1,Ausfall ganze Fahrt
+260,TPG, Transports publics genevois (TPG),22,"2",Bus - Agglomeration,8,2,Verspätung
+261,VBG, VBG Verkehrsbetriebe Glattal AG,22,"1",Bus - Überland/Berg,5,3,Verspätung
+262,VBZ, Stadt Zürich,21,"1",Bus - Überland/Berg,5,2,Verspätung
+263,BLT, BLT Baselland Transport AG,19,"1",Bus - Überland/Berg,5,3,Verspätung
+264,VBSH, Stadt Schaffhausen,19,"1",Bus - Überland/Berg,5,1,Verspätung
+265,TMR, TMR Transports de Martigny et Régions SA,18,"1",Bus - Überland/Berg,1,1,Status Unbekannt Teilstrecke
+266,asm, Aare Seeland mobil AG,18,"1",Bus - Überland/Berg,5,2,Verspätung
+267,AAGR, Auto AG Rothenburg,17,"2",Bus - Agglomeration,4,1,Verspätung
+268,AVA, Aargau Verkehr AG,17,"1",Bus - Überland/Berg,2,2,Keine Daten Teilstrecke
+269,TPL, TRASPORTI PUBBLICI LUGANESI SA (TPL),17,"1",Bus - Überland/Berg,3,1,Ausfall ganze Fahrt
+270,zb, zb Zentralbahn AG,17,"3",Bahn - Überland/Berg,5,1,Status Unbekannt Teilstrecke
+271,AFA, Automobilverkehr Frutigen-Adelboden AG,16,"1",Bus - Überland/Berg,4,1,Ausfall ganze Fahrt
+272,AMSA, Autolinea Mendrisiense SA,16,"1",Bus - Überland/Berg,6,1,Ausfall ganze Fahrt
+273,BLT, BLT Baselland Transport AG,16,"1",Bus - Überland/Berg,4,3,Status Unbekannt
+274,MGB, Matterhorn Gotthard Verkehrs AG,16,"3",Bahn - Überland/Berg,1,1,Keine Daten Teilstrecke
+275,RhB, Rhätische Bahn AG  (RhB),14,"4",Bahn - Überland/Regionalverkehr,6,2,Status Unbekannt Teilstrecke
+276,TPL, TRASPORTI PUBBLICI LUGANESI SA (TPL),14,"1",Bus - Überland/Berg,1,1,Verspätung
+277,VMCV, VMCV SA,13,"1",Bus - Überland/Berg,2,1,Keine Daten Teilstrecke
+278,AAGU, AUTO AG URI,12,"1",Bus - Überland/Berg,4,1,Verspätung
+279,AWA, Ortsgemeinde Amden,12,"1",Bus - Überland/Berg,1,1,Verspätung
+280,RBL, Regionalbus Lenzburg AG,12,"1",Bus - Überland/Berg,3,1,Keine Daten Teilstrecke
+281,SVB, Städtische Verkehrsbetriebe Bern (SVB),11,"2",Bus - Agglomeration,4,2,Verspätung
+282,AAGR, Auto AG Rothenburg,10,"2",Bus - Agglomeration,2,1,Status Unbekannt
+283,BBA, Busbetrieb Aarau AG (BBA),10,"2",Bus - Agglomeration,2,2,Keine Daten Teilstrecke
+284,AAGS, Auto AG Schwyz,9,"1",Bus - Überland/Berg,1,1,Status Unbekannt Teilstrecke
+285,ARL, Società Autolinee Regionali Luganesi,8,"1",Bus - Überland/Berg,2,1,Ausfall ganze Fahrt
+286,BCS, Commune de Sion,8,"1",Bus - Überland/Berg,3,1,Status Unbekannt
+287,TSD, Theytaz Excursions SA,8,"1",Bus - Überland/Berg,1,1,Status Unbekannt Teilstrecke
+288,AS, Autobetrieb Sernftal AG,7,"1",Bus - Überland/Berg,1,1,Verspätung
+289,TSD, Theytaz Excursions SA,7,"1",Bus - Überland/Berg,1,1,Keine Daten Teilstrecke
+290,VB, Verkehrsbetriebe Biel,7,"1",Bus - Überland/Berg,3,1,Verspätung
+291,LEB, Compagnie du chemin de fer Lausanne-Echallens-Berc,6,"3",Bahn - Überland/Berg,1,1,Status Unbekannt Teilstrecke
+292,STI, STI Bus AG,6,"1",Bus - Überland/Berg,2,1,Verspätung
+293,TPC, Transports Publics du Chablais SA,6,"1",Bus - Überland/Berg,1,1,Verspätung
+294,BLAG, Busland AG,5,"1",Bus - Überland/Berg,4,1,Verspätung
+295,SMC, Compagnie de Chemin de Fer et d'Autobus Sierre-Mon,5,"1",Bus - Überland/Berg,2,1,Verspätung
+296,SZU, Sihltal Zürich Uetliberg Bahn SZU AG,5,"1",Bus - Überland/Berg,2,1,Verspätung
+297,AAGL, Autobus AG Liestal Öffentlicher Verkehr,4,"1",Bus - Überland/Berg,2,1,Ausfall ganze Fahrt
+298,AFA, Automobilverkehr Frutigen-Adelboden AG,4,"1",Bus - Überland/Berg,2,1,Keine Daten Teilstrecke
+299,BBA, Busbetrieb Aarau AG (BBA),4,"2",Bus - Agglomeration,3,2,Verspätung
+300,GWB, Grindelwald Bus AG,4,"1",Bus - Überland/Berg,2,1,Status Unbekannt
+301,MBC, Transports de la région Morges-Bière-Cossonay SA,4,"3",Bahn - Überland/Berg,3,1,Verspätung
+302,NStCM, Compagnie du chemin de fer Nyon-St-Cergue-Morez SA,4,"3",Bahn - Überland/Berg,1,1,Keine Daten Teilstrecke
+303,SBB, Schweizerische Bundesbahnen SBB,4,"4",Bahn - Überland/Regionalverkehr,3,2,Verspätung
+304,TRAVYS, TRAVYS - Transports Vallée-de-Joux - Yverdon-les-B,4,"1",Bus - Überland/Berg,3,2,Verspätung
+305,BVB, Basler Verkehrs-Betriebe,3,"2",Bus - Agglomeration,3,2,Status Unbekannt
+306,FLP, Ferrovie Luganesi SA,3,"4",Bahn - Agglomeration,1,1,Verspätung
+307,TL, Transports Publics de la Région Lausannoise sa,3,"2",Bus - Agglomeration,2,1,Verspätung
+308,TPF, Transports publics fribourgeois SA,3,"1",Bus - Überland/Berg,3,2,Verspätung
+309,AAGU, AUTO AG URI,2,"1",Bus - Überland/Berg,2,1,Keine Daten Teilstrecke
+310,BCS, Commune de Sion,2,"1",Bus - Überland/Berg,2,1,Verspätung
+311,GWB, Grindelwald Bus AG,2,"1",Bus - Überland/Berg,1,1,Verspätung
+312,RhB, Rhätische Bahn AG  (RhB),2,"4",Bahn - Überland/Regionalverkehr,2,2,Verspätung
+313,SBW, Stadt Winterthur,2,"1",Bus - Überland/Berg,1,1,Verspätung
+314,TRN, Transports Publics Neuchâtelois SA,2,"1",Bus - Überland/Berg,2,2,Verspätung
+315,VMCV, VMCV SA,2,"1",Bus - Überland/Berg,2,1,Verspätung
+316,AAGR, Auto AG Rothenburg,1,"2",Bus - Agglomeration,1,1,Keine Daten Teilstrecke
+317,ABl, Autolinee Bleniesi SA,1,"1",Bus - Überland/Berg,1,1,Verspätung
+318,AMSA, Autolinea Mendrisiense SA,1,"1",Bus - Überland/Berg,1,1,Verspätung
+319,ARAG, Rottal Auto AG,1,"1",Bus - Überland/Berg,1,1,Keine Daten Teilstrecke
+320,ARL, Società Autolinee Regionali Luganesi,1,"1",Bus - Überland/Berg,1,1,Verspätung
+321,AWA, Ortsgemeinde Amden,1,"1",Bus - Überland/Berg,1,1,Keine Daten Teilstrecke
+322,BOGG, Busbetrieb Olten Gösgen Gäu AG,1,"2",Bus - Agglomeration,1,1,Verspätung
+323,zb, zb Zentralbahn AG,1,"3",Bahn - Überland/Berg,1,1,Verspätung
