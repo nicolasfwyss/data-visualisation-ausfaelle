@@ -165,7 +165,7 @@ var scales = {
         'all': {
             'exponent': 0.5,
             'range_min': 2,
-            'range_max': 40
+            'range_max': 60
         },
         'line': {
             'exponent': 0.5,
@@ -182,12 +182,12 @@ var scales = {
         'all': {
             'exponent': 0.4,
             'range_min': 2,
-            'range_max': 40
+            'range_max': 60
         },
         'line': {
             'exponent': 0.5,
             'range_min': 2,
-            'range_max': 30
+            'range_max': 45
         },
         'line_bundles': {
             'exponent': 0.5,
@@ -199,12 +199,12 @@ var scales = {
         'all': {
             'exponent': 0.4,
             'range_min': 2,
-            'range_max': 75
+            'range_max': 80
         },
         'line': {
             'exponent': 0.5,
             'range_min': 2,
-            'range_max': 60
+            'range_max': 70
         },
         'line_bundles': {
             'exponent': 0.5,
@@ -221,7 +221,7 @@ var scales = {
         'line': {
             'exponent': 0.5,
             'range_min': 2,
-            'range_max': 60
+            'range_max': 100
         },
         'line_bundles': {
             'exponent': 0.5,
@@ -238,7 +238,7 @@ var scales = {
         'line': {
             'exponent': 0.5,
             'range_min': 2,
-            'range_max': 60
+            'range_max': 80
         },
         'line_bundles': {
             'exponent': 0.5,
@@ -373,9 +373,6 @@ function bubbleChart() {
             return b.value - a.value
         });
 
-        console.log('sort');
-        console.log(nodes);
-
         nodes = myNodes;
     }
 
@@ -461,8 +458,6 @@ function bubbleChart() {
             if (error) {
                 console.log(error);
             }
-            console.log('updateChart');
-            console.log(sort_type);
             chart(data);
             splitBubbles();
             updateTitles();
@@ -495,7 +490,6 @@ function bubbleChart() {
         }
     }
     function nodePos(d) {
-        console.log(d.sort);
         if (d.sort) {
             return sort[sort_type].center[d.sort].x;
         }
@@ -503,12 +497,14 @@ function bubbleChart() {
     }
 
     function splitBubbles() {
-        console.log('split');
         // @v4 Reset the 'x' force to draw the bubbles to their year centers
         simulation.force('x', d3.forceX().strength(forceStrength).x(nodePos));
 
         // @v4 We can reset the alpha value and restart the simulation
         simulation.alpha(1).restart();
+        simulation.alpha(1).restart();
+        simulation.alpha(1).restart();
+
 
     }
 
@@ -638,24 +634,6 @@ function bubbleChart() {
         tooltip.hideTooltip();
     }
 
-    chart.sortBubbles = function () {
-        switch (sort_type) {
-            case 'all':
-                console.log('all');
-                clearChart();
-                break;
-            case 'day':
-                console.log('day');
-                newChart();
-                break
-            case 'time':
-                break
-            default:
-                console.log("error");
-                break;
-        }
-    }
-
     return chart;
 
 }
@@ -686,6 +664,9 @@ function setupButtons() {
             // Get the id of the button
             scale_type = button.attr('scale');
 
+            console.log(scale_type);
+            console.log(sort_type);
+
             myBubbleChart.scaleBubbles();
         });
     d3.select('#buttons_sort')
@@ -702,6 +683,8 @@ function setupButtons() {
             // Get the id of the button
             sort_type = button.attr('data');
 
+            console.log(scale_type);
+            console.log(sort_type);
             myBubbleChart.updateChart();
 
         });
