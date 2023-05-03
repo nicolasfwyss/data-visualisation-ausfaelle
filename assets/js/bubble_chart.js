@@ -125,6 +125,22 @@ var sort = {
         },
         'csv': 'assets/data/ausfaelle_tu_cause.csv',
     },
+    'type': {
+        'center': {
+            'Bus Überland/Berg': {x: 133 + 1000 / 6 * 1, y: height / 2},
+            'Bus Agglomeration': {x: 133 + 1000 / 6* 2, y: height / 2},
+            'Bahn Überland/Berg': {x: 133 + 1000 / 6 * 3, y: height / 2},
+            'Bahn Überland/Regionalverkehr': {x: 133 + 1000 / 6 * 4, y: height / 2},
+        },
+        'titles': {
+            'Bus Überland/Berg': 100,
+            'Bus Agglomeration': 422,
+            'Bahn Überland/Berg': 744,
+            'Bahn Überland/Regionalverkehr': 1066,
+        },
+        'csv': 'assets/data/ausfaelle_tu_type.csv',
+    },
+
 }
 
 var scales = {
@@ -229,7 +245,25 @@ var scales = {
             'range_min': 2,
             'range_max': 60
         }
+    },
+    'type': {
+        'all': {
+            'exponent': 0.4,
+            'range_min': 2,
+            'range_max': 120
+        },
+        'line': {
+            'exponent': 0.5,
+            'range_min': 2,
+            'range_max': 80
+        },
+        'line_bundles': {
+            'exponent': 0.5,
+            'range_min': 2,
+            'range_max': 60
+        }
     }
+
 }
 
 // Funktion für die BubbleCharts ohne Sortierung
@@ -326,6 +360,9 @@ function bubbleChart() {
                     break;
                 case "ausfall_grund":
                     node.sort = d.ausfall_grund;
+                    break;
+                case "verkehrsmittel":
+                    node.sort = d.verkehrsmittel;
                     break;
             }
             return node;
@@ -577,6 +614,12 @@ function bubbleChart() {
             case "cause":
                 content += '<br/>' +
                     '<span class="name">Ausfall Meldung: </span><span class="value">' +
+                    d.sort +
+                    '</span>';
+                break;
+            case "type":
+                content += '<br/>' +
+                    '<span class="name">Verkehrsmittel : </span><span class="value">' +
                     d.sort +
                     '</span>';
                 break;
