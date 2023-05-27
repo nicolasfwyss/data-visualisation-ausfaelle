@@ -1,0 +1,561 @@
+"id","tu","name","kurzer_name","anzahl_ausfaelle","id_vmkat","vmkat","anzahl_linien","tag"
+1,PAG, PostAuto Schweiz AG,PostAuto,123076,"1",Bus - Überland/Berg,569,Dienstag
+2,PAG, PostAuto Schweiz AG,PostAuto,122204,"1",Bus - Überland/Berg,567,Donnerstag
+3,PAG, PostAuto Schweiz AG,PostAuto,121827,"1",Bus - Überland/Berg,560,Freitag
+4,PAG, PostAuto Schweiz AG,PostAuto,108893,"1",Bus - Überland/Berg,568,Montag
+5,PAG, PostAuto Schweiz AG,PostAuto,108824,"1",Bus - Überland/Berg,527,Mittwoch
+6,PAG, PostAuto Schweiz AG,PostAuto,82546,"1",Bus - Überland/Berg,465,Samstag
+7,PAG, PostAuto Schweiz AG,PostAuto,72528,"1",Bus - Überland/Berg,486,Sonntag
+8,TL, Transports Publics de la Région Lausannoise sa,Bus Lausanne,45133,"2",Bus - Agglomeration,15,Donnerstag
+9,TL, Transports Publics de la Région Lausannoise sa,Bus Lausanne,44703,"2",Bus - Agglomeration,15,Freitag
+10,TL, Transports Publics de la Région Lausannoise sa,Bus Lausanne,44277,"2",Bus - Agglomeration,14,Dienstag
+11,TL, Transports Publics de la Région Lausannoise sa,Bus Lausanne,42467,"2",Bus - Agglomeration,15,Montag
+12,TL, Transports Publics de la Région Lausannoise sa,Bus Lausanne,40489,"2",Bus - Agglomeration,15,Mittwoch
+13,TL, Transports Publics de la Région Lausannoise sa,Bus Lausanne,37801,"2",Bus - Agglomeration,13,Samstag
+14,TL, Transports Publics de la Région Lausannoise sa,Bus Lausanne,29633,"2",Bus - Agglomeration,13,Sonntag
+15,TPG, Transports publics genevois (TPG),Bus Genf,14127,"2",Bus - Agglomeration,18,Donnerstag
+16,SBB, Schweizerische Bundesbahnen SBB,Schweizerische Bundesbahnen,13189,"4",Bahn - Überland/Regionalverkehr,97,Donnerstag
+17,SVB, Städtische Verkehrsbetriebe Bern (SVB),Bernmobil,13148,"2",Bus - Agglomeration,33,Dienstag
+18,SBB, Schweizerische Bundesbahnen SBB,Schweizerische Bundesbahnen,12754,"4",Bahn - Überland/Regionalverkehr,97,Dienstag
+19,SBB, Schweizerische Bundesbahnen SBB,Schweizerische Bundesbahnen,12417,"4",Bahn - Überland/Regionalverkehr,90,Samstag
+20,SBB, Schweizerische Bundesbahnen SBB,Schweizerische Bundesbahnen,12089,"4",Bahn - Überland/Regionalverkehr,88,Sonntag
+21,BOS, BUS Ostschweiz AG,BUS Ostschweiz,11799,"1",Bus - Überland/Berg,38,Dienstag
+22,BOS, BUS Ostschweiz AG,BUS Ostschweiz,11614,"1",Bus - Überland/Berg,40,Montag
+23,SBB, Schweizerische Bundesbahnen SBB,Schweizerische Bundesbahnen,10797,"4",Bahn - Überland/Regionalverkehr,96,Mittwoch
+24,SBB, Schweizerische Bundesbahnen SBB,Schweizerische Bundesbahnen,10693,"4",Bahn - Überland/Regionalverkehr,97,Freitag
+25,BOS, BUS Ostschweiz AG,BUS Ostschweiz,10537,"1",Bus - Überland/Berg,40,Freitag
+26,SBB, Schweizerische Bundesbahnen SBB,Schweizerische Bundesbahnen,10458,"4",Bahn - Überland/Regionalverkehr,96,Montag
+27,BOS, BUS Ostschweiz AG,BUS Ostschweiz,10013,"1",Bus - Überland/Berg,40,Mittwoch
+28,BOS, BUS Ostschweiz AG,BUS Ostschweiz,9895,"1",Bus - Überland/Berg,39,Donnerstag
+29,TPG, Transports publics genevois (TPG),Bus Genf,9559,"2",Bus - Agglomeration,18,Dienstag
+30,VMCV, VMCV SA,Bus Montreux,9518,"1",Bus - Überland/Berg,4,Freitag
+31,VMCV, VMCV SA,Bus Montreux,9422,"1",Bus - Überland/Berg,3,Dienstag
+32,VMCV, VMCV SA,Bus Montreux,9384,"1",Bus - Überland/Berg,3,Donnerstag
+33,VMCV, VMCV SA,Bus Montreux,9216,"1",Bus - Überland/Berg,4,Samstag
+34,VMCV, VMCV SA,Bus Montreux,9149,"1",Bus - Überland/Berg,4,Montag
+35,VMCV, VMCV SA,Bus Montreux,9077,"1",Bus - Überland/Berg,4,Mittwoch
+36,RBS, Regionalverkehr Bern-Solothurn AG,Regionalverkehr Bern-Solothurn,7665,"2",Bus - Agglomeration,24,Dienstag
+37,TPG, Transports publics genevois (TPG),Bus Genf,7628,"2",Bus - Agglomeration,18,Freitag
+38,TMR, TMR Transports de Martigny et Régions SA,Bus Wallis,7523,"1",Bus - Überland/Berg,9,Dienstag
+39,TMR, TMR Transports de Martigny et Régions SA,Bus Wallis,7450,"1",Bus - Überland/Berg,9,Freitag
+40,VMCV, VMCV SA,Bus Montreux,7361,"1",Bus - Überland/Berg,3,Sonntag
+41,TMR, TMR Transports de Martigny et Régions SA,Bus Wallis,7349,"1",Bus - Überland/Berg,9,Montag
+42,TMR, TMR Transports de Martigny et Régions SA,Bus Wallis,7343,"1",Bus - Überland/Berg,9,Donnerstag
+43,TMR, TMR Transports de Martigny et Régions SA,Bus Wallis,7322,"1",Bus - Überland/Berg,9,Mittwoch
+44,SVB, Städtische Verkehrsbetriebe Bern (SVB),Bernmobil,7239,"2",Bus - Agglomeration,33,Donnerstag
+45,TPG, Transports publics genevois (TPG),Bus Genf,7099,"2",Bus - Agglomeration,18,Mittwoch
+46,SVB, Städtische Verkehrsbetriebe Bern (SVB),Bernmobil,7018,"2",Bus - Agglomeration,33,Mittwoch
+47,RBS, Regionalverkehr Bern-Solothurn AG,Regionalverkehr Bern-Solothurn,6744,"2",Bus - Agglomeration,24,Donnerstag
+48,BOS, BUS Ostschweiz AG,BUS Ostschweiz,6385,"1",Bus - Überland/Berg,32,Samstag
+49,TPG, Transports publics genevois (TPG),Bus Genf,6381,"2",Bus - Agglomeration,18,Montag
+50,RBS, Regionalverkehr Bern-Solothurn AG,Regionalverkehr Bern-Solothurn,6078,"2",Bus - Agglomeration,24,Freitag
+51,VBZ, Stadt Zürich,Bus Zürich,6074,"1",Bus - Überland/Berg,18,Dienstag
+52,VZO, Verkehrsbetriebe Zürichsee und Oberland (VZO) AG,Bus Zürichsee,5741,"2",Bus - Agglomeration,22,Freitag
+53,VBZ, Stadt Zürich,Bus Zürich,5700,"1",Bus - Überland/Berg,18,Freitag
+54,MBC, Transports de la région Morges-Bière-Cossonay SA,Bahn MBC,5615,"3",Bahn - Überland/Berg,9,Donnerstag
+55,RBS, Regionalverkehr Bern-Solothurn AG,Regionalverkehr Bern-Solothurn,5553,"2",Bus - Agglomeration,24,Mittwoch
+56,TRN, Transports Publics Neuchâtelois SA,Bus Neuchatel,5528,"1",Bus - Überland/Berg,10,Dienstag
+57,VZO, Verkehrsbetriebe Zürichsee und Oberland (VZO) AG,Bus Zürichsee,5262,"2",Bus - Agglomeration,22,Dienstag
+58,RBS, Regionalverkehr Bern-Solothurn AG,Regionalverkehr Bern-Solothurn,5258,"2",Bus - Agglomeration,24,Montag
+59,TRN, Transports Publics Neuchâtelois SA,Bus Neuchatel,5135,"1",Bus - Überland/Berg,10,Mittwoch
+60,BLAG, Busland AG,Busland,5118,"1",Bus - Überland/Berg,20,Dienstag
+61,TPF, Transports publics fribourgeois SA,Bus Fribourg,5090,"1",Bus - Überland/Berg,48,Sonntag
+62,TRN, Transports Publics Neuchâtelois SA,Bus Neuchatel,5086,"1",Bus - Überland/Berg,10,Donnerstag
+63,TRN, Transports Publics Neuchâtelois SA,Bus Neuchatel,5069,"1",Bus - Überland/Berg,10,Freitag
+64,RBS, Regionalverkehr Bern-Solothurn AG,Regionalverkehr Bern-Solothurn,5050,"2",Bus - Agglomeration,22,Samstag
+65,MBC, Transports de la région Morges-Bière-Cossonay SA,Bahn MBC,4970,"3",Bahn - Überland/Berg,9,Freitag
+66,TPG, Transports publics genevois (TPG),Bus Genf,4879,"2",Bus - Agglomeration,18,Samstag
+67,ZVB, Zugerland Verkehrsbetriebe AG,Bus Zug,4872,"1",Bus - Überland/Berg,22,Dienstag
+68,TRN, Transports Publics Neuchâtelois SA,Bus Neuchatel,4855,"1",Bus - Überland/Berg,10,Montag
+69,VBZ, Stadt Zürich,Bus Zürich,4843,"1",Bus - Überland/Berg,18,Donnerstag
+70,TPF, Transports publics fribourgeois SA,Bus Fribourg,4816,"1",Bus - Überland/Berg,58,Montag
+71,BOS, BUS Ostschweiz AG,BUS Ostschweiz,4812,"1",Bus - Überland/Berg,32,Sonntag
+72,MBC, Transports de la région Morges-Bière-Cossonay SA,Bahn MBC,4804,"3",Bahn - Überland/Berg,9,Dienstag
+73,VB, Verkehrsbetriebe Biel,Bus Biel,4738,"1",Bus - Überland/Berg,11,Sonntag
+74,VBZ, Stadt Zürich,Bus Zürich,4738,"1",Bus - Überland/Berg,18,Mittwoch
+75,TRAVYS, TRAVYS - Transports Vallée-de-Joux - Yverdon-les-B,Bus Yverdon,4719,"1",Bus - Überland/Berg,9,Donnerstag
+76,BLAG, Busland AG,Busland,4676,"1",Bus - Überland/Berg,20,Mittwoch
+77,TMR, TMR Transports de Martigny et Régions SA,Bus Wallis,4675,"1",Bus - Überland/Berg,8,Samstag
+78,TMR, TMR Transports de Martigny et Régions SA,Bus Wallis,4662,"1",Bus - Überland/Berg,8,Sonntag
+79,BOGG, Busbetrieb Olten Gösgen Gäu AG,Bus Olten,4500,"2",Bus - Agglomeration,12,Dienstag
+80,BOGG, Busbetrieb Olten Gösgen Gäu AG,Bus Olten,4470,"2",Bus - Agglomeration,12,Montag
+81,BOGG, Busbetrieb Olten Gösgen Gäu AG,Bus Olten,4435,"2",Bus - Agglomeration,12,Donnerstag
+82,VBZ, Stadt Zürich,Bus Zürich,4427,"1",Bus - Überland/Berg,18,Montag
+83,MBC, Transports de la région Morges-Bière-Cossonay SA,Bahn MBC,4378,"3",Bahn - Überland/Berg,9,Mittwoch
+84,VBG, VBG Verkehrsbetriebe Glattal AG,Bus Glattal,4372,"1",Bus - Überland/Berg,21,Freitag
+85,VZO, Verkehrsbetriebe Zürichsee und Oberland (VZO) AG,Bus Zürichsee,4371,"2",Bus - Agglomeration,22,Donnerstag
+86,BOGG, Busbetrieb Olten Gösgen Gäu AG,Bus Olten,4364,"2",Bus - Agglomeration,10,Sonntag
+87,TRN, Transports Publics Neuchâtelois SA,Bus Neuchatel,4344,"1",Bus - Überland/Berg,10,Samstag
+88,TPL, TRASPORTI PUBBLICI LUGANESI SA (TPL),Lugano Bus,4314,"1",Bus - Überland/Berg,8,Sonntag
+89,MBC, Transports de la région Morges-Bière-Cossonay SA,Bahn MBC,4300,"3",Bahn - Überland/Berg,9,Montag
+90,ZVB, Zugerland Verkehrsbetriebe AG,Bus Zug,4270,"1",Bus - Überland/Berg,22,Mittwoch
+91,BOGG, Busbetrieb Olten Gösgen Gäu AG,Bus Olten,4133,"2",Bus - Agglomeration,12,Freitag
+92,VZO, Verkehrsbetriebe Zürichsee und Oberland (VZO) AG,Bus Zürichsee,4128,"2",Bus - Agglomeration,22,Mittwoch
+93,VZO, Verkehrsbetriebe Zürichsee und Oberland (VZO) AG,Bus Zürichsee,4124,"2",Bus - Agglomeration,22,Montag
+94,BLT, BLT Baselland Transport AG,Bus Baselland,4116,"1",Bus - Überland/Berg,17,Dienstag
+95,TRAVYS, TRAVYS - Transports Vallée-de-Joux - Yverdon-les-B,Bus Yverdon,4032,"1",Bus - Überland/Berg,9,Freitag
+96,VBZ, Stadt Zürich,Bus Zürich,4019,"1",Bus - Überland/Berg,14,Sonntag
+97,STI, STI Bus AG,Verkehrsbetriebe Steffisburg-Thun-Interlaken,4003,"1",Bus - Überland/Berg,24,Dienstag
+98,VBD, Landschaft Davos,Bus Davos,3961,"1",Bus - Überland/Berg,3,Samstag
+99,BOGG, Busbetrieb Olten Gösgen Gäu AG,Bus Olten,3956,"2",Bus - Agglomeration,12,Mittwoch
+100,TRN, Transports Publics Neuchâtelois SA,Bus Neuchatel,3778,"1",Bus - Überland/Berg,9,Sonntag
+101,BLAG, Busland AG,Busland,3769,"1",Bus - Überland/Berg,20,Freitag
+102,AB, Appenzeller Bahnen AG,Appenzeller Bahnen,3734,"3",Bahn - Überland/Berg,7,Freitag
+103,TRAVYS, TRAVYS - Transports Vallée-de-Joux - Yverdon-les-B,Bus Yverdon,3719,"1",Bus - Überland/Berg,9,Dienstag
+104,VBD, Landschaft Davos,Bus Davos,3700,"1",Bus - Überland/Berg,3,Dienstag
+105,VBSG, Stadt St. Gallen,Bus St.Gallen,3677,"2",Bus - Agglomeration,15,Donnerstag
+106,SVB, Städtische Verkehrsbetriebe Bern (SVB),Bernmobil,3665,"2",Bus - Agglomeration,31,Samstag
+107,BOGG, Busbetrieb Olten Gösgen Gäu AG,Bus Olten,3655,"2",Bus - Agglomeration,9,Samstag
+108,BLAG, Busland AG,Busland,3647,"1",Bus - Überland/Berg,20,Donnerstag
+109,VBD, Landschaft Davos,Bus Davos,3637,"1",Bus - Überland/Berg,3,Donnerstag
+110,VBZ, Stadt Zürich,Bus Zürich,3609,"1",Bus - Überland/Berg,16,Samstag
+111,VBG, VBG Verkehrsbetriebe Glattal AG,Bus Glattal,3602,"1",Bus - Überland/Berg,21,Dienstag
+112,SVB, Städtische Verkehrsbetriebe Bern (SVB),Bernmobil,3601,"2",Bus - Agglomeration,33,Montag
+113,ZVB, Zugerland Verkehrsbetriebe AG,Bus Zug,3593,"1",Bus - Überland/Berg,22,Donnerstag
+114,TRAVYS, TRAVYS - Transports Vallée-de-Joux - Yverdon-les-B,Bus Yverdon,3574,"1",Bus - Überland/Berg,9,Montag
+115,SVB, Städtische Verkehrsbetriebe Bern (SVB),Bernmobil,3569,"2",Bus - Agglomeration,33,Freitag
+116,VBD, Landschaft Davos,Bus Davos,3543,"1",Bus - Überland/Berg,3,Mittwoch
+117,VBD, Landschaft Davos,Bus Davos,3539,"1",Bus - Überland/Berg,3,Montag
+118,VBD, Landschaft Davos,Bus Davos,3530,"1",Bus - Überland/Berg,3,Freitag
+119,AB, Appenzeller Bahnen AG,Appenzeller Bahnen,3529,"3",Bahn - Überland/Berg,7,Donnerstag
+120,SVB, Städtische Verkehrsbetriebe Bern (SVB),Bernmobil,3444,"2",Bus - Agglomeration,25,Sonntag
+121,VBD, Landschaft Davos,Bus Davos,3365,"1",Bus - Überland/Berg,3,Sonntag
+122,VB, Verkehrsbetriebe Biel,Bus Biel,3322,"1",Bus - Überland/Berg,11,Montag
+123,BSU, Busbetrieb Solothurn und Umgebung AG,Bus Solothurn,3320,"2",Bus - Agglomeration,13,Montag
+124,VBSH, Stadt Schaffhausen,Bus Schaffhausen,3317,"1",Bus - Überland/Berg,7,Montag
+125,VBSG, Stadt St. Gallen,Bus St.Gallen,3305,"2",Bus - Agglomeration,15,Dienstag
+126,AB, Appenzeller Bahnen AG,Appenzeller Bahnen,3303,"3",Bahn - Überland/Berg,7,Dienstag
+127,AB, Appenzeller Bahnen AG,Appenzeller Bahnen,3287,"3",Bahn - Überland/Berg,7,Mittwoch
+128,VBSH, Stadt Schaffhausen,Bus Schaffhausen,3286,"1",Bus - Überland/Berg,7,Dienstag
+129,MBC, Transports de la région Morges-Bière-Cossonay SA,Bahn MBC,3285,"3",Bahn - Überland/Berg,9,Samstag
+130,VB, Verkehrsbetriebe Biel,Bus Biel,3235,"1",Bus - Überland/Berg,11,Dienstag
+131,VBSH, Stadt Schaffhausen,Bus Schaffhausen,3178,"1",Bus - Überland/Berg,7,Freitag
+132,TRAVYS, TRAVYS - Transports Vallée-de-Joux - Yverdon-les-B,Bus Yverdon,3157,"1",Bus - Überland/Berg,9,Mittwoch
+133,AB, Appenzeller Bahnen AG,Appenzeller Bahnen,3112,"3",Bahn - Überland/Berg,7,Montag
+134,BLAG, Busland AG,Busland,3096,"1",Bus - Überland/Berg,20,Montag
+135,STI, STI Bus AG,Verkehrsbetriebe Steffisburg-Thun-Interlaken,3069,"1",Bus - Überland/Berg,24,Mittwoch
+136,TRAVYS, TRAVYS - Transports Vallée-de-Joux - Yverdon-les-B,Bus Yverdon,3054,"1",Bus - Überland/Berg,9,Samstag
+137,VBSH, Stadt Schaffhausen,Bus Schaffhausen,3053,"1",Bus - Überland/Berg,7,Mittwoch
+138,TPL, TRASPORTI PUBBLICI LUGANESI SA (TPL),Lugano Bus,3034,"1",Bus - Überland/Berg,9,Montag
+139,VBSH, Stadt Schaffhausen,Bus Schaffhausen,3010,"1",Bus - Überland/Berg,7,Donnerstag
+140,TPF, Transports publics fribourgeois SA,Bus Fribourg,2957,"1",Bus - Überland/Berg,58,Dienstag
+141,SZU, Sihltal Zürich Uetliberg Bahn SZU AG,Bahn Sihltal,2953,"1",Bus - Überland/Berg,8,Dienstag
+142,VBG, VBG Verkehrsbetriebe Glattal AG,Bus Glattal,2925,"1",Bus - Überland/Berg,15,Sonntag
+143,VBSH, Stadt Schaffhausen,Bus Schaffhausen,2923,"1",Bus - Überland/Berg,7,Sonntag
+144,ABG, Alsa Bustours Gex S.A.S,Bustour Genf,2907,"1",Bus - Überland/Berg,2,Dienstag
+145,RBS, Regionalverkehr Bern-Solothurn AG,Regionalverkehr Bern-Solothurn,2887,"2",Bus - Agglomeration,17,Sonntag
+146,VBG, VBG Verkehrsbetriebe Glattal AG,Bus Glattal,2883,"1",Bus - Überland/Berg,21,Donnerstag
+147,ABG, Alsa Bustours Gex S.A.S,Bustour Genf,2872,"1",Bus - Überland/Berg,2,Donnerstag
+148,ABG, Alsa Bustours Gex S.A.S,Bustour Genf,2872,"1",Bus - Überland/Berg,2,Freitag
+149,ABG, Alsa Bustours Gex S.A.S,Bustour Genf,2850,"1",Bus - Überland/Berg,2,Mittwoch
+150,TPL, TRASPORTI PUBBLICI LUGANESI SA (TPL),Lugano Bus,2823,"1",Bus - Überland/Berg,8,Samstag
+151,SZU, Sihltal Zürich Uetliberg Bahn SZU AG,Bahn Sihltal,2814,"1",Bus - Überland/Berg,8,Freitag
+152,AB, Appenzeller Bahnen AG,Appenzeller Bahnen,2809,"3",Bahn - Überland/Berg,7,Samstag
+153,BLT, BLT Baselland Transport AG,Bus Baselland,2809,"1",Bus - Überland/Berg,17,Donnerstag
+154,TRAVYS, TRAVYS - Transports Vallée-de-Joux - Yverdon-les-B,Bus Yverdon,2805,"1",Bus - Überland/Berg,9,Sonntag
+155,VB, Verkehrsbetriebe Biel,Bus Biel,2802,"1",Bus - Überland/Berg,11,Mittwoch
+156,TPG, Transports publics genevois (TPG),Bus Genf,2765,"2",Bus - Agglomeration,18,Sonntag
+157,ABG, Alsa Bustours Gex S.A.S,Bustour Genf,2732,"1",Bus - Überland/Berg,2,Montag
+158,VZO, Verkehrsbetriebe Zürichsee und Oberland (VZO) AG,Bus Zürichsee,2731,"2",Bus - Agglomeration,18,Sonntag
+159,SZU, Sihltal Zürich Uetliberg Bahn SZU AG,Bahn Sihltal,2691,"1",Bus - Überland/Berg,8,Donnerstag
+160,STI, STI Bus AG,Verkehrsbetriebe Steffisburg-Thun-Interlaken,2667,"1",Bus - Überland/Berg,24,Montag
+161,SZU, Sihltal Zürich Uetliberg Bahn SZU AG,Bahn Sihltal,2650,"1",Bus - Überland/Berg,8,Mittwoch
+162,BLAG, Busland AG,Busland,2622,"1",Bus - Überland/Berg,18,Samstag
+163,VB, Verkehrsbetriebe Biel,Bus Biel,2622,"1",Bus - Überland/Berg,11,Freitag
+164,BLT, BLT Baselland Transport AG,Bus Baselland,2613,"1",Bus - Überland/Berg,17,Mittwoch
+165,VBSH, Stadt Schaffhausen,Bus Schaffhausen,2574,"1",Bus - Überland/Berg,7,Samstag
+166,SZU, Sihltal Zürich Uetliberg Bahn SZU AG,Bahn Sihltal,2537,"1",Bus - Überland/Berg,8,Montag
+167,TPN, TPN Transports publics de la Région Nyonnaise SA,Bus Nyon,2535,"1",Bus - Überland/Berg,4,Donnerstag
+168,BLT, BLT Baselland Transport AG,Bus Baselland,2489,"1",Bus - Überland/Berg,15,Samstag
+169,BLT, BLT Baselland Transport AG,Bus Baselland,2406,"1",Bus - Überland/Berg,14,Sonntag
+170,VBG, VBG Verkehrsbetriebe Glattal AG,Bus Glattal,2399,"1",Bus - Überland/Berg,20,Montag
+171,BLT, BLT Baselland Transport AG,Bus Baselland,2376,"1",Bus - Überland/Berg,17,Freitag
+172,BSU, Busbetrieb Solothurn und Umgebung AG,Bus Solothurn,2369,"2",Bus - Agglomeration,10,Samstag
+173,AB, Appenzeller Bahnen AG,Appenzeller Bahnen,2353,"3",Bahn - Überland/Berg,7,Sonntag
+174,BLT, BLT Baselland Transport AG,Bus Baselland,2352,"1",Bus - Überland/Berg,17,Montag
+175,VB, Verkehrsbetriebe Biel,Bus Biel,2319,"1",Bus - Überland/Berg,11,Samstag
+176,VBG, VBG Verkehrsbetriebe Glattal AG,Bus Glattal,2298,"1",Bus - Überland/Berg,20,Mittwoch
+177,MBC, Transports de la région Morges-Bière-Cossonay SA,Bahn MBC,2276,"3",Bahn - Überland/Berg,8,Sonntag
+178,TPL, TRASPORTI PUBBLICI LUGANESI SA (TPL),Lugano Bus,2186,"1",Bus - Überland/Berg,9,Dienstag
+179,VBSG, Stadt St. Gallen,Bus St.Gallen,2155,"2",Bus - Agglomeration,15,Montag
+180,ARL, Società Autolinee Regionali Luganesi,Bus Luganesi,2131,"1",Bus - Überland/Berg,3,Sonntag
+181,AAGR, Auto AG Rothenburg,Bus Rothenburg,2126,"2",Bus - Agglomeration,4,Mittwoch
+182,BSU, Busbetrieb Solothurn und Umgebung AG,Bus Solothurn,2126,"2",Bus - Agglomeration,13,Dienstag
+183,AAGR, Auto AG Rothenburg,Bus Rothenburg,2112,"2",Bus - Agglomeration,4,Dienstag
+184,BLS, BLS AG,Bern-Lötschberg-Simplon-Bahn,2074,"4",Bahn - Überland/Regionalverkehr,29,Samstag
+185,TPL, TRASPORTI PUBBLICI LUGANESI SA (TPL),Lugano Bus,2070,"1",Bus - Überland/Berg,9,Freitag
+186,TPN, TPN Transports publics de la Région Nyonnaise SA,Bus Nyon,2061,"1",Bus - Überland/Berg,4,Freitag
+187,TPF, Transports publics fribourgeois SA,Bus Fribourg,2053,"1",Bus - Überland/Berg,58,Mittwoch
+188,AVJ, Société anonyme des auto-transports de la Vallée d,Bus AVJ,2044,"1",Bus - Überland/Berg,1,Dienstag
+189,TPN, TPN Transports publics de la Région Nyonnaise SA,Bus Nyon,2031,"1",Bus - Überland/Berg,4,Montag
+190,BLS, BLS AG,Bern-Lötschberg-Simplon-Bahn,2030,"4",Bahn - Überland/Regionalverkehr,26,Sonntag
+191,BuS, Bus und Service AG,BuS AG,2020,"1",Bus - Überland/Berg,4,Donnerstag
+192,AAGS, Auto AG Schwyz,Bus Schwyz,2008,"1",Bus - Überland/Berg,11,Dienstag
+193,AVJ, Société anonyme des auto-transports de la Vallée d,Bus AVJ,2003,"1",Bus - Überland/Berg,1,Donnerstag
+194,AVJ, Société anonyme des auto-transports de la Vallée d,Bus AVJ,1993,"1",Bus - Überland/Berg,1,Freitag
+195,TPN, TPN Transports publics de la Région Nyonnaise SA,Bus Nyon,1988,"1",Bus - Überland/Berg,4,Dienstag
+196,BSU, Busbetrieb Solothurn und Umgebung AG,Bus Solothurn,1981,"2",Bus - Agglomeration,13,Freitag
+197,BuS, Bus und Service AG,BuS AG,1978,"1",Bus - Überland/Berg,4,Dienstag
+198,AVJ, Société anonyme des auto-transports de la Vallée d,Bus AVJ,1972,"1",Bus - Überland/Berg,1,Montag
+199,STI, STI Bus AG,Verkehrsbetriebe Steffisburg-Thun-Interlaken,1967,"1",Bus - Überland/Berg,24,Donnerstag
+200,AVJ, Société anonyme des auto-transports de la Vallée d,Bus AVJ,1962,"1",Bus - Überland/Berg,1,Mittwoch
+201,VBG, VBG Verkehrsbetriebe Glattal AG,Bus Glattal,1958,"1",Bus - Überland/Berg,16,Samstag
+202,REGO, Regiobus (St. Gallen),Regiobus St. Gallen,1952,"1",Bus - Überland/Berg,8,Dienstag
+203,AMSA, Autolinea Mendrisiense SA,Bus Mendrisiense,1921,"1",Bus - Überland/Berg,7,Montag
+204,STI, STI Bus AG,Verkehrsbetriebe Steffisburg-Thun-Interlaken,1920,"1",Bus - Überland/Berg,24,Sonntag
+205,VBSG, Stadt St. Gallen,Bus St.Gallen,1914,"2",Bus - Agglomeration,15,Mittwoch
+206,TPC, Transports Publics du Chablais SA,Bus Chablais ,1905,"1",Bus - Überland/Berg,10,Dienstag
+207,ZVB, Zugerland Verkehrsbetriebe AG,Bus Zug,1903,"1",Bus - Überland/Berg,17,Sonntag
+208,AVA, Aargau Verkehr AG,Bus Aargau,1893,"1",Bus - Überland/Berg,12,Dienstag
+209,VZO, Verkehrsbetriebe Zürichsee und Oberland (VZO) AG,Bus Zürichsee,1889,"2",Bus - Agglomeration,20,Samstag
+210,RA, REGIONALPS SA ,Regionalps,1880,"4",Bahn - Überland/Regionalverkehr,4,Dienstag
+211,BLS, BLS AG,Bern-Lötschberg-Simplon-Bahn,1865,"4",Bahn - Überland/Regionalverkehr,31,Donnerstag
+212,AVA, Aargau Verkehr AG,Bus Aargau,1863,"1",Bus - Überland/Berg,12,Montag
+213,VBSG, Stadt St. Gallen,Bus St.Gallen,1833,"2",Bus - Agglomeration,15,Freitag
+214,VB, Verkehrsbetriebe Biel,Bus Biel,1827,"1",Bus - Überland/Berg,11,Donnerstag
+215,REGO, Regiobus (St. Gallen),Regiobus St. Gallen,1820,"1",Bus - Überland/Berg,8,Donnerstag
+216,AAGR, Auto AG Rothenburg,Bus Rothenburg,1801,"2",Bus - Agglomeration,4,Donnerstag
+217,ARL, Società Autolinee Regionali Luganesi,Bus Luganesi,1794,"1",Bus - Überland/Berg,2,Samstag
+218,ZVB, Zugerland Verkehrsbetriebe AG,Bus Zug,1791,"1",Bus - Überland/Berg,22,Montag
+219,AVA, Aargau Verkehr AG,Bus Aargau,1775,"1",Bus - Überland/Berg,12,Donnerstag
+220,VBL, Verkehrsbetriebe Luzern AG,Bus Luzern,1774,"2",Bus - Agglomeration,2,Donnerstag
+221,TPF, Transports publics fribourgeois SA,Bus Fribourg,1743,"1",Bus - Überland/Berg,46,Samstag
+222,AMSA, Autolinea Mendrisiense SA,Bus Mendrisiense,1741,"1",Bus - Überland/Berg,7,Dienstag
+223,NStCM, Compagnie du chemin de fer Nyon-St-Cergue-Morez SA,Bahn Waadt,1741,"3",Bahn - Überland/Berg,1,Montag
+224,REGO, Regiobus (St. Gallen),Regiobus St. Gallen,1738,"1",Bus - Überland/Berg,8,Mittwoch
+225,AAGS, Auto AG Schwyz,Bus Schwyz,1709,"1",Bus - Überland/Berg,11,Donnerstag
+226,BuS, Bus und Service AG,BuS AG,1700,"1",Bus - Überland/Berg,4,Mittwoch
+227,NStCM, Compagnie du chemin de fer Nyon-St-Cergue-Morez SA,Bahn Waadt,1695,"3",Bahn - Überland/Berg,1,Dienstag
+228,TPC, Transports Publics du Chablais SA,Bus Chablais ,1690,"1",Bus - Überland/Berg,10,Donnerstag
+229,BVB, Basler Verkehrs-Betriebe,Basler Verkehrs,1682,"2",Bus - Agglomeration,3,Dienstag
+230,STI, STI Bus AG,Verkehrsbetriebe Steffisburg-Thun-Interlaken,1682,"1",Bus - Überland/Berg,24,Freitag
+231,BuS, Bus und Service AG,BuS AG,1666,"1",Bus - Überland/Berg,4,Montag
+232,VBL, Verkehrsbetriebe Luzern AG,Bus Luzern,1664,"2",Bus - Agglomeration,2,Dienstag
+233,SZU, Sihltal Zürich Uetliberg Bahn SZU AG,Bahn Sihltal,1663,"1",Bus - Überland/Berg,8,Sonntag
+234,BuS, Bus und Service AG,BuS AG,1646,"1",Bus - Überland/Berg,4,Freitag
+235,AAGR, Auto AG Rothenburg,Bus Rothenburg,1643,"2",Bus - Agglomeration,4,Samstag
+236,RA, REGIONALPS SA ,Regionalps,1640,"4",Bahn - Überland/Regionalverkehr,4,Donnerstag
+237,TPN, TPN Transports publics de la Région Nyonnaise SA,Bus Nyon,1633,"1",Bus - Überland/Berg,4,Samstag
+238,ABG, Alsa Bustours Gex S.A.S,Bustour Genf,1632,"1",Bus - Überland/Berg,1,Samstag
+239,AMSA, Autolinea Mendrisiense SA,Bus Mendrisiense,1631,"1",Bus - Überland/Berg,7,Donnerstag
+240,NStCM, Compagnie du chemin de fer Nyon-St-Cergue-Morez SA,Bahn Waadt,1610,"3",Bahn - Überland/Berg,1,Donnerstag
+241,AAGR, Auto AG Rothenburg,Bus Rothenburg,1597,"2",Bus - Agglomeration,4,Montag
+242,SZU, Sihltal Zürich Uetliberg Bahn SZU AG,Bahn Sihltal,1593,"1",Bus - Überland/Berg,8,Samstag
+243,TPF, Transports publics fribourgeois SA,Bus Fribourg,1588,"1",Bus - Überland/Berg,58,Donnerstag
+244,RA, REGIONALPS SA ,Regionalps,1585,"4",Bahn - Überland/Regionalverkehr,4,Freitag
+245,AAGS, Auto AG Schwyz,Bus Schwyz,1573,"1",Bus - Überland/Berg,9,Sonntag
+246,REGO, Regiobus (St. Gallen),Regiobus St. Gallen,1573,"1",Bus - Überland/Berg,8,Montag
+247,asm, Aare Seeland mobil AG,Bus Aare Seeland,1569,"1",Bus - Überland/Berg,15,Dienstag
+248,NStCM, Compagnie du chemin de fer Nyon-St-Cergue-Morez SA,Bahn Waadt,1563,"3",Bahn - Überland/Berg,1,Freitag
+249,BLS, BLS AG,Bern-Lötschberg-Simplon-Bahn,1562,"4",Bahn - Überland/Regionalverkehr,31,Dienstag
+250,RA, REGIONALPS SA ,Regionalps,1557,"4",Bahn - Überland/Regionalverkehr,4,Montag
+251,AAGR, Auto AG Rothenburg,Bus Rothenburg,1552,"2",Bus - Agglomeration,4,Freitag
+252,AVA, Aargau Verkehr AG,Bus Aargau,1551,"1",Bus - Überland/Berg,12,Freitag
+253,TPC, Transports Publics du Chablais SA,Bus Chablais ,1546,"1",Bus - Überland/Berg,10,Freitag
+254,AMSA, Autolinea Mendrisiense SA,Bus Mendrisiense,1542,"1",Bus - Überland/Berg,7,Freitag
+255,TPC, Transports Publics du Chablais SA,Bus Chablais ,1535,"1",Bus - Überland/Berg,10,Mittwoch
+256,BVB, Basler Verkehrs-Betriebe,Basler Verkehrs,1527,"2",Bus - Agglomeration,3,Samstag
+257,RA, REGIONALPS SA ,Regionalps,1508,"4",Bahn - Überland/Regionalverkehr,4,Mittwoch
+258,BSU, Busbetrieb Solothurn und Umgebung AG,Bus Solothurn,1493,"2",Bus - Agglomeration,13,Donnerstag
+259,BSU, Busbetrieb Solothurn und Umgebung AG,Bus Solothurn,1487,"2",Bus - Agglomeration,9,Sonntag
+260,ZVB, Zugerland Verkehrsbetriebe AG,Bus Zug,1487,"1",Bus - Überland/Berg,21,Samstag
+261,asm, Aare Seeland mobil AG,Bus Aare Seeland,1463,"1",Bus - Überland/Berg,15,Donnerstag
+262,VBSG, Stadt St. Gallen,Bus St.Gallen,1461,"2",Bus - Agglomeration,12,Sonntag
+263,BLAG, Busland AG,Busland,1451,"1",Bus - Überland/Berg,14,Sonntag
+264,ARL, Società Autolinee Regionali Luganesi,Bus Luganesi,1438,"1",Bus - Überland/Berg,4,Dienstag
+265,BGU, BGU Busbetrieb Grenchen und Umgebung AG,Bus Grenchen,1432,"2",Bus - Agglomeration,12,Montag
+266,BLS, BLS AG,Bern-Lötschberg-Simplon-Bahn,1415,"4",Bahn - Überland/Regionalverkehr,31,Freitag
+267,TPC, Transports Publics du Chablais SA,Bus Chablais ,1413,"1",Bus - Überland/Berg,10,Montag
+268,AMSA, Autolinea Mendrisiense SA,Bus Mendrisiense,1406,"1",Bus - Überland/Berg,6,Sonntag
+269,ZVB, Zugerland Verkehrsbetriebe AG,Bus Zug,1403,"1",Bus - Überland/Berg,22,Freitag
+270,AVA, Aargau Verkehr AG,Bus Aargau,1368,"1",Bus - Überland/Berg,11,Mittwoch
+271,NStCM, Compagnie du chemin de fer Nyon-St-Cergue-Morez SA,Bahn Waadt,1355,"3",Bahn - Überland/Berg,1,Mittwoch
+272,ARL, Società Autolinee Regionali Luganesi,Bus Luganesi,1350,"1",Bus - Überland/Berg,3,Montag
+273,TPC, Transports Publics du Chablais SA,Bus Chablais ,1338,"1",Bus - Überland/Berg,10,Samstag
+274,TPN, TPN Transports publics de la Région Nyonnaise SA,Bus Nyon,1332,"1",Bus - Überland/Berg,4,Sonntag
+275,AAGS, Auto AG Schwyz,Bus Schwyz,1324,"1",Bus - Überland/Berg,11,Montag
+276,ARL, Società Autolinee Regionali Luganesi,Bus Luganesi,1318,"1",Bus - Überland/Berg,4,Donnerstag
+277,TPC, Transports Publics du Chablais SA,Bus Chablais ,1314,"1",Bus - Überland/Berg,10,Sonntag
+278,THURBO, Thurbo AG,Thurbo,1312,"4",Bahn - Überland/Regionalverkehr,22,Donnerstag
+279,BLS, BLS AG,Bern-Lötschberg-Simplon-Bahn,1302,"4",Bahn - Überland/Regionalverkehr,29,Mittwoch
+280,VBL, Verkehrsbetriebe Luzern AG,Bus Luzern,1290,"2",Bus - Agglomeration,2,Mittwoch
+281,BVB, Basler Verkehrs-Betriebe,Basler Verkehrs,1286,"2",Bus - Agglomeration,3,Sonntag
+282,ARL, Società Autolinee Regionali Luganesi,Bus Luganesi,1278,"1",Bus - Überland/Berg,3,Freitag
+283,REGO, Regiobus (St. Gallen),Regiobus St. Gallen,1267,"1",Bus - Überland/Berg,8,Freitag
+284,LEB, Compagnie du chemin de fer Lausanne-Echallens-Berc,Bahn Lausanne,1263,"3",Bahn - Überland/Berg,1,Samstag
+285,TPN, TPN Transports publics de la Région Nyonnaise SA,Bus Nyon,1253,"1",Bus - Überland/Berg,4,Mittwoch
+286,AAGS, Auto AG Schwyz,Bus Schwyz,1252,"1",Bus - Überland/Berg,11,Freitag
+287,FLP, Ferrovie Luganesi SA,Bahn Lugano,1243,"4",Bahn - Überland/Regionalverkehr,1,Dienstag
+288,AAGS, Auto AG Schwyz,Bus Schwyz,1241,"1",Bus - Überland/Berg,11,Mittwoch
+289,BGU, BGU Busbetrieb Grenchen und Umgebung AG,Bus Grenchen,1224,"2",Bus - Agglomeration,12,Dienstag
+290,ARL, Società Autolinee Regionali Luganesi,Bus Luganesi,1222,"1",Bus - Überland/Berg,2,Mittwoch
+291,BVB, Basler Verkehrs-Betriebe,Basler Verkehrs,1222,"2",Bus - Agglomeration,3,Donnerstag
+292,FLP, Ferrovie Luganesi SA,Bahn Lugano,1213,"4",Bahn - Überland/Regionalverkehr,1,Donnerstag
+293,FLP, Ferrovie Luganesi SA,Bahn Lugano,1203,"4",Bahn - Überland/Regionalverkehr,1,Montag
+294,BGU, BGU Busbetrieb Grenchen und Umgebung AG,Bus Grenchen,1194,"2",Bus - Agglomeration,12,Freitag
+295,BVB, Basler Verkehrs-Betriebe,Basler Verkehrs,1188,"2",Bus - Agglomeration,3,Mittwoch
+296,STI, STI Bus AG,Verkehrsbetriebe Steffisburg-Thun-Interlaken,1172,"1",Bus - Überland/Berg,24,Samstag
+297,TPL, TRASPORTI PUBBLICI LUGANESI SA (TPL),Lugano Bus,1172,"1",Bus - Überland/Berg,9,Donnerstag
+298,AMSA, Autolinea Mendrisiense SA,Bus Mendrisiense,1165,"1",Bus - Überland/Berg,6,Samstag
+299,LEB, Compagnie du chemin de fer Lausanne-Echallens-Berc,Bahn Lausanne,1157,"3",Bahn - Überland/Berg,1,Donnerstag
+300,FLP, Ferrovie Luganesi SA,Bahn Lugano,1155,"4",Bahn - Überland/Regionalverkehr,1,Freitag
+301,REGO, Regiobus (St. Gallen),Regiobus St. Gallen,1135,"1",Bus - Überland/Berg,8,Samstag
+302,AVA, Aargau Verkehr AG,Bus Aargau,1127,"1",Bus - Überland/Berg,11,Samstag
+303,ABG, Alsa Bustours Gex S.A.S,Bustour Genf,1122,"1",Bus - Überland/Berg,1,Sonntag
+304,AMSA, Autolinea Mendrisiense SA,Bus Mendrisiense,1118,"1",Bus - Überland/Berg,7,Mittwoch
+305,BuS, Bus und Service AG,BuS AG,1116,"1",Bus - Überland/Berg,4,Samstag
+306,BGU, BGU Busbetrieb Grenchen und Umgebung AG,Bus Grenchen,1090,"2",Bus - Agglomeration,11,Samstag
+307,AAGS, Auto AG Schwyz,Bus Schwyz,1078,"1",Bus - Überland/Berg,10,Samstag
+308,VBL, Verkehrsbetriebe Luzern AG,Bus Luzern,1073,"2",Bus - Agglomeration,2,Montag
+309,BLS, BLS AG,Bern-Lötschberg-Simplon-Bahn,1057,"4",Bahn - Überland/Regionalverkehr,29,Montag
+310,NStCM, Compagnie du chemin de fer Nyon-St-Cergue-Morez SA,Bahn Waadt,1038,"3",Bahn - Überland/Berg,1,Samstag
+311,BVB, Basler Verkehrs-Betriebe,Basler Verkehrs,1017,"2",Bus - Agglomeration,3,Freitag
+312,asm, Aare Seeland mobil AG,Bus Aare Seeland,1013,"1",Bus - Überland/Berg,15,Mittwoch
+313,ARAG, Rottal Auto AG,Bus Rottal,1006,"1",Bus - Überland/Berg,8,Dienstag
+314,ARAG, Rottal Auto AG,Bus Rottal,1006,"1",Bus - Überland/Berg,8,Donnerstag
+315,REGO, Regiobus (St. Gallen),Regiobus St. Gallen,998,"1",Bus - Überland/Berg,7,Sonntag
+316,FART, Società per le Ferrovie Autolinee Regionali Ticine,Bus Tessin,997,"1",Bus - Überland/Berg,8,Sonntag
+317,LEB, Compagnie du chemin de fer Lausanne-Echallens-Berc,Bahn Lausanne,990,"3",Bahn - Überland/Berg,1,Dienstag
+318,THURBO, Thurbo AG,Thurbo,974,"4",Bahn - Überland/Regionalverkehr,23,Dienstag
+319,BSU, Busbetrieb Solothurn und Umgebung AG,Bus Solothurn,947,"2",Bus - Agglomeration,13,Mittwoch
+320,AVJ, Société anonyme des auto-transports de la Vallée d,Bus AVJ,942,"1",Bus - Überland/Berg,1,Sonntag
+321,RA, REGIONALPS SA ,Regionalps,936,"4",Bahn - Überland/Regionalverkehr,4,Samstag
+322,BVB, Basler Verkehrs-Betriebe,Basler Verkehrs,929,"2",Bus - Agglomeration,3,Montag
+323,AOT, Autokurse Oberthurgau AG (AOT),Bus Oberthurgau,918,"1",Bus - Überland/Berg,5,Donnerstag
+324,BGU, BGU Busbetrieb Grenchen und Umgebung AG,Bus Grenchen,916,"2",Bus - Agglomeration,12,Donnerstag
+325,NStCM, Compagnie du chemin de fer Nyon-St-Cergue-Morez SA,Bahn Waadt,913,"3",Bahn - Überland/Berg,1,Sonntag
+326,AAGL, Autobus AG Liestal Öffentlicher Verkehr,Bus Liestal,912,"1",Bus - Überland/Berg,6,Dienstag
+327,AVA, Aargau Verkehr AG,Bus Aargau,910,"1",Bus - Überland/Berg,10,Sonntag
+328,THURBO, Thurbo AG,Thurbo,909,"4",Bahn - Überland/Regionalverkehr,20,Sonntag
+329,FLP, Ferrovie Luganesi SA,Bahn Lugano,906,"4",Bahn - Überland/Regionalverkehr,1,Sonntag
+330,AVJ, Société anonyme des auto-transports de la Vallée d,Bus AVJ,899,"1",Bus - Überland/Berg,1,Samstag
+331,VBL, Verkehrsbetriebe Luzern AG,Bus Luzern,887,"2",Bus - Agglomeration,2,Samstag
+332,LEB, Compagnie du chemin de fer Lausanne-Echallens-Berc,Bahn Lausanne,881,"3",Bahn - Überland/Berg,1,Freitag
+333,ARAG, Rottal Auto AG,Bus Rottal,866,"1",Bus - Überland/Berg,8,Montag
+334,VBL, Verkehrsbetriebe Luzern AG,Bus Luzern,864,"2",Bus - Agglomeration,2,Freitag
+335,ARAG, Rottal Auto AG,Bus Rottal,850,"1",Bus - Überland/Berg,8,Mittwoch
+336,FLP, Ferrovie Luganesi SA,Bahn Lugano,849,"4",Bahn - Überland/Regionalverkehr,1,Mittwoch
+337,RA, REGIONALPS SA ,Regionalps,839,"4",Bahn - Überland/Regionalverkehr,4,Sonntag
+338,ASGS," René Ballestraz et fils, transports SA",Bus René Ballestraz,823,"1",Bus - Überland/Berg,1,Dienstag
+339,AAGR, Auto AG Rothenburg,Bus Rothenburg,809,"2",Bus - Agglomeration,3,Sonntag
+340,LEB, Compagnie du chemin de fer Lausanne-Echallens-Berc,Bahn Lausanne,807,"3",Bahn - Überland/Berg,1,Montag
+341,MGB, Matterhorn Gotthard Verkehrs AG,Bahn Matterhorn,801,"3",Bahn - Überland/Berg,3,Dienstag
+342,FLP, Ferrovie Luganesi SA,Bahn Lugano,795,"4",Bahn - Überland/Regionalverkehr,1,Samstag
+343,ASGS," René Ballestraz et fils, transports SA",Bus René Ballestraz,775,"1",Bus - Überland/Berg,1,Donnerstag
+344,AAGU, AUTO AG URI,Bus Uri,756,"1",Bus - Überland/Berg,9,Donnerstag
+345,AAGU, AUTO AG URI,Bus Uri,751,"1",Bus - Überland/Berg,9,Montag
+346,LEB, Compagnie du chemin de fer Lausanne-Echallens-Berc,Bahn Lausanne,751,"3",Bahn - Überland/Berg,1,Mittwoch
+347,VBL, Verkehrsbetriebe Luzern AG,Bus Luzern,750,"2",Bus - Agglomeration,2,Sonntag
+348,ASGS," René Ballestraz et fils, transports SA",Bus René Ballestraz,747,"1",Bus - Überland/Berg,1,Freitag
+349,VBSG, Stadt St. Gallen,Bus St.Gallen,734,"2",Bus - Agglomeration,14,Samstag
+350,TPF, Transports publics fribourgeois SA,Bus Fribourg,728,"1",Bus - Überland/Berg,20,Freitag
+351,ASGS," René Ballestraz et fils, transports SA",Bus René Ballestraz,722,"1",Bus - Überland/Berg,1,Mittwoch
+352,SBW, Stadt Winterthur,Bus Winterthur,717,"1",Bus - Überland/Berg,4,Freitag
+353,AAGU, AUTO AG URI,Bus Uri,713,"1",Bus - Überland/Berg,9,Dienstag
+354,BGU, BGU Busbetrieb Grenchen und Umgebung AG,Bus Grenchen,701,"2",Bus - Agglomeration,9,Sonntag
+355,THURBO, Thurbo AG,Thurbo,691,"4",Bahn - Überland/Regionalverkehr,18,Samstag
+356,MGB, Matterhorn Gotthard Verkehrs AG,Bahn Matterhorn,683,"3",Bahn - Überland/Berg,3,Samstag
+357,ARAG, Rottal Auto AG,Bus Rottal,678,"1",Bus - Überland/Berg,8,Freitag
+358,BuS, Bus und Service AG,BuS AG,676,"1",Bus - Überland/Berg,4,Sonntag
+359,SBW, Stadt Winterthur,Bus Winterthur,671,"1",Bus - Überland/Berg,4,Dienstag
+360,SBG, SBG SüdbadenBus GmbH,Bus Südbaden,670,"1",Bus - Überland/Berg,1,Montag
+361,MGB, Matterhorn Gotthard Verkehrs AG,Bahn Matterhorn,668,"3",Bahn - Überland/Berg,3,Donnerstag
+362,SBG, SBG SüdbadenBus GmbH,Bus Südbaden,666,"1",Bus - Überland/Berg,1,Freitag
+363,asm, Aare Seeland mobil AG,Bus Aare Seeland,666,"1",Bus - Überland/Berg,15,Montag
+364,SBG, SBG SüdbadenBus GmbH,Bus Südbaden,665,"1",Bus - Überland/Berg,1,Mittwoch
+365,ASGS," René Ballestraz et fils, transports SA",Bus René Ballestraz,651,"1",Bus - Überland/Berg,1,Montag
+366,SBW, Stadt Winterthur,Bus Winterthur,646,"1",Bus - Überland/Berg,4,Donnerstag
+367,MGB, Matterhorn Gotthard Verkehrs AG,Bahn Matterhorn,642,"3",Bahn - Überland/Berg,3,Freitag
+368,MGB, Matterhorn Gotthard Verkehrs AG,Bahn Matterhorn,640,"3",Bahn - Überland/Berg,3,Montag
+369,LEB, Compagnie du chemin de fer Lausanne-Echallens-Berc,Bahn Lausanne,636,"3",Bahn - Überland/Berg,1,Sonntag
+370,SBG, SBG SüdbadenBus GmbH,Bus Südbaden,631,"1",Bus - Überland/Berg,1,Donnerstag
+371,AS, Autobetrieb Sernftal AG,Bus Sernftal,627,"1",Bus - Überland/Berg,3,Freitag
+372,BGU, BGU Busbetrieb Grenchen und Umgebung AG,Bus Grenchen,621,"2",Bus - Agglomeration,12,Mittwoch
+373,TPL, TRASPORTI PUBBLICI LUGANESI SA (TPL),Lugano Bus,621,"1",Bus - Überland/Berg,3,Mittwoch
+374,asm, Aare Seeland mobil AG,Bus Aare Seeland,611,"1",Bus - Überland/Berg,13,Sonntag
+375,THURBO, Thurbo AG,Thurbo,609,"4",Bahn - Überland/Regionalverkehr,22,Montag
+376,SBG, SBG SüdbadenBus GmbH,Bus Südbaden,606,"1",Bus - Überland/Berg,1,Sonntag
+377,AS, Autobetrieb Sernftal AG,Bus Sernftal,601,"1",Bus - Überland/Berg,3,Dienstag
+378,AS, Autobetrieb Sernftal AG,Bus Sernftal,591,"1",Bus - Überland/Berg,3,Donnerstag
+379,SBG, SBG SüdbadenBus GmbH,Bus Südbaden,591,"1",Bus - Überland/Berg,1,Dienstag
+380,MGB, Matterhorn Gotthard Verkehrs AG,Bahn Matterhorn,589,"3",Bahn - Überland/Berg,3,Mittwoch
+381,MGB, Matterhorn Gotthard Verkehrs AG,Bahn Matterhorn,586,"3",Bahn - Überland/Berg,3,Sonntag
+382,AAGU, AUTO AG URI,Bus Uri,570,"1",Bus - Überland/Berg,9,Mittwoch
+383,SBG, SBG SüdbadenBus GmbH,Bus Südbaden,569,"1",Bus - Überland/Berg,1,Samstag
+384,THURBO, Thurbo AG,Thurbo,564,"4",Bahn - Überland/Regionalverkehr,20,Mittwoch
+385,SBW, Stadt Winterthur,Bus Winterthur,561,"1",Bus - Überland/Berg,2,Sonntag
+386,FART, Società per le Ferrovie Autolinee Regionali Ticine,Bus Tessin,558,"1",Bus - Überland/Berg,8,Dienstag
+387,asm, Aare Seeland mobil AG,Bus Aare Seeland,555,"1",Bus - Überland/Berg,13,Freitag
+388,AOT, Autokurse Oberthurgau AG (AOT),Bus Oberthurgau,539,"1",Bus - Überland/Berg,5,Dienstag
+389,FART, Società per le Ferrovie Autolinee Regionali Ticine,Bus Tessin,529,"1",Bus - Überland/Berg,8,Donnerstag
+390,AAGU, AUTO AG URI,Bus Uri,525,"1",Bus - Überland/Berg,5,Samstag
+391,SBW, Stadt Winterthur,Bus Winterthur,525,"1",Bus - Überland/Berg,4,Montag
+392,SBW, Stadt Winterthur,Bus Winterthur,523,"1",Bus - Überland/Berg,4,Mittwoch
+393,SMC, Compagnie de Chemin de Fer et d'Autobus Sierre-Mon,Bahn Montana,518,"3",Bahn - Überland/Berg,2,Donnerstag
+394,asm, Aare Seeland mobil AG,Bus Aare Seeland,518,"1",Bus - Überland/Berg,12,Samstag
+395,LLB, Société anonyme des transports publics de Loèche-l,Bus Leuk,509,"1",Bus - Überland/Berg,8,Dienstag
+396,AOT, Autokurse Oberthurgau AG (AOT),Bus Oberthurgau,500,"1",Bus - Überland/Berg,5,Mittwoch
+397,THURBO, Thurbo AG,Thurbo,494,"4",Bahn - Überland/Regionalverkehr,22,Freitag
+398,GWB, Grindelwald Bus AG,Grindelwald Bus,486,"1",Bus - Überland/Berg,3,Montag
+399,SMC, Compagnie de Chemin de Fer et d'Autobus Sierre-Mon,Bahn Montana,467,"3",Bahn - Überland/Berg,2,Mittwoch
+400,SMC, Compagnie de Chemin de Fer et d'Autobus Sierre-Mon,Bahn Montana,455,"3",Bahn - Überland/Berg,2,Freitag
+401,SMC, Compagnie de Chemin de Fer et d'Autobus Sierre-Mon,Bahn Montana,452,"3",Bahn - Überland/Berg,2,Dienstag
+402,GWB, Grindelwald Bus AG,Grindelwald Bus,442,"1",Bus - Überland/Berg,3,Mittwoch
+403,RBL, Regionalbus Lenzburg AG,Bus Lenzburg,442,"1",Bus - Überland/Berg,7,Montag
+404,GWB, Grindelwald Bus AG,Grindelwald Bus,439,"1",Bus - Überland/Berg,3,Dienstag
+405,SNL, SOCIETA' NAVIGAZIONE DEL LAGO DI LUGANO SA,Bus Lugano,437,"4",Bus - Überland/Berg,2,Sonntag
+406,AAGL, Autobus AG Liestal Öffentlicher Verkehr,Bus Liestal,429,"1",Bus - Überland/Berg,6,Mittwoch
+407,AAGU, AUTO AG URI,Bus Uri,420,"1",Bus - Überland/Berg,6,Sonntag
+408,AOT, Autokurse Oberthurgau AG (AOT),Bus Oberthurgau,418,"1",Bus - Überland/Berg,5,Freitag
+409,AAGU, AUTO AG URI,Bus Uri,415,"1",Bus - Überland/Berg,9,Freitag
+410,BBA, Busbetrieb Aarau AG (BBA),Bus Aarau,411,"2",Bus - Agglomeration,3,Dienstag
+411,AS, Autobetrieb Sernftal AG,Bus Sernftal,410,"1",Bus - Überland/Berg,3,Sonntag
+412,SMC, Compagnie de Chemin de Fer et d'Autobus Sierre-Mon,Bahn Montana,398,"3",Bahn - Überland/Berg,2,Samstag
+413,AOT, Autokurse Oberthurgau AG (AOT),Bus Oberthurgau,396,"1",Bus - Überland/Berg,5,Montag
+414,ARAG, Rottal Auto AG,Bus Rottal,395,"1",Bus - Überland/Berg,6,Samstag
+415,ASGS," René Ballestraz et fils, transports SA",Bus René Ballestraz,395,"1",Bus - Überland/Berg,1,Sonntag
+416,ARAG, Rottal Auto AG,Bus Rottal,394,"1",Bus - Überland/Berg,6,Sonntag
+417,ASGS," René Ballestraz et fils, transports SA",Bus René Ballestraz,384,"1",Bus - Überland/Berg,1,Samstag
+418,AS, Autobetrieb Sernftal AG,Bus Sernftal,380,"1",Bus - Überland/Berg,3,Montag
+419,RBL, Regionalbus Lenzburg AG,Bus Lenzburg,371,"1",Bus - Überland/Berg,6,Sonntag
+420,RVBW, Regionale Verkehrsbetriebe Baden-Wettingen (RVBW) ,Bus Baden,371,"2",Bus - Agglomeration,2,Dienstag
+421,AS, Autobetrieb Sernftal AG,Bus Sernftal,368,"1",Bus - Überland/Berg,3,Samstag
+422,TSD, Theytaz Excursions SA,Theytaz,355,"1",Bus - Überland/Berg,2,Dienstag
+423,SMC, Compagnie de Chemin de Fer et d'Autobus Sierre-Mon,Bahn Montana,345,"3",Bahn - Überland/Berg,2,Sonntag
+424,SBW, Stadt Winterthur,Bus Winterthur,340,"1",Bus - Überland/Berg,2,Samstag
+425,TSD, Theytaz Excursions SA,Theytaz,339,"1",Bus - Überland/Berg,2,Mittwoch
+426,SMC, Compagnie de Chemin de Fer et d'Autobus Sierre-Mon,Bahn Montana,336,"3",Bahn - Überland/Berg,2,Montag
+427,GWB, Grindelwald Bus AG,Grindelwald Bus,320,"1",Bus - Überland/Berg,3,Donnerstag
+428,TSD, Theytaz Excursions SA,Theytaz,319,"1",Bus - Überland/Berg,2,Donnerstag
+429,SOB, Schweizerische Südostbahn AG,Südostbahn,318,"4",Bahn - Überland/Regionalverkehr,5,Sonntag
+430,RBL, Regionalbus Lenzburg AG,Bus Lenzburg,317,"1",Bus - Überland/Berg,7,Donnerstag
+431,RBL, Regionalbus Lenzburg AG,Bus Lenzburg,316,"1",Bus - Überland/Berg,7,Dienstag
+432,zb, zb Zentralbahn AG,Zentralbahn,313,"3",Bahn - Überland/Berg,8,Dienstag
+433,AOT, Autokurse Oberthurgau AG (AOT),Bus Oberthurgau,312,"1",Bus - Überland/Berg,5,Sonntag
+434,SOB, Schweizerische Südostbahn AG,Südostbahn,312,"4",Bahn - Überland/Regionalverkehr,7,Donnerstag
+435,GWB, Grindelwald Bus AG,Grindelwald Bus,311,"1",Bus - Überland/Berg,3,Sonntag
+436,GWB, Grindelwald Bus AG,Grindelwald Bus,305,"1",Bus - Überland/Berg,3,Freitag
+437,WAB, Wengernalpbahn AG,Wengernalpbahn,305,"3",Bahn - Überland/Berg,1,Samstag
+438,TSD, Theytaz Excursions SA,Theytaz,303,"1",Bus - Überland/Berg,2,Montag
+439,GWB, Grindelwald Bus AG,Grindelwald Bus,302,"1",Bus - Überland/Berg,3,Samstag
+440,FART, Società per le Ferrovie Autolinee Regionali Ticine,Bus Tessin,298,"1",Bus - Überland/Berg,4,Mittwoch
+441,TSD, Theytaz Excursions SA,Theytaz,297,"1",Bus - Überland/Berg,2,Freitag
+442,SOB, Schweizerische Südostbahn AG,Südostbahn,296,"4",Bahn - Überland/Regionalverkehr,6,Samstag
+443,SOB, Schweizerische Südostbahn AG,Südostbahn,287,"4",Bahn - Überland/Regionalverkehr,7,Dienstag
+444,RBL, Regionalbus Lenzburg AG,Bus Lenzburg,285,"1",Bus - Überland/Berg,6,Samstag
+445,BOB, Berner Oberland-Bahnen AG,Berner Oberbland,282,"3",Bahn - Überland/Berg,2,Montag
+446,BRER, O. Schneider AG,Bus Schneider,282,"1",Bus - Überland/Berg,3,Donnerstag
+447,AS, Autobetrieb Sernftal AG,Bus Sernftal,278,"1",Bus - Überland/Berg,3,Mittwoch
+448,zb, zb Zentralbahn AG,Zentralbahn,273,"3",Bahn - Überland/Berg,8,Donnerstag
+449,RhB, Rhätische Bahn AG  (RhB),Rhätische Bahn,272,"4",Bahn - Überland/Regionalverkehr,12,Donnerstag
+450,TSD, Theytaz Excursions SA,Theytaz,272,"1",Bus - Überland/Berg,2,Sonntag
+451,LLB, Société anonyme des transports publics de Loèche-l,Bus Leuk,270,"1",Bus - Überland/Berg,8,Mittwoch
+452,ABl, Autolinee Bleniesi SA,Bus Bleniesi,248,"1",Bus - Überland/Berg,5,Sonntag
+453,LLB, Société anonyme des transports publics de Loèche-l,Bus Leuk,247,"1",Bus - Überland/Berg,8,Montag
+454,FART, Società per le Ferrovie Autolinee Regionali Ticine,Bus Tessin,242,"1",Bus - Überland/Berg,8,Montag
+455,BBA, Busbetrieb Aarau AG (BBA),Bus Aarau,240,"2",Bus - Agglomeration,3,Sonntag
+456,LLB, Société anonyme des transports publics de Loèche-l,Bus Leuk,231,"1",Bus - Überland/Berg,8,Donnerstag
+457,BBA, Busbetrieb Aarau AG (BBA),Bus Aarau,230,"2",Bus - Agglomeration,3,Donnerstag
+458,AFA, Automobilverkehr Frutigen-Adelboden AG,Bus Frutigen,228,"1",Bus - Überland/Berg,6,Dienstag
+459,RVBW, Regionale Verkehrsbetriebe Baden-Wettingen (RVBW) ,Bus Baden,228,"2",Bus - Agglomeration,2,Freitag
+460,RBL, Regionalbus Lenzburg AG,Bus Lenzburg,227,"1",Bus - Überland/Berg,7,Freitag
+461,SOB, Schweizerische Südostbahn AG,Südostbahn,221,"4",Bahn - Überland/Regionalverkehr,6,Montag
+462,TSD, Theytaz Excursions SA,Theytaz,218,"1",Bus - Überland/Berg,2,Samstag
+463,BRER, O. Schneider AG,Bus Schneider,213,"1",Bus - Überland/Berg,3,Dienstag
+464,RBL, Regionalbus Lenzburg AG,Bus Lenzburg,212,"1",Bus - Überland/Berg,7,Mittwoch
+465,LLB, Société anonyme des transports publics de Loèche-l,Bus Leuk,211,"1",Bus - Überland/Berg,8,Sonntag
+466,WAB, Wengernalpbahn AG,Wengernalpbahn,207,"3",Bahn - Überland/Berg,1,Freitag
+467,LLB, Société anonyme des transports publics de Loèche-l,Bus Leuk,206,"1",Bus - Überland/Berg,8,Freitag
+468,AOT, Autokurse Oberthurgau AG (AOT),Bus Oberthurgau,204,"1",Bus - Überland/Berg,5,Samstag
+469,AAGL, Autobus AG Liestal Öffentlicher Verkehr,Bus Liestal,198,"1",Bus - Überland/Berg,6,Donnerstag
+470,zb, zb Zentralbahn AG,Zentralbahn,198,"3",Bahn - Überland/Berg,6,Montag
+471,RhB, Rhätische Bahn AG  (RhB),Rhätische Bahn,196,"4",Bahn - Überland/Regionalverkehr,12,Dienstag
+472,FART, Società per le Ferrovie Autolinee Regionali Ticine,Bus Tessin,190,"1",Bus - Überland/Berg,5,Freitag
+473,zb, zb Zentralbahn AG,Zentralbahn,190,"3",Bahn - Überland/Berg,6,Samstag
+474,BBA, Busbetrieb Aarau AG (BBA),Bus Aarau,188,"2",Bus - Agglomeration,3,Freitag
+475,SOB, Schweizerische Südostbahn AG,Südostbahn,181,"4",Bahn - Überland/Regionalverkehr,7,Mittwoch
+476,RVBW, Regionale Verkehrsbetriebe Baden-Wettingen (RVBW) ,Bus Baden,180,"2",Bus - Agglomeration,2,Mittwoch
+477,RVBW, Regionale Verkehrsbetriebe Baden-Wettingen (RVBW) ,Bus Baden,178,"2",Bus - Agglomeration,2,Donnerstag
+478,BRER, O. Schneider AG,Bus Schneider,175,"1",Bus - Überland/Berg,3,Mittwoch
+479,BOB, Berner Oberland-Bahnen AG,Berner Oberbland,173,"3",Bahn - Überland/Berg,2,Samstag
+480,ABl, Autolinee Bleniesi SA,Bus Bleniesi,169,"1",Bus - Überland/Berg,5,Montag
+481,zb, zb Zentralbahn AG,Zentralbahn,169,"3",Bahn - Überland/Berg,5,Freitag
+482,SNL, SOCIETA' NAVIGAZIONE DEL LAGO DI LUGANO SA,Bus Lugano,167,"4",Bus - Überland/Berg,2,Donnerstag
+483,WAB, Wengernalpbahn AG,Wengernalpbahn,167,"3",Bahn - Überland/Berg,1,Montag
+484,ABl, Autolinee Bleniesi SA,Bus Bleniesi,159,"1",Bus - Überland/Berg,5,Dienstag
+485,BOB, Berner Oberland-Bahnen AG,Berner Oberbland,159,"3",Bahn - Überland/Berg,2,Sonntag
+486,zb, zb Zentralbahn AG,Zentralbahn,159,"3",Bahn - Überland/Berg,4,Mittwoch
+487,zb, zb Zentralbahn AG,Zentralbahn,158,"3",Bahn - Überland/Berg,5,Sonntag
+488,BBA, Busbetrieb Aarau AG (BBA),Bus Aarau,154,"2",Bus - Agglomeration,3,Montag
+489,BLWE, Genossenschaft Busbetrieb Lichtensteig-Wattwil-Ebn,Bus Wattwil,152,"1",Bus - Überland/Berg,1,Dienstag
+490,LLB, Société anonyme des transports publics de Loèche-l,Bus Leuk,152,"1",Bus - Überland/Berg,5,Samstag
+491,SOB, Schweizerische Südostbahn AG,Südostbahn,146,"4",Bahn - Überland/Regionalverkehr,7,Freitag
+492,AAGL, Autobus AG Liestal Öffentlicher Verkehr,Bus Liestal,142,"1",Bus - Überland/Berg,6,Sonntag
+493,SNL, SOCIETA' NAVIGAZIONE DEL LAGO DI LUGANO SA,Bus Lugano,142,"4",Bus - Überland/Berg,1,Samstag
+494,AAGL, Autobus AG Liestal Öffentlicher Verkehr,Bus Liestal,141,"1",Bus - Überland/Berg,6,Montag
+495,BWS, Busbetriebe Bamert GmbH,Bus Bamert,138,"1",Bus - Überland/Berg,1,Dienstag
+496,AAGL, Autobus AG Liestal Öffentlicher Verkehr,Bus Liestal,132,"1",Bus - Überland/Berg,6,Freitag
+497,AFA, Automobilverkehr Frutigen-Adelboden AG,Bus Frutigen,132,"1",Bus - Überland/Berg,6,Freitag
+498,BCS, Commune de Sion,Bus Sion,131,"1",Bus - Überland/Berg,4,Freitag
+499,BBA, Busbetrieb Aarau AG (BBA),Bus Aarau,124,"2",Bus - Agglomeration,3,Mittwoch
+500,FART, Società per le Ferrovie Autolinee Regionali Ticine,Bus Tessin,122,"1",Bus - Überland/Berg,2,Samstag
+501,AFA, Automobilverkehr Frutigen-Adelboden AG,Bus Frutigen,120,"1",Bus - Überland/Berg,6,Mittwoch
+502,ABl, Autolinee Bleniesi SA,Bus Bleniesi,117,"1",Bus - Überland/Berg,5,Samstag
+503,BCS, Commune de Sion,Bus Sion,117,"1",Bus - Überland/Berg,4,Donnerstag
+504,BCS, Commune de Sion,Bus Sion,116,"1",Bus - Überland/Berg,4,Samstag
+505,WAB, Wengernalpbahn AG,Wengernalpbahn,111,"3",Bahn - Überland/Berg,1,Sonntag
+506,RhB, Rhätische Bahn AG  (RhB),Rhätische Bahn,109,"4",Bahn - Überland/Regionalverkehr,9,Mittwoch
+507,BOB, Berner Oberland-Bahnen AG,Berner Oberbland,102,"3",Bahn - Überland/Berg,2,Dienstag
+508,AAGL, Autobus AG Liestal Öffentlicher Verkehr,Bus Liestal,100,"1",Bus - Überland/Berg,6,Samstag
+509,BCS, Commune de Sion,Bus Sion,96,"1",Bus - Überland/Berg,4,Mittwoch
+510,AWA, Ortsgemeinde Amden,Bus Amden,90,"1",Bus - Überland/Berg,1,Montag
+511,BBA, Busbetrieb Aarau AG (BBA),Bus Aarau,90,"2",Bus - Agglomeration,3,Samstag
+512,AWA, Ortsgemeinde Amden,Bus Amden,88,"1",Bus - Überland/Berg,1,Dienstag
+513,BOB, Berner Oberland-Bahnen AG,Berner Oberbland,86,"3",Bahn - Überland/Berg,2,Freitag
+514,BOB, Berner Oberland-Bahnen AG,Berner Oberbland,84,"3",Bahn - Überland/Berg,2,Donnerstag
+515,RVBW, Regionale Verkehrsbetriebe Baden-Wettingen (RVBW) ,Bus Baden,82,"2",Bus - Agglomeration,2,Montag
+516,BWS, Busbetriebe Bamert GmbH,Bus Bamert,81,"1",Bus - Überland/Berg,1,Samstag
+517,RVBW, Regionale Verkehrsbetriebe Baden-Wettingen (RVBW) ,Bus Baden,79,"2",Bus - Agglomeration,2,Sonntag
+518,SNL, SOCIETA' NAVIGAZIONE DEL LAGO DI LUGANO SA,Bus Lugano,79,"4",Bus - Überland/Berg,2,Freitag
+519,RhB, Rhätische Bahn AG  (RhB),Rhätische Bahn,78,"4",Bahn - Überland/Regionalverkehr,10,Montag
+520,BCS, Commune de Sion,Bus Sion,77,"1",Bus - Überland/Berg,4,Montag
+521,WAB, Wengernalpbahn AG,Wengernalpbahn,77,"3",Bahn - Überland/Berg,1,Dienstag
+522,SNL, SOCIETA' NAVIGAZIONE DEL LAGO DI LUGANO SA,Bus Lugano,70,"4",Bus - Überland/Berg,2,Montag
+523,BOB, Berner Oberland-Bahnen AG,Berner Oberbland,69,"3",Bahn - Überland/Berg,2,Mittwoch
+524,RhB, Rhätische Bahn AG  (RhB),Rhätische Bahn,67,"4",Bahn - Überland/Regionalverkehr,9,Freitag
+525,AFA, Automobilverkehr Frutigen-Adelboden AG,Bus Frutigen,66,"1",Bus - Überland/Berg,5,Sonntag
+526,AFA, Automobilverkehr Frutigen-Adelboden AG,Bus Frutigen,65,"1",Bus - Überland/Berg,6,Donnerstag
+527,AFA, Automobilverkehr Frutigen-Adelboden AG,Bus Frutigen,65,"1",Bus - Überland/Berg,6,Montag
+528,RhB, Rhätische Bahn AG  (RhB),Rhätische Bahn,64,"4",Bahn - Überland/Regionalverkehr,9,Sonntag
+529,BRER, O. Schneider AG,Bus Schneider,61,"1",Bus - Überland/Berg,2,Sonntag
+530,BLWE, Genossenschaft Busbetrieb Lichtensteig-Wattwil-Ebn,Bus Wattwil,60,"1",Bus - Überland/Berg,1,Mittwoch
+531,BRER, O. Schneider AG,Bus Schneider,60,"1",Bus - Überland/Berg,3,Montag
+532,SNL, SOCIETA' NAVIGAZIONE DEL LAGO DI LUGANO SA,Bus Lugano,60,"4",Bus - Überland/Berg,2,Dienstag
+533,ABl, Autolinee Bleniesi SA,Bus Bleniesi,53,"1",Bus - Überland/Berg,5,Donnerstag
+534,BCS, Commune de Sion,Bus Sion,52,"1",Bus - Überland/Berg,4,Dienstag
+535,BLWE, Genossenschaft Busbetrieb Lichtensteig-Wattwil-Ebn,Bus Wattwil,52,"1",Bus - Überland/Berg,1,Donnerstag
+536,RVBW, Regionale Verkehrsbetriebe Baden-Wettingen (RVBW) ,Bus Baden,52,"2",Bus - Agglomeration,2,Samstag
+537,SNL, SOCIETA' NAVIGAZIONE DEL LAGO DI LUGANO SA,Bus Lugano,52,"4",Bus - Überland/Berg,2,Mittwoch
+538,BWS, Busbetriebe Bamert GmbH,Bus Bamert,37,"1",Bus - Überland/Berg,1,Mittwoch
+539,BRER, O. Schneider AG,Bus Schneider,34,"1",Bus - Überland/Berg,3,Freitag
+540,RhB, Rhätische Bahn AG  (RhB),Rhätische Bahn,34,"4",Bahn - Überland/Regionalverkehr,11,Samstag
+541,BLWE, Genossenschaft Busbetrieb Lichtensteig-Wattwil-Ebn,Bus Wattwil,33,"1",Bus - Überland/Berg,1,Montag
+542,WAB, Wengernalpbahn AG,Wengernalpbahn,33,"3",Bahn - Überland/Berg,1,Donnerstag
+543,BWS, Busbetriebe Bamert GmbH,Bus Bamert,31,"1",Bus - Überland/Berg,1,Donnerstag
+544,AWA, Ortsgemeinde Amden,Bus Amden,30,"1",Bus - Überland/Berg,1,Donnerstag
+545,AWA, Ortsgemeinde Amden,Bus Amden,30,"1",Bus - Überland/Berg,1,Sonntag
+546,AWA, Ortsgemeinde Amden,Bus Amden,29,"1",Bus - Überland/Berg,1,Mittwoch
+547,BWS, Busbetriebe Bamert GmbH,Bus Bamert,29,"1",Bus - Überland/Berg,1,Montag
+548,BWS, Busbetriebe Bamert GmbH,Bus Bamert,28,"1",Bus - Überland/Berg,1,Sonntag
+549,BLWE, Genossenschaft Busbetrieb Lichtensteig-Wattwil-Ebn,Bus Wattwil,27,"1",Bus - Überland/Berg,1,Freitag
+550,BCS, Commune de Sion,Bus Sion,22,"1",Bus - Überland/Berg,4,Sonntag
+551,BWS, Busbetriebe Bamert GmbH,Bus Bamert,21,"1",Bus - Überland/Berg,1,Freitag
+552,AWA, Ortsgemeinde Amden,Bus Amden,17,"1",Bus - Überland/Berg,1,Freitag
+553,BLWE, Genossenschaft Busbetrieb Lichtensteig-Wattwil-Ebn,Bus Wattwil,17,"1",Bus - Überland/Berg,1,Sonntag
+554,BRER, O. Schneider AG,Bus Schneider,10,"1",Bus - Überland/Berg,1,Samstag
+555,ABl, Autolinee Bleniesi SA,Bus Bleniesi,8,"1",Bus - Überland/Berg,4,Freitag
+556,WAB, Wengernalpbahn AG,Wengernalpbahn,6,"3",Bahn - Überland/Berg,1,Mittwoch
+557,AWA, Ortsgemeinde Amden,Bus Amden,4,"1",Bus - Überland/Berg,1,Samstag
+558,BLWE, Genossenschaft Busbetrieb Lichtensteig-Wattwil-Ebn,Bus Wattwil,4,"1",Bus - Überland/Berg,1,Samstag
+559,ABl, Autolinee Bleniesi SA,Bus Bleniesi,2,"1",Bus - Überland/Berg,1,Mittwoch
+560,AFA, Automobilverkehr Frutigen-Adelboden AG,Bus Frutigen,2,"1",Bus - Überland/Berg,1,Samstag

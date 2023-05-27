@@ -1,0 +1,81 @@
+"id","tu","name","kurzer_name","anzahl_ausfaelle","id_vmkat","vmkat","anzahl_linien","verkehrsmittel"
+1,PAG, PostAuto Schweiz AG,PostAuto,739898,"1",Bus - Überland/Berg,571,Bus Überland/Berg
+2,TL, Transports Publics de la Région Lausannoise sa,Bus Lausanne,284503,"2",Bus - Agglomeration,15,Bus Agglomeration
+3,SBB, Schweizerische Bundesbahnen SBB,Schweizerische Bundesbahnen,82397,"4",Bahn - Überland/Regionalverkehr,98,Bahn Überland/Regionalverkehr
+4,BOS, BUS Ostschweiz AG,BUS Ostschweiz,65055,"1",Bus - Überland/Berg,40,Bus Überland/Berg
+5,VMCV, VMCV SA,Bus Montreux,63127,"1",Bus - Überland/Berg,4,Bus Überland/Berg
+6,TPG, Transports publics genevois (TPG),Bus Genf,52438,"2",Bus - Agglomeration,18,Bus Agglomeration
+7,TMR, TMR Transports de Martigny et Régions SA,Bus Wallis,46324,"1",Bus - Überland/Berg,9,Bus Überland/Berg
+8,SVB, Städtische Verkehrsbetriebe Bern (SVB),Bernmobil,41684,"2",Bus - Agglomeration,33,Bus Agglomeration
+9,RBS, Regionalverkehr Bern-Solothurn AG,Regionalverkehr Bern-Solothurn,39235,"2",Bus - Agglomeration,24,Bus Agglomeration
+10,TRN, Transports Publics Neuchâtelois SA,Bus Neuchatel,33795,"1",Bus - Überland/Berg,10,Bus Überland/Berg
+11,VBZ, Stadt Zürich,Bus Zürich,33410,"1",Bus - Überland/Berg,18,Bus Überland/Berg
+12,MBC, Transports de la région Morges-Bière-Cossonay SA,Bahn MBC,29628,"3",Bahn - Überland/Berg,9,Bahn Überland/Berg
+13,BOGG, Busbetrieb Olten Gösgen Gäu AG,Bus Olten,29513,"2",Bus - Agglomeration,12,Bus Agglomeration
+14,VZO, Verkehrsbetriebe Zürichsee und Oberland (VZO) AG,Bus Zürichsee,28246,"2",Bus - Agglomeration,22,Bus Agglomeration
+15,VBD, Landschaft Davos,Bus Davos,25275,"1",Bus - Überland/Berg,3,Bus Überland/Berg
+16,TRAVYS, TRAVYS - Transports Vallée-de-Joux - Yverdon-les-B,Bus Yverdon,25060,"1",Bus - Überland/Berg,9,Bus Überland/Berg
+17,BLAG, Busland AG,Busland,24379,"1",Bus - Überland/Berg,20,Bus Überland/Berg
+18,AB, Appenzeller Bahnen AG,Appenzeller Bahnen,22127,"3",Bahn - Überland/Berg,7,Bahn Überland/Berg
+19,VBSH, Stadt Schaffhausen,Bus Schaffhausen,21341,"1",Bus - Überland/Berg,7,Bus Überland/Berg
+20,VB, Verkehrsbetriebe Biel,Bus Biel,20865,"1",Bus - Überland/Berg,11,Bus Überland/Berg
+21,VBG, VBG Verkehrsbetriebe Glattal AG,Bus Glattal,20437,"1",Bus - Überland/Berg,21,Bus Überland/Berg
+22,ZVB, Zugerland Verkehrsbetriebe AG,Bus Zug,19319,"1",Bus - Überland/Berg,22,Bus Überland/Berg
+23,BLT, BLT Baselland Transport AG,Bus Baselland,19161,"1",Bus - Überland/Berg,17,Bus Überland/Berg
+24,TPF, Transports publics fribourgeois SA,Bus Fribourg,18975,"1",Bus - Überland/Berg,58,Bus Überland/Berg
+25,ABG, Alsa Bustours Gex S.A.S,Bustour Genf,16987,"1",Bus - Überland/Berg,2,Bus Überland/Berg
+26,SZU, Sihltal Zürich Uetliberg Bahn SZU AG,Bahn Sihltal,16901,"1",Bus - Überland/Berg,8,Bus Überland/Berg
+27,STI, STI Bus AG,Verkehrsbetriebe Steffisburg-Thun-Interlaken,16480,"1",Bus - Überland/Berg,24,Bus Überland/Berg
+28,TPL, TRASPORTI PUBBLICI LUGANESI SA (TPL),Lugano Bus,16220,"1",Bus - Überland/Berg,9,Bus Überland/Berg
+29,VBSG, Stadt St. Gallen,Bus St.Gallen,15079,"2",Bus - Agglomeration,15,Bus Agglomeration
+30,BSU, Busbetrieb Solothurn und Umgebung AG,Bus Solothurn,13723,"2",Bus - Agglomeration,13,Bus Agglomeration
+31,TPN, TPN Transports publics de la Région Nyonnaise SA,Bus Nyon,12833,"1",Bus - Überland/Berg,4,Bus Überland/Berg
+32,AVJ, Société anonyme des auto-transports de la Vallée d,Bus AVJ,11815,"1",Bus - Überland/Berg,1,Bus Überland/Berg
+33,AAGR, Auto AG Rothenburg,Bus Rothenburg,11640,"2",Bus - Agglomeration,4,Bus Agglomeration
+34,BLS, BLS AG,Bern-Lötschberg-Simplon-Bahn,11305,"4",Bahn - Überland/Regionalverkehr,31,Bahn Überland/Regionalverkehr
+35,BuS, Bus und Service AG,BuS AG,10802,"1",Bus - Überland/Berg,4,Bus Überland/Berg
+36,TPC, Transports Publics du Chablais SA,Bus Chablais ,10741,"1",Bus - Überland/Berg,10,Bus Überland/Berg
+37,ARL, Società Autolinee Regionali Luganesi,Bus Luganesi,10531,"1",Bus - Überland/Berg,4,Bus Überland/Berg
+38,AMSA, Autolinea Mendrisiense SA,Bus Mendrisiense,10524,"1",Bus - Überland/Berg,7,Bus Überland/Berg
+39,AVA, Aargau Verkehr AG,Bus Aargau,10487,"1",Bus - Überland/Berg,12,Bus Überland/Berg
+40,REGO, Regiobus (St. Gallen),Regiobus St. Gallen,10483,"1",Bus - Überland/Berg,8,Bus Überland/Berg
+41,AAGS, Auto AG Schwyz,Bus Schwyz,10185,"1",Bus - Überland/Berg,11,Bus Überland/Berg
+42,RA, REGIONALPS SA ,Regionalps,9945,"4",Bahn - Überland/Regionalverkehr,4,Bahn Überland/Regionalverkehr
+43,NStCM, Compagnie du chemin de fer Nyon-St-Cergue-Morez SA,Bahn Waadt,9915,"3",Bahn - Überland/Berg,1,Bahn Überland/Berg
+44,BVB, Basler Verkehrs-Betriebe,Basler Verkehrs,8851,"2",Bus - Agglomeration,3,Bus Agglomeration
+45,VBL, Verkehrsbetriebe Luzern AG,Bus Luzern,8302,"2",Bus - Agglomeration,2,Bus Agglomeration
+46,FLP, Ferrovie Luganesi SA,Bahn Lugano,7364,"4",Bahn - Überland/Regionalverkehr,1,Bahn Überland/Regionalverkehr
+47,BGU, BGU Busbetrieb Grenchen und Umgebung AG,Bus Grenchen,7178,"2",Bus - Agglomeration,12,Bus Agglomeration
+48,LEB, Compagnie du chemin de fer Lausanne-Echallens-Berc,Bahn Lausanne,6485,"3",Bahn - Überland/Berg,1,Bahn Überland/Berg
+49,asm, Aare Seeland mobil AG,Bus Aare Seeland,6395,"1",Bus - Überland/Berg,15,Bus Überland/Berg
+50,THURBO, Thurbo AG,Thurbo,5553,"4",Bahn - Überland/Regionalverkehr,23,Bahn Überland/Regionalverkehr
+51,ARAG, Rottal Auto AG,Bus Rottal,5195,"1",Bus - Überland/Berg,8,Bus Überland/Berg
+52,MGB, Matterhorn Gotthard Verkehrs AG,Bahn Matterhorn,4609,"3",Bahn - Überland/Berg,3,Bahn Überland/Berg
+53,ASGS," René Ballestraz et fils, transports SA",Bus René Ballestraz,4497,"1",Bus - Überland/Berg,1,Bus Überland/Berg
+54,SBG, SBG SüdbadenBus GmbH,Bus Südbaden,4398,"1",Bus - Überland/Berg,1,Bus Überland/Berg
+55,AAGU, AUTO AG URI,Bus Uri,4150,"1",Bus - Überland/Berg,9,Bus Überland/Berg
+56,SBW, Stadt Winterthur,Bus Winterthur,3983,"1",Bus - Überland/Berg,4,Bus Überland/Berg
+57,AOT, Autokurse Oberthurgau AG (AOT),Bus Oberthurgau,3287,"1",Bus - Überland/Berg,5,Bus Überland/Berg
+58,AS, Autobetrieb Sernftal AG,Bus Sernftal,3255,"1",Bus - Überland/Berg,3,Bus Überland/Berg
+59,SMC, Compagnie de Chemin de Fer et d'Autobus Sierre-Mon,Bahn Montana,2971,"3",Bahn - Überland/Berg,2,Bahn Überland/Berg
+60,FART, Società per le Ferrovie Autolinee Regionali Ticine,Bus Tessin,2936,"1",Bus - Überland/Berg,8,Bus Überland/Berg
+61,GWB, Grindelwald Bus AG,Grindelwald Bus,2605,"1",Bus - Überland/Berg,3,Bus Überland/Berg
+62,RBL, Regionalbus Lenzburg AG,Bus Lenzburg,2170,"1",Bus - Überland/Berg,7,Bus Überland/Berg
+63,TSD, Theytaz Excursions SA,Theytaz,2103,"1",Bus - Überland/Berg,2,Bus Überland/Berg
+64,AAGL, Autobus AG Liestal Öffentlicher Verkehr,Bus Liestal,2054,"1",Bus - Überland/Berg,6,Bus Überland/Berg
+65,LLB, Société anonyme des transports publics de Loèche-l,Bus Leuk,1826,"1",Bus - Überland/Berg,8,Bus Überland/Berg
+66,SOB, Schweizerische Südostbahn AG,Südostbahn,1761,"4",Bahn - Überland/Regionalverkehr,7,Bahn Überland/Regionalverkehr
+67,zb, zb Zentralbahn AG,Zentralbahn,1460,"3",Bahn - Überland/Berg,8,Bahn Überland/Berg
+68,BBA, Busbetrieb Aarau AG (BBA),Bus Aarau,1437,"2",Bus - Agglomeration,3,Bus Agglomeration
+69,RVBW, Regionale Verkehrsbetriebe Baden-Wettingen (RVBW) ,Bus Baden,1170,"2",Bus - Agglomeration,2,Bus Agglomeration
+70,SNL, SOCIETA' NAVIGAZIONE DEL LAGO DI LUGANO SA,Bus Lugano,1007,"4",Bus - Überland/Berg,2,Bahn Überland/Regionalverkehr
+71,BOB, Berner Oberland-Bahnen AG,Berner Oberbland,955,"3",Bahn - Überland/Berg,2,Bahn Überland/Berg
+72,WAB, Wengernalpbahn AG,Wengernalpbahn,906,"3",Bahn - Überland/Berg,1,Bahn Überland/Berg
+73,BRER, O. Schneider AG,Bus Schneider,835,"1",Bus - Überland/Berg,3,Bus Überland/Berg
+74,RhB, Rhätische Bahn AG  (RhB),Rhätische Bahn,820,"4",Bahn - Überland/Regionalverkehr,12,Bahn Überland/Regionalverkehr
+75,ABl, Autolinee Bleniesi SA,Bus Bleniesi,756,"1",Bus - Überland/Berg,5,Bus Überland/Berg
+76,AFA, Automobilverkehr Frutigen-Adelboden AG,Bus Frutigen,678,"1",Bus - Überland/Berg,6,Bus Überland/Berg
+77,BCS, Commune de Sion,Bus Sion,611,"1",Bus - Überland/Berg,4,Bus Überland/Berg
+78,BWS, Busbetriebe Bamert GmbH,Bus Bamert,365,"1",Bus - Überland/Berg,1,Bus Überland/Berg
+79,BLWE, Genossenschaft Busbetrieb Lichtensteig-Wattwil-Ebn,Bus Wattwil,345,"1",Bus - Überland/Berg,1,Bus Überland/Berg
+80,AWA, Ortsgemeinde Amden,Bus Amden,288,"1",Bus - Überland/Berg,1,Bus Überland/Berg

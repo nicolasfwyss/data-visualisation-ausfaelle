@@ -1,0 +1,387 @@
+"id","tu","name","kurzer_name","anzahl_ausfaelle","id_vmkat","vmkat","anzahl_linien","anzahl_minuten"
+1,PAG, PostAuto Schweiz AG,PostAuto,341812,"1",Bus - Überland/Berg,471,"15-30 Minuten"
+2,TL, Transports Publics de la Région Lausannoise sa,Bus Lausanne,198945,"2",Bus - Agglomeration,12,"15-30 Minuten"
+3,PAG, PostAuto Schweiz AG,PostAuto,185689,"1",Bus - Überland/Berg,520,"5-15 Minuten"
+4,PAG, PostAuto Schweiz AG,PostAuto,157707,"1",Bus - Überland/Berg,249,"30-60 Minuten"
+5,TL, Transports Publics de la Région Lausannoise sa,Bus Lausanne,65765,"2",Bus - Agglomeration,13,"5-15 Minuten"
+6,SBB, Schweizerische Bundesbahnen SBB,Schweizerische Bundesbahnen,47237,"4",Bahn - Überland/Regionalverkehr,81,"30-60 Minuten"
+7,PAG, PostAuto Schweiz AG,PostAuto,44263,"1",Bus - Überland/Berg,462,Unter 5 Minuten
+8,VMCV, VMCV SA,Bus Montreux,41791,"1",Bus - Überland/Berg,3,"30-60 Minuten"
+9,TMR, TMR Transports de Martigny et Régions SA,Bus Wallis,35386,"1",Bus - Überland/Berg,8,"15-30 Minuten"
+10,TPG, Transports publics genevois (TPG),Bus Genf,29138,"2",Bus - Agglomeration,17,"30-60 Minuten"
+11,BOS, BUS Ostschweiz AG,BUS Ostschweiz,27779,"1",Bus - Überland/Berg,30,"15-30 Minuten"
+12,TRN, Transports Publics Neuchâtelois SA,Bus Neuchatel,25215,"1",Bus - Überland/Berg,9,"15-30 Minuten"
+13,BOS, BUS Ostschweiz AG,BUS Ostschweiz,24374,"1",Bus - Überland/Berg,27,"5-15 Minuten"
+14,BOGG, Busbetrieb Olten Gösgen Gäu AG,Bus Olten,23331,"2",Bus - Agglomeration,11,"15-30 Minuten"
+15,RBS, Regionalverkehr Bern-Solothurn AG,Regionalverkehr Bern-Solothurn,20054,"2",Bus - Agglomeration,22,"5-15 Minuten"
+16,AB, Appenzeller Bahnen AG,Appenzeller Bahnen,17334,"3",Bahn - Überland/Berg,5,"5-15 Minuten"
+17,VBZ, Stadt Zürich,Bus Zürich,17274,"1",Bus - Überland/Berg,13,"15-30 Minuten"
+18,SBB, Schweizerische Bundesbahnen SBB,Schweizerische Bundesbahnen,16920,"4",Bahn - Überland/Regionalverkehr,60,"60+ Minuten"
+19,MBC, Transports de la région Morges-Bière-Cossonay SA,Bahn MBC,16741,"3",Bahn - Überland/Berg,9,"15-30 Minuten"
+20,SVB, Städtische Verkehrsbetriebe Bern (SVB),Bernmobil,16711,"2",Bus - Agglomeration,30,"5-15 Minuten"
+21,TL, Transports Publics de la Région Lausannoise sa,Bus Lausanne,15484,"2",Bus - Agglomeration,9,"30-60 Minuten"
+22,VZO, Verkehrsbetriebe Zürichsee und Oberland (VZO) AG,Bus Zürichsee,14713,"2",Bus - Agglomeration,22,"5-15 Minuten"
+23,SVB, Städtische Verkehrsbetriebe Bern (SVB),Bernmobil,14586,"2",Bus - Agglomeration,23,"15-30 Minuten"
+24,VBSH, Stadt Schaffhausen,Bus Schaffhausen,13952,"1",Bus - Überland/Berg,7,"5-15 Minuten"
+25,SBB, Schweizerische Bundesbahnen SBB,Schweizerische Bundesbahnen,13752,"4",Bahn - Überland/Regionalverkehr,83,"15-30 Minuten"
+26,VMCV, VMCV SA,Bus Montreux,13684,"1",Bus - Überland/Berg,3,"15-30 Minuten"
+27,VB, Verkehrsbetriebe Biel,Bus Biel,13410,"1",Bus - Überland/Berg,9,"15-30 Minuten"
+28,VBD, Landschaft Davos,Bus Davos,13187,"1",Bus - Überland/Berg,3,"5-15 Minuten"
+29,BLAG, Busland AG,Busland,11991,"1",Bus - Überland/Berg,19,"5-15 Minuten"
+30,SZU, Sihltal Zürich Uetliberg Bahn SZU AG,Bahn Sihltal,11310,"1",Bus - Überland/Berg,7,"15-30 Minuten"
+31,TRAVYS, TRAVYS - Transports Vallée-de-Joux - Yverdon-les-B,Bus Yverdon,11217,"1",Bus - Überland/Berg,7,"5-15 Minuten"
+32,VZO, Verkehrsbetriebe Zürichsee und Oberland (VZO) AG,Bus Zürichsee,10913,"2",Bus - Agglomeration,13,"15-30 Minuten"
+33,TPN, TPN Transports publics de la Région Nyonnaise SA,Bus Nyon,10665,"1",Bus - Überland/Berg,4,"15-30 Minuten"
+34,VBD, Landschaft Davos,Bus Davos,10656,"1",Bus - Überland/Berg,1,"15-30 Minuten"
+35,ABG, Alsa Bustours Gex S.A.S,Bustour Genf,10544,"1",Bus - Überland/Berg,2,"30-60 Minuten"
+36,PAG, PostAuto Schweiz AG,PostAuto,10087,"1",Bus - Überland/Berg,32,"60+ Minuten"
+37,BLT, BLT Baselland Transport AG,Bus Baselland,9847,"1",Bus - Überland/Berg,17,"15-30 Minuten"
+38,BLAG, Busland AG,Busland,9797,"1",Bus - Überland/Berg,17,"15-30 Minuten"
+39,MBC, Transports de la région Morges-Bière-Cossonay SA,Bahn MBC,9577,"3",Bahn - Überland/Berg,7,"5-15 Minuten"
+40,TPG, Transports publics genevois (TPG),Bus Genf,9548,"2",Bus - Agglomeration,18,"15-30 Minuten"
+41,ZVB, Zugerland Verkehrsbetriebe AG,Bus Zug,8649,"1",Bus - Überland/Berg,16,"15-30 Minuten"
+42,RBS, Regionalverkehr Bern-Solothurn AG,Regionalverkehr Bern-Solothurn,8527,"2",Bus - Agglomeration,18,Unter 5 Minuten
+43,BOS, BUS Ostschweiz AG,BUS Ostschweiz,8428,"1",Bus - Überland/Berg,10,Unter 5 Minuten
+44,TRAVYS, TRAVYS - Transports Vallée-de-Joux - Yverdon-les-B,Bus Yverdon,8181,"1",Bus - Überland/Berg,5,"30-60 Minuten"
+45,TMR, TMR Transports de Martigny et Régions SA,Bus Wallis,7989,"1",Bus - Überland/Berg,4,"5-15 Minuten"
+46,VBG, VBG Verkehrsbetriebe Glattal AG,Bus Glattal,7977,"1",Bus - Überland/Berg,12,"15-30 Minuten"
+47,STI, STI Bus AG,Verkehrsbetriebe Steffisburg-Thun-Interlaken,7894,"1",Bus - Überland/Berg,24,"5-15 Minuten"
+48,VBZ, Stadt Zürich,Bus Zürich,7731,"1",Bus - Überland/Berg,18,"5-15 Minuten"
+49,TPF, Transports publics fribourgeois SA,Bus Fribourg,7663,"1",Bus - Überland/Berg,35,"30-60 Minuten"
+50,AVJ, Société anonyme des auto-transports de la Vallée d,Bus AVJ,7636,"1",Bus - Überland/Berg,1,"15-30 Minuten"
+51,RBS, Regionalverkehr Bern-Solothurn AG,Regionalverkehr Bern-Solothurn,7562,"2",Bus - Agglomeration,15,"15-30 Minuten"
+52,TPF, Transports publics fribourgeois SA,Bus Fribourg,7231,"1",Bus - Überland/Berg,50,"15-30 Minuten"
+53,TPG, Transports publics genevois (TPG),Bus Genf,7219,"2",Bus - Agglomeration,14,Unter 5 Minuten
+54,AVA, Aargau Verkehr AG,Bus Aargau,7191,"1",Bus - Überland/Berg,11,"15-30 Minuten"
+55,ARL, Società Autolinee Regionali Luganesi,Bus Luganesi,7184,"1",Bus - Überland/Berg,4,"5-15 Minuten"
+56,VBSG, Stadt St. Gallen,Bus St.Gallen,6964,"2",Bus - Agglomeration,15,"15-30 Minuten"
+57,NStCM, Compagnie du chemin de fer Nyon-St-Cergue-Morez SA,Bahn Waadt,6693,"3",Bahn - Überland/Berg,1,"30-60 Minuten"
+58,TPG, Transports publics genevois (TPG),Bus Genf,6472,"2",Bus - Agglomeration,18,"5-15 Minuten"
+59,ABG, Alsa Bustours Gex S.A.S,Bustour Genf,6386,"1",Bus - Überland/Berg,1,"15-30 Minuten"
+60,ZVB, Zugerland Verkehrsbetriebe AG,Bus Zug,6203,"1",Bus - Überland/Berg,21,"5-15 Minuten"
+61,VBZ, Stadt Zürich,Bus Zürich,6176,"1",Bus - Überland/Berg,3,"30-60 Minuten"
+62,TPL, TRASPORTI PUBBLICI LUGANESI SA (TPL),Lugano Bus,6046,"1",Bus - Überland/Berg,8,"15-30 Minuten"
+63,VBSG, Stadt St. Gallen,Bus St.Gallen,6008,"2",Bus - Agglomeration,7,"30-60 Minuten"
+64,AAGR, Auto AG Rothenburg,Bus Rothenburg,5991,"2",Bus - Agglomeration,3,"15-30 Minuten"
+65,BGU, BGU Busbetrieb Grenchen und Umgebung AG,Bus Grenchen,5517,"2",Bus - Agglomeration,12,"5-15 Minuten"
+66,VBG, VBG Verkehrsbetriebe Glattal AG,Bus Glattal,5492,"1",Bus - Überland/Berg,21,"5-15 Minuten"
+67,BSU, Busbetrieb Solothurn und Umgebung AG,Bus Solothurn,5449,"2",Bus - Agglomeration,12,"15-30 Minuten"
+68,STI, STI Bus AG,Verkehrsbetriebe Steffisburg-Thun-Interlaken,5357,"1",Bus - Überland/Berg,22,"15-30 Minuten"
+69,VMCV, VMCV SA,Bus Montreux,5286,"1",Bus - Überland/Berg,1,"60+ Minuten"
+70,BLT, BLT Baselland Transport AG,Bus Baselland,5235,"1",Bus - Überland/Berg,10,"30-60 Minuten"
+71,AMSA, Autolinea Mendrisiense SA,Bus Mendrisiense,5200,"1",Bus - Überland/Berg,5,"15-30 Minuten"
+72,SVB, Städtische Verkehrsbetriebe Bern (SVB),Bernmobil,5153,"2",Bus - Agglomeration,33,Unter 5 Minuten
+73,SVB, Städtische Verkehrsbetriebe Bern (SVB),Bernmobil,5093,"2",Bus - Agglomeration,15,"30-60 Minuten"
+74,BOGG, Busbetrieb Olten Gösgen Gäu AG,Bus Olten,4990,"2",Bus - Agglomeration,11,"5-15 Minuten"
+75,RA, REGIONALPS SA ,Regionalps,4965,"4",Bahn - Überland/Regionalverkehr,4,"5-15 Minuten"
+76,REGO, Regiobus (St. Gallen),Regiobus St. Gallen,4958,"1",Bus - Überland/Berg,5,"15-30 Minuten"
+77,BuS, Bus und Service AG,BuS AG,4950,"1",Bus - Überland/Berg,4,"15-30 Minuten"
+78,TRAVYS, TRAVYS - Transports Vallée-de-Joux - Yverdon-les-B,Bus Yverdon,4893,"1",Bus - Überland/Berg,6,"15-30 Minuten"
+79,BSU, Busbetrieb Solothurn und Umgebung AG,Bus Solothurn,4830,"2",Bus - Agglomeration,11,"5-15 Minuten"
+80,VB, Verkehrsbetriebe Biel,Bus Biel,4823,"1",Bus - Überland/Berg,9,"5-15 Minuten"
+81,VBG, VBG Verkehrsbetriebe Glattal AG,Bus Glattal,4764,"1",Bus - Überland/Berg,21,Unter 5 Minuten
+82,SZU, Sihltal Zürich Uetliberg Bahn SZU AG,Bahn Sihltal,4455,"1",Bus - Überland/Berg,8,"5-15 Minuten"
+83,TPL, TRASPORTI PUBBLICI LUGANESI SA (TPL),Lugano Bus,4245,"1",Bus - Überland/Berg,2,Unter 5 Minuten
+84,TRN, Transports Publics Neuchâtelois SA,Bus Neuchatel,4243,"1",Bus - Überland/Berg,10,Unter 5 Minuten
+85,BLS, BLS AG,Bern-Lötschberg-Simplon-Bahn,4207,"4",Bahn - Überland/Regionalverkehr,26,"30-60 Minuten"
+86,BLS, BLS AG,Bern-Lötschberg-Simplon-Bahn,4193,"4",Bahn - Überland/Regionalverkehr,28,"15-30 Minuten"
+87,TPL, TRASPORTI PUBBLICI LUGANESI SA (TPL),Lugano Bus,4186,"1",Bus - Überland/Berg,4,"5-15 Minuten"
+88,BOS, BUS Ostschweiz AG,BUS Ostschweiz,4104,"1",Bus - Überland/Berg,10,"30-60 Minuten"
+89,AAGS, Auto AG Schwyz,Bus Schwyz,4016,"1",Bus - Überland/Berg,10,"5-15 Minuten"
+90,SBB, Schweizerische Bundesbahnen SBB,Schweizerische Bundesbahnen,4008,"4",Bahn - Überland/Regionalverkehr,68,"5-15 Minuten"
+91,VBL, Verkehrsbetriebe Luzern AG,Bus Luzern,3950,"2",Bus - Agglomeration,1,"30-60 Minuten"
+92,TPC, Transports Publics du Chablais SA,Bus Chablais ,3949,"1",Bus - Überland/Berg,6,"5-15 Minuten"
+93,MGB, Matterhorn Gotthard Verkehrs AG,Bahn Matterhorn,3882,"3",Bahn - Überland/Berg,3,"5-15 Minuten"
+94,AVJ, Société anonyme des auto-transports de la Vallée d,Bus AVJ,3788,"1",Bus - Überland/Berg,1,"5-15 Minuten"
+95,ARAG, Rottal Auto AG,Bus Rottal,3661,"1",Bus - Überland/Berg,8,"15-30 Minuten"
+96,VBSH, Stadt Schaffhausen,Bus Schaffhausen,3656,"1",Bus - Überland/Berg,4,"30-60 Minuten"
+97,TL, Transports Publics de la Région Lausannoise sa,Bus Lausanne,3526,"2",Bus - Agglomeration,9,Unter 5 Minuten
+98,REGO, Regiobus (St. Gallen),Regiobus St. Gallen,3503,"1",Bus - Überland/Berg,7,"5-15 Minuten"
+99,TPC, Transports Publics du Chablais SA,Bus Chablais ,3502,"1",Bus - Überland/Berg,6,"30-60 Minuten"
+100,VBSH, Stadt Schaffhausen,Bus Schaffhausen,3495,"1",Bus - Überland/Berg,7,"15-30 Minuten"
+101,AAGR, Auto AG Rothenburg,Bus Rothenburg,3479,"2",Bus - Agglomeration,3,"30-60 Minuten"
+102,LEB, Compagnie du chemin de fer Lausanne-Echallens-Berc,Bahn Lausanne,3439,"3",Bahn - Überland/Berg,1,"30-60 Minuten"
+103,FLP, Ferrovie Luganesi SA,Bahn Lugano,3398,"4",Bahn - Überland/Regionalverkehr,1,"15-30 Minuten"
+104,BSU, Busbetrieb Solothurn und Umgebung AG,Bus Solothurn,3350,"2",Bus - Agglomeration,8,"30-60 Minuten"
+105,ASGS," René Ballestraz et fils, transports SA",Bus René Ballestraz,3304,"1",Bus - Überland/Berg,1,"30-60 Minuten"
+106,RA, REGIONALPS SA ,Regionalps,3274,"4",Bahn - Überland/Regionalverkehr,4,"15-30 Minuten"
+107,NStCM, Compagnie du chemin de fer Nyon-St-Cergue-Morez SA,Bahn Waadt,3189,"3",Bahn - Überland/Berg,1,"5-15 Minuten"
+108,ZVB, Zugerland Verkehrsbetriebe AG,Bus Zug,3138,"1",Bus - Überland/Berg,20,Unter 5 Minuten
+109,asm, Aare Seeland mobil AG,Bus Aare Seeland,3104,"1",Bus - Überland/Berg,13,"15-30 Minuten"
+110,RBS, Regionalverkehr Bern-Solothurn AG,Regionalverkehr Bern-Solothurn,3015,"2",Bus - Agglomeration,5,"30-60 Minuten"
+111,AMSA, Autolinea Mendrisiense SA,Bus Mendrisiense,2994,"1",Bus - Überland/Berg,6,"5-15 Minuten"
+112,BVB, Basler Verkehrs-Betriebe,Basler Verkehrs,2970,"2",Bus - Agglomeration,2,"30-60 Minuten"
+113,ARL, Società Autolinee Regionali Luganesi,Bus Luganesi,2942,"1",Bus - Überland/Berg,2,Unter 5 Minuten
+114,BLT, BLT Baselland Transport AG,Bus Baselland,2862,"1",Bus - Überland/Berg,17,"5-15 Minuten"
+115,SMC, Compagnie de Chemin de Fer et d'Autobus Sierre-Mon,Bahn Montana,2855,"3",Bahn - Überland/Berg,2,"30-60 Minuten"
+116,THURBO, Thurbo AG,Thurbo,2788,"4",Bahn - Überland/Regionalverkehr,16,"30-60 Minuten"
+117,BVB, Basler Verkehrs-Betriebe,Basler Verkehrs,2662,"2",Bus - Agglomeration,3,"15-30 Minuten"
+118,TPC, Transports Publics du Chablais SA,Bus Chablais ,2662,"1",Bus - Überland/Berg,7,"15-30 Minuten"
+119,AB, Appenzeller Bahnen AG,Appenzeller Bahnen,2644,"3",Bahn - Überland/Berg,5,"15-30 Minuten"
+120,TMR, TMR Transports de Martigny et Régions SA,Bus Wallis,2593,"1",Bus - Überland/Berg,5,"30-60 Minuten"
+121,LEB, Compagnie du chemin de fer Lausanne-Echallens-Berc,Bahn Lausanne,2540,"3",Bahn - Überland/Berg,1,"15-30 Minuten"
+122,AAGS, Auto AG Schwyz,Bus Schwyz,2439,"1",Bus - Überland/Berg,7,"30-60 Minuten"
+123,AOT, Autokurse Oberthurgau AG (AOT),Bus Oberthurgau,2434,"1",Bus - Überland/Berg,4,"15-30 Minuten"
+124,TRN, Transports Publics Neuchâtelois SA,Bus Neuchatel,2419,"1",Bus - Überland/Berg,10,"5-15 Minuten"
+125,BuS, Bus und Service AG,BuS AG,2404,"1",Bus - Überland/Berg,4,"5-15 Minuten"
+126,MBC, Transports de la région Morges-Bière-Cossonay SA,Bahn MBC,2362,"3",Bahn - Überland/Berg,4,"30-60 Minuten"
+127,AMSA, Autolinea Mendrisiense SA,Bus Mendrisiense,2330,"1",Bus - Überland/Berg,1,"30-60 Minuten"
+128,BuS, Bus und Service AG,BuS AG,2320,"1",Bus - Überland/Berg,3,"30-60 Minuten"
+129,BVB, Basler Verkehrs-Betriebe,Basler Verkehrs,2283,"2",Bus - Agglomeration,3,"5-15 Minuten"
+130,TPF, Transports publics fribourgeois SA,Bus Fribourg,2202,"1",Bus - Überland/Berg,36,"5-15 Minuten"
+131,VBG, VBG Verkehrsbetriebe Glattal AG,Bus Glattal,2196,"1",Bus - Überland/Berg,3,"30-60 Minuten"
+132,VBZ, Stadt Zürich,Bus Zürich,2193,"1",Bus - Überland/Berg,18,Unter 5 Minuten
+133,VMCV, VMCV SA,Bus Montreux,2092,"1",Bus - Überland/Berg,3,"5-15 Minuten"
+134,TPN, TPN Transports publics de la Région Nyonnaise SA,Bus Nyon,2086,"1",Bus - Überland/Berg,4,"5-15 Minuten"
+135,BLS, BLS AG,Bern-Lötschberg-Simplon-Bahn,2050,"4",Bahn - Überland/Regionalverkehr,25,"5-15 Minuten"
+136,asm, Aare Seeland mobil AG,Bus Aare Seeland,2026,"1",Bus - Überland/Berg,14,"5-15 Minuten"
+137,VBL, Verkehrsbetriebe Luzern AG,Bus Luzern,2021,"2",Bus - Agglomeration,2,"5-15 Minuten"
+138,SBG, SBG SüdbadenBus GmbH,Bus Südbaden,2011,"1",Bus - Überland/Berg,1,"5-15 Minuten"
+139,AB, Appenzeller Bahnen AG,Appenzeller Bahnen,2006,"3",Bahn - Überland/Berg,3,"30-60 Minuten"
+140,FLP, Ferrovie Luganesi SA,Bahn Lugano,1991,"4",Bahn - Überland/Regionalverkehr,1,Unter 5 Minuten
+141,FLP, Ferrovie Luganesi SA,Bahn Lugano,1975,"4",Bahn - Überland/Regionalverkehr,1,"5-15 Minuten"
+142,AS, Autobetrieb Sernftal AG,Bus Sernftal,1953,"1",Bus - Überland/Berg,2,"5-15 Minuten"
+143,BLAG, Busland AG,Busland,1915,"1",Bus - Überland/Berg,8,"30-60 Minuten"
+144,SBG, SBG SüdbadenBus GmbH,Bus Südbaden,1913,"1",Bus - Überland/Berg,1,"15-30 Minuten"
+145,AAGS, Auto AG Schwyz,Bus Schwyz,1910,"1",Bus - Überland/Berg,10,"15-30 Minuten"
+146,REGO, Regiobus (St. Gallen),Regiobus St. Gallen,1906,"1",Bus - Überland/Berg,2,"30-60 Minuten"
+147,AAGR, Auto AG Rothenburg,Bus Rothenburg,1905,"2",Bus - Agglomeration,4,"5-15 Minuten"
+148,STI, STI Bus AG,Verkehrsbetriebe Steffisburg-Thun-Interlaken,1853,"1",Bus - Überland/Berg,24,Unter 5 Minuten
+149,VZO, Verkehrsbetriebe Zürichsee und Oberland (VZO) AG,Bus Zürichsee,1793,"2",Bus - Agglomeration,21,Unter 5 Minuten
+150,SBW, Stadt Winterthur,Bus Winterthur,1774,"1",Bus - Überland/Berg,2,"30-60 Minuten"
+151,TRN, Transports Publics Neuchâtelois SA,Bus Neuchatel,1759,"1",Bus - Überland/Berg,6,"30-60 Minuten"
+152,TPL, TRASPORTI PUBBLICI LUGANESI SA (TPL),Lugano Bus,1743,"1",Bus - Überland/Berg,4,"30-60 Minuten"
+153,GWB, Grindelwald Bus AG,Grindelwald Bus,1648,"1",Bus - Überland/Berg,3,"15-30 Minuten"
+154,AVA, Aargau Verkehr AG,Bus Aargau,1594,"1",Bus - Überland/Berg,11,"5-15 Minuten"
+155,AAGU, AUTO AG URI,Bus Uri,1566,"1",Bus - Überland/Berg,6,"15-30 Minuten"
+156,BGU, BGU Busbetrieb Grenchen und Umgebung AG,Bus Grenchen,1565,"2",Bus - Agglomeration,7,"15-30 Minuten"
+157,VBSG, Stadt St. Gallen,Bus St.Gallen,1564,"2",Bus - Agglomeration,13,"5-15 Minuten"
+158,AVA, Aargau Verkehr AG,Bus Aargau,1441,"1",Bus - Überland/Berg,8,"30-60 Minuten"
+159,RBL, Regionalbus Lenzburg AG,Bus Lenzburg,1399,"1",Bus - Überland/Berg,7,"15-30 Minuten"
+160,VBD, Landschaft Davos,Bus Davos,1376,"1",Bus - Überland/Berg,1,Unter 5 Minuten
+161,SBW, Stadt Winterthur,Bus Winterthur,1352,"1",Bus - Überland/Berg,4,"5-15 Minuten"
+162,FART, Società per le Ferrovie Autolinee Regionali Ticine,Bus Tessin,1331,"1",Bus - Überland/Berg,3,Unter 5 Minuten
+163,VB, Verkehrsbetriebe Biel,Bus Biel,1270,"1",Bus - Überland/Berg,2,"30-60 Minuten"
+164,ZVB, Zugerland Verkehrsbetriebe AG,Bus Zug,1259,"1",Bus - Überland/Berg,3,"30-60 Minuten"
+165,VB, Verkehrsbetriebe Biel,Bus Biel,1246,"1",Bus - Überland/Berg,6,Unter 5 Minuten
+166,VBL, Verkehrsbetriebe Luzern AG,Bus Luzern,1203,"2",Bus - Agglomeration,2,"15-30 Minuten"
+167,AS, Autobetrieb Sernftal AG,Bus Sernftal,1192,"1",Bus - Überland/Berg,1,"15-30 Minuten"
+168,BLT, BLT Baselland Transport AG,Bus Baselland,1177,"1",Bus - Überland/Berg,17,Unter 5 Minuten
+169,STI, STI Bus AG,Verkehrsbetriebe Steffisburg-Thun-Interlaken,1150,"1",Bus - Überland/Berg,13,"30-60 Minuten"
+170,RVBW, Regionale Verkehrsbetriebe Baden-Wettingen (RVBW) ,Bus Baden,1129,"2",Bus - Agglomeration,2,"15-30 Minuten"
+171,TPF, Transports publics fribourgeois SA,Bus Fribourg,1124,"1",Bus - Überland/Berg,11,"60+ Minuten"
+172,VBL, Verkehrsbetriebe Luzern AG,Bus Luzern,1124,"2",Bus - Agglomeration,2,Unter 5 Minuten
+173,RA, REGIONALPS SA ,Regionalps,1099,"4",Bahn - Überland/Regionalverkehr,3,"30-60 Minuten"
+174,ASGS," René Ballestraz et fils, transports SA",Bus René Ballestraz,1064,"1",Bus - Überland/Berg,1,"5-15 Minuten"
+175,zb, zb Zentralbahn AG,Zentralbahn,1062,"3",Bahn - Überland/Berg,2,"5-15 Minuten"
+176,AAGS, Auto AG Schwyz,Bus Schwyz,1061,"1",Bus - Überland/Berg,3,"60+ Minuten"
+177,THURBO, Thurbo AG,Thurbo,1054,"4",Bahn - Überland/Regionalverkehr,20,"15-30 Minuten"
+178,AAGU, AUTO AG URI,Bus Uri,1040,"1",Bus - Überland/Berg,9,"5-15 Minuten"
+179,TSD, Theytaz Excursions SA,Theytaz,1026,"1",Bus - Überland/Berg,2,"30-60 Minuten"
+180,BBA, Busbetrieb Aarau AG (BBA),Bus Aarau,1015,"2",Bus - Agglomeration,3,"15-30 Minuten"
+181,ARAG, Rottal Auto AG,Bus Rottal,980,"1",Bus - Überland/Berg,3,"30-60 Minuten"
+182,TSD, Theytaz Excursions SA,Theytaz,977,"1",Bus - Überland/Berg,2,"60+ Minuten"
+183,BVB, Basler Verkehrs-Betriebe,Basler Verkehrs,920,"2",Bus - Agglomeration,3,Unter 5 Minuten
+184,BuS, Bus und Service AG,BuS AG,912,"1",Bus - Überland/Berg,4,Unter 5 Minuten
+185,AAGU, AUTO AG URI,Bus Uri,901,"1",Bus - Überland/Berg,6,"30-60 Minuten"
+186,MBC, Transports de la région Morges-Bière-Cossonay SA,Bahn MBC,896,"3",Bahn - Überland/Berg,5,Unter 5 Minuten
+187,AAGL, Autobus AG Liestal Öffentlicher Verkehr,Bus Liestal,890,"1",Bus - Überland/Berg,5,"30-60 Minuten"
+188,BOGG, Busbetrieb Olten Gösgen Gäu AG,Bus Olten,883,"2",Bus - Agglomeration,7,"30-60 Minuten"
+189,asm, Aare Seeland mobil AG,Bus Aare Seeland,859,"1",Bus - Überland/Berg,4,"30-60 Minuten"
+190,FART, Società per le Ferrovie Autolinee Regionali Ticine,Bus Tessin,835,"1",Bus - Überland/Berg,5,"15-30 Minuten"
+191,BLS, BLS AG,Bern-Lötschberg-Simplon-Bahn,832,"4",Bahn - Überland/Regionalverkehr,12,"60+ Minuten"
+192,SOB, Schweizerische Südostbahn AG,Südostbahn,820,"4",Bahn - Überland/Regionalverkehr,3,"60+ Minuten"
+193,VZO, Verkehrsbetriebe Zürichsee und Oberland (VZO) AG,Bus Zürichsee,802,"2",Bus - Agglomeration,2,"30-60 Minuten"
+194,TL, Transports Publics de la Région Lausannoise sa,Bus Lausanne,782,"2",Bus - Agglomeration,7,unbekannt
+195,THURBO, Thurbo AG,Thurbo,776,"4",Bahn - Überland/Regionalverkehr,8,"60+ Minuten"
+196,LLB, Société anonyme des transports publics de Loèche-l,Bus Leuk,752,"1",Bus - Überland/Berg,7,"15-30 Minuten"
+197,THURBO, Thurbo AG,Thurbo,743,"4",Bahn - Überland/Regionalverkehr,17,"5-15 Minuten"
+198,AAGS, Auto AG Schwyz,Bus Schwyz,742,"1",Bus - Überland/Berg,7,Unter 5 Minuten
+199,TPF, Transports publics fribourgeois SA,Bus Fribourg,734,"1",Bus - Überland/Berg,21,Unter 5 Minuten
+200,SZU, Sihltal Zürich Uetliberg Bahn SZU AG,Bahn Sihltal,714,"1",Bus - Überland/Berg,8,Unter 5 Minuten
+201,AOT, Autokurse Oberthurgau AG (AOT),Bus Oberthurgau,688,"1",Bus - Überland/Berg,3,"5-15 Minuten"
+202,FART, Società per le Ferrovie Autolinee Regionali Ticine,Bus Tessin,688,"1",Bus - Überland/Berg,5,"30-60 Minuten"
+203,LLB, Société anonyme des transports publics de Loèche-l,Bus Leuk,666,"1",Bus - Überland/Berg,3,"30-60 Minuten"
+204,RBL, Regionalbus Lenzburg AG,Bus Lenzburg,656,"1",Bus - Überland/Berg,3,"30-60 Minuten"
+205,BLAG, Busland AG,Busland,648,"1",Bus - Überland/Berg,7,Unter 5 Minuten
+206,SBW, Stadt Winterthur,Bus Winterthur,624,"1",Bus - Überland/Berg,4,"15-30 Minuten"
+207,SOB, Schweizerische Südostbahn AG,Südostbahn,614,"4",Bahn - Überland/Regionalverkehr,5,"30-60 Minuten"
+208,AAGL, Autobus AG Liestal Öffentlicher Verkehr,Bus Liestal,597,"1",Bus - Überland/Berg,6,"15-30 Minuten"
+209,WAB, Wengernalpbahn AG,Wengernalpbahn,556,"3",Bahn - Überland/Berg,1,"5-15 Minuten"
+210,AAGL, Autobus AG Liestal Öffentlicher Verkehr,Bus Liestal,530,"1",Bus - Überland/Berg,6,"5-15 Minuten"
+211,GWB, Grindelwald Bus AG,Grindelwald Bus,526,"1",Bus - Überland/Berg,3,Unter 5 Minuten
+212,AAGU, AUTO AG URI,Bus Uri,522,"1",Bus - Überland/Berg,1,"60+ Minuten"
+213,VBSG, Stadt St. Gallen,Bus St.Gallen,518,"2",Bus - Agglomeration,5,Unter 5 Minuten
+214,TPC, Transports Publics du Chablais SA,Bus Chablais ,516,"1",Bus - Überland/Berg,2,"60+ Minuten"
+215,RA, REGIONALPS SA ,Regionalps,511,"4",Bahn - Überland/Regionalverkehr,1,"60+ Minuten"
+216,LEB, Compagnie du chemin de fer Lausanne-Echallens-Berc,Bahn Lausanne,506,"3",Bahn - Überland/Berg,1,"5-15 Minuten"
+217,TRAVYS, TRAVYS - Transports Vallée-de-Joux - Yverdon-les-B,Bus Yverdon,486,"1",Bus - Überland/Berg,2,"60+ Minuten"
+218,BOB, Berner Oberland-Bahnen AG,Berner Oberbland,485,"3",Bahn - Überland/Berg,1,"30-60 Minuten"
+219,SBG, SBG SüdbadenBus GmbH,Bus Südbaden,473,"1",Bus - Überland/Berg,1,"30-60 Minuten"
+220,RhB, Rhätische Bahn AG  (RhB),Rhätische Bahn,464,"4",Bahn - Überland/Regionalverkehr,10,"60+ Minuten"
+221,ARAG, Rottal Auto AG,Bus Rottal,445,"1",Bus - Überland/Berg,8,"5-15 Minuten"
+222,BOB, Berner Oberland-Bahnen AG,Berner Oberbland,441,"3",Bahn - Überland/Berg,2,"15-30 Minuten"
+223,GWB, Grindelwald Bus AG,Grindelwald Bus,429,"1",Bus - Überland/Berg,3,"5-15 Minuten"
+224,asm, Aare Seeland mobil AG,Bus Aare Seeland,398,"1",Bus - Überland/Berg,10,Unter 5 Minuten
+225,LLB, Société anonyme des transports publics de Loèche-l,Bus Leuk,392,"1",Bus - Überland/Berg,2,"5-15 Minuten"
+226,SZU, Sihltal Zürich Uetliberg Bahn SZU AG,Bahn Sihltal,389,"1",Bus - Überland/Berg,1,"30-60 Minuten"
+227,MGB, Matterhorn Gotthard Verkehrs AG,Bahn Matterhorn,388,"3",Bahn - Überland/Berg,2,"60+ Minuten"
+228,SNL, SOCIETA' NAVIGAZIONE DEL LAGO DI LUGANO SA,Bus Lugano,371,"4",Bus - Überland/Berg,2,"5-15 Minuten"
+229,SNL, SOCIETA' NAVIGAZIONE DEL LAGO DI LUGANO SA,Bus Lugano,353,"4",Bus - Überland/Berg,1,Unter 5 Minuten
+230,BWS, Busbetriebe Bamert GmbH,Bus Bamert,351,"1",Bus - Überland/Berg,1,"5-15 Minuten"
+231,ABl, Autolinee Bleniesi SA,Bus Bleniesi,347,"1",Bus - Überland/Berg,4,"5-15 Minuten"
+232,AVJ, Société anonyme des auto-transports de la Vallée d,Bus AVJ,342,"1",Bus - Überland/Berg,1,Unter 5 Minuten
+233,PAG, PostAuto Schweiz AG,PostAuto,340,"1",Bus - Überland/Berg,100,unbekannt
+234,SBB, Schweizerische Bundesbahnen SBB,Schweizerische Bundesbahnen,280,"4",Bahn - Überland/Regionalverkehr,15,Unter 5 Minuten
+235,BRER, O. Schneider AG,Bus Schneider,277,"1",Bus - Überland/Berg,2,"15-30 Minuten"
+236,AFA, Automobilverkehr Frutigen-Adelboden AG,Bus Frutigen,272,"1",Bus - Überland/Berg,5,"5-15 Minuten"
+237,BOS, BUS Ostschweiz AG,BUS Ostschweiz,271,"1",Bus - Überland/Berg,21,unbekannt
+238,BRER, O. Schneider AG,Bus Schneider,271,"1",Bus - Überland/Berg,2,"30-60 Minuten"
+239,BRER, O. Schneider AG,Bus Schneider,271,"1",Bus - Überland/Berg,3,"5-15 Minuten"
+240,SNL, SOCIETA' NAVIGAZIONE DEL LAGO DI LUGANO SA,Bus Lugano,270,"4",Bus - Überland/Berg,2,"15-30 Minuten"
+241,RhB, Rhätische Bahn AG  (RhB),Rhätische Bahn,269,"4",Bahn - Überland/Regionalverkehr,9,"30-60 Minuten"
+242,VMCV, VMCV SA,Bus Montreux,264,"1",Bus - Überland/Berg,3,unbekannt
+243,ABl, Autolinee Bleniesi SA,Bus Bleniesi,258,"1",Bus - Überland/Berg,1,"30-60 Minuten"
+244,TRAVYS, TRAVYS - Transports Vallée-de-Joux - Yverdon-les-B,Bus Yverdon,258,"1",Bus - Überland/Berg,4,Unter 5 Minuten
+245,AVA, Aargau Verkehr AG,Bus Aargau,256,"1",Bus - Überland/Berg,6,Unter 5 Minuten
+246,BCS, Commune de Sion,Bus Sion,253,"1",Bus - Überland/Berg,4,Unter 5 Minuten
+247,BBA, Busbetrieb Aarau AG (BBA),Bus Aarau,242,"2",Bus - Agglomeration,2,"30-60 Minuten"
+248,ARL, Società Autolinee Regionali Luganesi,Bus Luganesi,230,"1",Bus - Überland/Berg,4,"15-30 Minuten"
+249,zb, zb Zentralbahn AG,Zentralbahn,226,"3",Bahn - Überland/Berg,6,"30-60 Minuten"
+250,AAGR, Auto AG Rothenburg,Bus Rothenburg,225,"2",Bus - Agglomeration,4,Unter 5 Minuten
+251,BOGG, Busbetrieb Olten Gösgen Gäu AG,Bus Olten,223,"2",Bus - Agglomeration,2,Unter 5 Minuten
+252,SOB, Schweizerische Südostbahn AG,Südostbahn,222,"4",Bahn - Überland/Regionalverkehr,6,"15-30 Minuten"
+253,SBW, Stadt Winterthur,Bus Winterthur,209,"1",Bus - Überland/Berg,3,Unter 5 Minuten
+254,BuS, Bus und Service AG,BuS AG,205,"1",Bus - Überland/Berg,1,"60+ Minuten"
+255,AFA, Automobilverkehr Frutigen-Adelboden AG,Bus Frutigen,203,"1",Bus - Überland/Berg,3,"15-30 Minuten"
+256,SBB, Schweizerische Bundesbahnen SBB,Schweizerische Bundesbahnen,200,"4",Bahn - Überland/Regionalverkehr,28,unbekannt
+257,WAB, Wengernalpbahn AG,Wengernalpbahn,200,"3",Bahn - Überland/Berg,1,"15-30 Minuten"
+258,BLWE, Genossenschaft Busbetrieb Lichtensteig-Wattwil-Ebn,Bus Wattwil,194,"1",Bus - Überland/Berg,1,"15-30 Minuten"
+259,TMR, TMR Transports de Martigny et Régions SA,Bus Wallis,186,"1",Bus - Überland/Berg,1,"60+ Minuten"
+260,BCS, Commune de Sion,Bus Sion,182,"1",Bus - Überland/Berg,4,"5-15 Minuten"
+261,THURBO, Thurbo AG,Thurbo,180,"4",Bahn - Überland/Regionalverkehr,3,Unter 5 Minuten
+262,BBA, Busbetrieb Aarau AG (BBA),Bus Aarau,178,"2",Bus - Agglomeration,2,"5-15 Minuten"
+263,ARL, Società Autolinee Regionali Luganesi,Bus Luganesi,175,"1",Bus - Überland/Berg,3,"30-60 Minuten"
+264,MGB, Matterhorn Gotthard Verkehrs AG,Bahn Matterhorn,173,"3",Bahn - Überland/Berg,2,"30-60 Minuten"
+265,AFA, Automobilverkehr Frutigen-Adelboden AG,Bus Frutigen,170,"1",Bus - Überland/Berg,3,"30-60 Minuten"
+266,TMR, TMR Transports de Martigny et Régions SA,Bus Wallis,170,"1",Bus - Überland/Berg,8,unbekannt
+267,AOT, Autokurse Oberthurgau AG (AOT),Bus Oberthurgau,162,"1",Bus - Überland/Berg,1,Unter 5 Minuten
+268,BCS, Commune de Sion,Bus Sion,162,"1",Bus - Überland/Berg,2,"30-60 Minuten"
+269,STI, STI Bus AG,Verkehrsbetriebe Steffisburg-Thun-Interlaken,162,"1",Bus - Überland/Berg,1,"60+ Minuten"
+270,VBSH, Stadt Schaffhausen,Bus Schaffhausen,162,"1",Bus - Überland/Berg,3,Unter 5 Minuten
+271,TRN, Transports Publics Neuchâtelois SA,Bus Neuchatel,159,"1",Bus - Überland/Berg,8,unbekannt
+272,ABl, Autolinee Bleniesi SA,Bus Bleniesi,151,"1",Bus - Überland/Berg,4,"15-30 Minuten"
+273,AWA, Ortsgemeinde Amden,Bus Amden,151,"1",Bus - Überland/Berg,1,"15-30 Minuten"
+274,WAB, Wengernalpbahn AG,Wengernalpbahn,150,"3",Bahn - Überland/Berg,1,"30-60 Minuten"
+275,BLWE, Genossenschaft Busbetrieb Lichtensteig-Wattwil-Ebn,Bus Wattwil,143,"1",Bus - Überland/Berg,1,"5-15 Minuten"
+276,SVB, Städtische Verkehrsbetriebe Bern (SVB),Bernmobil,141,"2",Bus - Agglomeration,26,unbekannt
+277,MGB, Matterhorn Gotthard Verkehrs AG,Bahn Matterhorn,134,"3",Bahn - Überland/Berg,2,"15-30 Minuten"
+278,AAGU, AUTO AG URI,Bus Uri,120,"1",Bus - Überland/Berg,9,Unter 5 Minuten
+279,VB, Verkehrsbetriebe Biel,Bus Biel,116,"1",Bus - Überland/Berg,10,unbekannt
+280,AWA, Ortsgemeinde Amden,Bus Amden,115,"1",Bus - Überland/Berg,1,"30-60 Minuten"
+281,ASGS," René Ballestraz et fils, transports SA",Bus René Ballestraz,112,"1",Bus - Überland/Berg,1,"15-30 Minuten"
+282,TPC, Transports Publics du Chablais SA,Bus Chablais ,112,"1",Bus - Überland/Berg,1,Unter 5 Minuten
+283,AS, Autobetrieb Sernftal AG,Bus Sernftal,108,"1",Bus - Überland/Berg,1,Unter 5 Minuten
+284,ARAG, Rottal Auto AG,Bus Rottal,106,"1",Bus - Überland/Berg,6,Unter 5 Minuten
+285,zb, zb Zentralbahn AG,Zentralbahn,105,"3",Bahn - Überland/Berg,3,"15-30 Minuten"
+286,SOB, Schweizerische Südostbahn AG,Südostbahn,100,"4",Bahn - Überland/Regionalverkehr,7,"5-15 Minuten"
+287,BOS, BUS Ostschweiz AG,BUS Ostschweiz,99,"1",Bus - Überland/Berg,1,"60+ Minuten"
+288,TSD, Theytaz Excursions SA,Theytaz,96,"1",Bus - Überland/Berg,1,"15-30 Minuten"
+289,SMC, Compagnie de Chemin de Fer et d'Autobus Sierre-Mon,Bahn Montana,93,"3",Bahn - Überland/Berg,2,"15-30 Minuten"
+290,BGU, BGU Busbetrieb Grenchen und Umgebung AG,Bus Grenchen,88,"2",Bus - Agglomeration,5,Unter 5 Minuten
+291,AB, Appenzeller Bahnen AG,Appenzeller Bahnen,80,"3",Bahn - Überland/Berg,4,Unter 5 Minuten
+292,FART, Società per le Ferrovie Autolinee Regionali Ticine,Bus Tessin,80,"1",Bus - Überland/Berg,4,"5-15 Minuten"
+293,TPN, TPN Transports publics de la Région Nyonnaise SA,Bus Nyon,80,"1",Bus - Überland/Berg,3,Unter 5 Minuten
+294,BOGG, Busbetrieb Olten Gösgen Gäu AG,Bus Olten,78,"2",Bus - Agglomeration,5,unbekannt
+295,RBS, Regionalverkehr Bern-Solothurn AG,Regionalverkehr Bern-Solothurn,77,"2",Bus - Agglomeration,19,unbekannt
+296,BSU, Busbetrieb Solothurn und Umgebung AG,Bus Solothurn,76,"2",Bus - Agglomeration,4,Unter 5 Minuten
+297,RBL, Regionalbus Lenzburg AG,Bus Lenzburg,76,"1",Bus - Überland/Berg,4,"5-15 Minuten"
+298,VBSH, Stadt Schaffhausen,Bus Schaffhausen,76,"1",Bus - Überland/Berg,6,unbekannt
+299,RA, REGIONALPS SA ,Regionalps,74,"4",Bahn - Überland/Regionalverkehr,2,Unter 5 Minuten
+300,ZVB, Zugerland Verkehrsbetriebe AG,Bus Zug,70,"1",Bus - Überland/Berg,20,unbekannt
+301,zb, zb Zentralbahn AG,Zentralbahn,67,"3",Bahn - Überland/Berg,1,"60+ Minuten"
+302,RhB, Rhätische Bahn AG  (RhB),Rhätische Bahn,65,"4",Bahn - Überland/Regionalverkehr,9,"15-30 Minuten"
+303,STI, STI Bus AG,Verkehrsbetriebe Steffisburg-Thun-Interlaken,64,"1",Bus - Überland/Berg,15,unbekannt
+304,REGO, Regiobus (St. Gallen),Regiobus St. Gallen,61,"1",Bus - Überland/Berg,5,unbekannt
+305,AB, Appenzeller Bahnen AG,Appenzeller Bahnen,58,"3",Bahn - Überland/Berg,2,unbekannt
+306,ABG, Alsa Bustours Gex S.A.S,Bustour Genf,57,"1",Bus - Überland/Berg,2,unbekannt
+307,VBD, Landschaft Davos,Bus Davos,56,"1",Bus - Überland/Berg,2,unbekannt
+308,REGO, Regiobus (St. Gallen),Regiobus St. Gallen,55,"1",Bus - Überland/Berg,4,Unter 5 Minuten
+309,MBC, Transports de la région Morges-Bière-Cossonay SA,Bahn MBC,52,"3",Bahn - Überland/Berg,3,unbekannt
+310,AVJ, Société anonyme des auto-transports de la Vallée d,Bus AVJ,49,"1",Bus - Überland/Berg,1,unbekannt
+311,TPG, Transports publics genevois (TPG),Bus Genf,48,"2",Bus - Agglomeration,6,unbekannt
+312,AAGR, Auto AG Rothenburg,Bus Rothenburg,40,"2",Bus - Agglomeration,3,unbekannt
+313,VBZ, Stadt Zürich,Bus Zürich,36,"1",Bus - Überland/Berg,11,unbekannt
+314,SZU, Sihltal Zürich Uetliberg Bahn SZU AG,Bahn Sihltal,33,"1",Bus - Überland/Berg,2,unbekannt
+315,AFA, Automobilverkehr Frutigen-Adelboden AG,Bus Frutigen,32,"1",Bus - Überland/Berg,2,"60+ Minuten"
+316,MGB, Matterhorn Gotthard Verkehrs AG,Bahn Matterhorn,32,"3",Bahn - Überland/Berg,1,Unter 5 Minuten
+317,NStCM, Compagnie du chemin de fer Nyon-St-Cergue-Morez SA,Bahn Waadt,32,"3",Bahn - Überland/Berg,1,"15-30 Minuten"
+318,RBL, Regionalbus Lenzburg AG,Bus Lenzburg,31,"1",Bus - Überland/Berg,3,Unter 5 Minuten
+319,RVBW, Regionale Verkehrsbetriebe Baden-Wettingen (RVBW) ,Bus Baden,30,"2",Bus - Agglomeration,2,"5-15 Minuten"
+320,BLT, BLT Baselland Transport AG,Bus Baselland,27,"1",Bus - Überland/Berg,2,"60+ Minuten"
+321,BOB, Berner Oberland-Bahnen AG,Berner Oberbland,26,"3",Bahn - Überland/Berg,2,"5-15 Minuten"
+322,TRAVYS, TRAVYS - Transports Vallée-de-Joux - Yverdon-les-B,Bus Yverdon,25,"1",Bus - Überland/Berg,4,unbekannt
+323,VBSG, Stadt St. Gallen,Bus St.Gallen,25,"2",Bus - Agglomeration,11,unbekannt
+324,VZO, Verkehrsbetriebe Zürichsee und Oberland (VZO) AG,Bus Zürichsee,25,"2",Bus - Agglomeration,7,unbekannt
+325,BLAG, Busland AG,Busland,24,"1",Bus - Überland/Berg,8,unbekannt
+326,SBW, Stadt Winterthur,Bus Winterthur,24,"1",Bus - Überland/Berg,1,unbekannt
+327,SMC, Compagnie de Chemin de Fer et d'Autobus Sierre-Mon,Bahn Montana,23,"3",Bahn - Überland/Berg,1,"60+ Minuten"
+328,RA, REGIONALPS SA ,Regionalps,22,"4",Bahn - Überland/Regionalverkehr,3,unbekannt
+329,TPF, Transports publics fribourgeois SA,Bus Fribourg,21,"1",Bus - Überland/Berg,1,unbekannt
+330,AAGL, Autobus AG Liestal Öffentlicher Verkehr,Bus Liestal,20,"1",Bus - Überland/Berg,2,Unter 5 Minuten
+331,RhB, Rhätische Bahn AG  (RhB),Rhätische Bahn,19,"4",Bahn - Überland/Regionalverkehr,5,"5-15 Minuten"
+332,AAGL, Autobus AG Liestal Öffentlicher Verkehr,Bus Liestal,17,"1",Bus - Überland/Berg,6,unbekannt
+333,AAGS, Auto AG Schwyz,Bus Schwyz,17,"1",Bus - Überland/Berg,9,unbekannt
+334,ASGS," René Ballestraz et fils, transports SA",Bus René Ballestraz,17,"1",Bus - Überland/Berg,1,unbekannt
+335,BVB, Basler Verkehrs-Betriebe,Basler Verkehrs,16,"2",Bus - Agglomeration,3,unbekannt
+336,BCS, Commune de Sion,Bus Sion,14,"1",Bus - Überland/Berg,2,"15-30 Minuten"
+337,BLS, BLS AG,Bern-Lötschberg-Simplon-Bahn,13,"4",Bahn - Überland/Regionalverkehr,8,unbekannt
+338,BLT, BLT Baselland Transport AG,Bus Baselland,13,"1",Bus - Überland/Berg,6,unbekannt
+339,SNL, SOCIETA' NAVIGAZIONE DEL LAGO DI LUGANO SA,Bus Lugano,13,"4",Bus - Überland/Berg,1,unbekannt
+340,TPG, Transports publics genevois (TPG),Bus Genf,13,"2",Bus - Agglomeration,4,"60+ Minuten"
+341,AWA, Ortsgemeinde Amden,Bus Amden,12,"1",Bus - Überland/Berg,1,"5-15 Minuten"
+342,LLB, Société anonyme des transports publics de Loèche-l,Bus Leuk,12,"1",Bus - Überland/Berg,1,Unter 5 Minuten
+343,THURBO, Thurbo AG,Thurbo,12,"4",Bahn - Überland/Regionalverkehr,5,unbekannt
+344,BuS, Bus und Service AG,BuS AG,11,"1",Bus - Überland/Berg,3,unbekannt
+345,AWA, Ortsgemeinde Amden,Bus Amden,10,"1",Bus - Überland/Berg,1,unbekannt
+346,BLS, BLS AG,Bern-Lötschberg-Simplon-Bahn,10,"4",Bahn - Überland/Regionalverkehr,4,Unter 5 Minuten
+347,BSU, Busbetrieb Solothurn und Umgebung AG,Bus Solothurn,10,"2",Bus - Agglomeration,1,"60+ Minuten"
+348,BWS, Busbetriebe Bamert GmbH,Bus Bamert,10,"1",Bus - Überland/Berg,1,"15-30 Minuten"
+349,RVBW, Regionale Verkehrsbetriebe Baden-Wettingen (RVBW) ,Bus Baden,10,"2",Bus - Agglomeration,2,"30-60 Minuten"
+350,VMCV, VMCV SA,Bus Montreux,10,"1",Bus - Überland/Berg,2,Unter 5 Minuten
+351,BGU, BGU Busbetrieb Grenchen und Umgebung AG,Bus Grenchen,8,"2",Bus - Agglomeration,3,unbekannt
+352,BOGG, Busbetrieb Olten Gösgen Gäu AG,Bus Olten,8,"2",Bus - Agglomeration,1,"60+ Minuten"
+353,BRER, O. Schneider AG,Bus Schneider,8,"1",Bus - Überland/Berg,1,Unter 5 Minuten
+354,BRER, O. Schneider AG,Bus Schneider,8,"1",Bus - Überland/Berg,2,unbekannt
+355,BSU, Busbetrieb Solothurn und Umgebung AG,Bus Solothurn,8,"2",Bus - Agglomeration,6,unbekannt
+356,RBL, Regionalbus Lenzburg AG,Bus Lenzburg,8,"1",Bus - Überland/Berg,4,unbekannt
+357,VBG, VBG Verkehrsbetriebe Glattal AG,Bus Glattal,8,"1",Bus - Überland/Berg,5,unbekannt
+358,asm, Aare Seeland mobil AG,Bus Aare Seeland,8,"1",Bus - Überland/Berg,5,unbekannt
+359,AB, Appenzeller Bahnen AG,Appenzeller Bahnen,5,"3",Bahn - Überland/Berg,3,"60+ Minuten"
+360,AVA, Aargau Verkehr AG,Bus Aargau,5,"1",Bus - Überland/Berg,3,unbekannt
+361,BLWE, Genossenschaft Busbetrieb Lichtensteig-Wattwil-Ebn,Bus Wattwil,5,"1",Bus - Überland/Berg,1,"30-60 Minuten"
+362,BLAG, Busland AG,Busland,4,"1",Bus - Überland/Berg,1,"60+ Minuten"
+363,BWS, Busbetriebe Bamert GmbH,Bus Bamert,4,"1",Bus - Überland/Berg,1,unbekannt
+364,LLB, Société anonyme des transports publics de Loèche-l,Bus Leuk,4,"1",Bus - Überland/Berg,2,unbekannt
+365,SOB, Schweizerische Südostbahn AG,Südostbahn,4,"4",Bahn - Überland/Regionalverkehr,1,Unter 5 Minuten
+366,TSD, Theytaz Excursions SA,Theytaz,4,"1",Bus - Überland/Berg,1,"5-15 Minuten"
+367,VBL, Verkehrsbetriebe Luzern AG,Bus Luzern,4,"2",Bus - Agglomeration,1,unbekannt
+368,AOT, Autokurse Oberthurgau AG (AOT),Bus Oberthurgau,3,"1",Bus - Überland/Berg,2,unbekannt
+369,ARAG, Rottal Auto AG,Bus Rottal,3,"1",Bus - Überland/Berg,2,unbekannt
+370,BLWE, Genossenschaft Busbetrieb Lichtensteig-Wattwil-Ebn,Bus Wattwil,3,"1",Bus - Überland/Berg,1,unbekannt
+371,BOB, Berner Oberland-Bahnen AG,Berner Oberbland,3,"3",Bahn - Überland/Berg,2,unbekannt
+372,RhB, Rhätische Bahn AG  (RhB),Rhätische Bahn,3,"4",Bahn - Überland/Regionalverkehr,1,unbekannt
+373,AS, Autobetrieb Sernftal AG,Bus Sernftal,2,"1",Bus - Überland/Berg,1,unbekannt
+374,BBA, Busbetrieb Aarau AG (BBA),Bus Aarau,2,"2",Bus - Agglomeration,1,unbekannt
+375,FART, Società per le Ferrovie Autolinee Regionali Ticine,Bus Tessin,2,"1",Bus - Überland/Berg,1,unbekannt
+376,AAGU, AUTO AG URI,Bus Uri,1,"1",Bus - Überland/Berg,1,unbekannt
+377,AFA, Automobilverkehr Frutigen-Adelboden AG,Bus Frutigen,1,"1",Bus - Überland/Berg,1,Unter 5 Minuten
+378,GWB, Grindelwald Bus AG,Grindelwald Bus,1,"1",Bus - Überland/Berg,1,"30-60 Minuten"
+379,GWB, Grindelwald Bus AG,Grindelwald Bus,1,"1",Bus - Überland/Berg,1,unbekannt
+380,NStCM, Compagnie du chemin de fer Nyon-St-Cergue-Morez SA,Bahn Waadt,1,"3",Bahn - Überland/Berg,1,unbekannt
+381,RVBW, Regionale Verkehrsbetriebe Baden-Wettingen (RVBW) ,Bus Baden,1,"2",Bus - Agglomeration,1,Unter 5 Minuten
+382,SBG, SBG SüdbadenBus GmbH,Bus Südbaden,1,"1",Bus - Überland/Berg,1,unbekannt
+383,SOB, Schweizerische Südostbahn AG,Südostbahn,1,"4",Bahn - Überland/Regionalverkehr,1,unbekannt
+384,TL, Transports Publics de la Région Lausannoise sa,Bus Lausanne,1,"2",Bus - Agglomeration,1,"60+ Minuten"
+385,TPN, TPN Transports publics de la Région Nyonnaise SA,Bus Nyon,1,"1",Bus - Überland/Berg,1,"60+ Minuten"
+386,TPN, TPN Transports publics de la Région Nyonnaise SA,Bus Nyon,1,"1",Bus - Überland/Berg,1,unbekannt
