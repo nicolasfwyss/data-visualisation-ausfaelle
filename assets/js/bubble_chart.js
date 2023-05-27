@@ -1,7 +1,7 @@
 // Konstanten die für alle Bubble Charts gleich sind
 
 // Grösse des Charts
-var width = 1166;
+var width = 1261;
 var height = 700;
 
 // Tooltip zum anzeigen der Daten
@@ -9,136 +9,166 @@ var tooltip = floatingTooltip('ausfaelle_tooltip', 300);
 
 // Farbpallette für die Verkehrsmittelkategorien
 var fillColor = d3.scaleOrdinal()
-    .domain(['Bus Berg', 'Bus Agglo', 'Zug Berg', 'Zug Überland'])
-    .range(['#f77f00', '#ca6702', '#0a9396', '#94d2bd']);
+    .domain(['0', '1', '2', '3'])
+    .range(['#faa307', '#e85d04', '#0a9396', '#94d2bd']);
+/*.range(['#ffbb08', '#87CEEB', '#e10000', '#325646']);*/
 
 // Variable die Skalierung angibt (scaling_line, scaling_line_bundles, scaling_all)
 
+var filtered_tu = ['PAG', 'AB', 'SBB', 'TMR', 'TL', 'VBD', 'RBS', 'TPF', 'VBSH', 'AMSA', 'TPL', 'TRN', 'BOS', 'SBB-D', 'TPG', 'ZVB', 'SVB', 'BSU', 'asm', 'REGO', 'BGU', 'VBG', 'VBZ', 'BLAG', 'VZO', 'THURBO', 'BLT', 'AAGR', 'VMCV', 'NStCM', 'VBL', 'AS', 'TRAVYS', 'VB', 'VBSG', 'AVJ', 'AAGS', 'BOGG', 'ABG', 'AVA', 'BuS', 'BBA', 'RA', 'STI', 'AAGL', 'SBG', 'BLS', 'MBC', 'SZU', 'BVB', 'TPC', 'ASGS', 'SMC', 'TPN', 'SOB', 'ARL', 'LEB', 'ARAG', 'SBW', 'RhB', 'FLP', 'MGB', 'AOT', 'GWB', 'WAB', 'BOB', 'FART', 'TSD', 'RBL', 'BCS', 'BRER', 'AAGU', 'LLB', 'RVBW', 'ABl', 'SNL', 'zb', 'AFA', 'AWA', 'BLWE', 'BWS'];
+
 var sort_type = 'all';
-var scale_type = 'line';
+var scale_type = 'all';
 
 var sort = {
     'all': {
         'center': {
-            x: width / 2, y: height / 2
-        },
-        'titles': null,
-        'csv': 'assets/data/ausfaelle_tu_all.csv',
-    },
-    'day': {
+            'Alle Ausfälle': {x: width / 2, y: height / 2}
+        }, 'titles': {
+            'Alle Ausfälle': 583
+        }, 'sum': {
+            'Alle Ausfälle': null
+        }, 'csv': 'assets/data/ausfaelle_tu_all.csv',
+    }, 'day': {
         'center': {
-            'Montag': {x: 133 + 1000 / 9 * 1, y: height / 2},
-            'Dienstag': {x: 133 + 1000 / 9 * 2, y: height / 2},
-            'Mittwoch': {x: 133 + 1000 / 9 * 3, y: height / 2},
-            'Donnerstag': {x: 133 + 1000 / 9 * 4, y: height / 2},
-            'Freitag': {x: 133 + 1000 / 9 * 5, y: height / 2},
-            'Samstag': {x: 133 + 1000 / 9 * 6, y: height / 2},
-            'Sonntag': {x: 133 + 1000 / 9 * 7, y: height / 2}
-        },
-        'titles': {
-            'Montag': 100,
-            'Dienstag': 261,
-            'Mittwoch': 422,
-            'Donnerstag': 583,
-            'Freitag': 744,
-            'Samstag': 905,
-            'Sonntag': 1066,
-        },
-        'csv': 'assets/data/ausfaelle_tu_day.csv',
-    },
-    'time': {
+            'Montag': {x: 233 + 1000 / 9 * 1, y: height / 2},
+            'Dienstag': {x: 233 + 1000 / 9 * 2, y: height / 2},
+            'Mittwoch': {x: 233 + 1000 / 9 * 3, y: height / 2},
+            'Donnerstag': {x: 233 + 1000 / 9 * 4, y: height / 2},
+            'Freitag': {x: 233 + 1000 / 9 * 5, y: height / 2},
+            'Samstag': {x: 233 + 1000 / 9 * 6, y: height / 2},
+            'Sonntag': {x: 233 + 1000 / 9 * 7, y: height / 2}
+        }, 'titles': {
+            'Montag': 220,
+            'Dienstag': 361,
+            'Mittwoch': 522,
+            'Donnerstag': 683,
+            'Freitag': 844,
+            'Samstag': 1005,
+            'Sonntag': 1146,
+        }, 'sum': {
+            'Montag': null,
+            'Dienstag': null,
+            'Mittwoch': null,
+            'Donnerstag': null,
+            'Freitag': null,
+            'Samstag': null,
+            'Sonntag': null,
+        }, 'csv': 'assets/data/ausfaelle_tu_day.csv',
+    }, 'time': {
         'center': {
-            '01:00 - 05:00': {x: 133 + 1000 / 8 * 1, y: height / 2},
-            '05:00 - 09:00': {x: 133 + 1000 / 8 * 2, y: height / 2},
-            '09:00 - 13:00': {x: 133 + 1000 / 8 * 3, y: height / 2},
-            '13:00 - 17:00': {x: 133 + 1000 / 8 * 4, y: height / 2},
-            '17:00 - 21:00': {x: 133 + 1000 / 8 * 5, y: height / 2},
-            '21:00 - 01:00': {x: 133 + 1000 / 8 * 6, y: height / 2},
-        },
-        'titles': {
-            '01:00 - 05:00': 100,
-            '05:00 - 09:00': 293,
-            '09:00 - 13:00': 486,
-            '13:00 - 17:00': 680,
-            '17:00 - 21:00': 873,
-            '21:00 - 01:00': 1066,
-        },
-        'csv': 'assets/data/ausfaelle_tu_time.csv',
-    },
-    'duration': {
+            '01:00 - 05:00': {x: 233 + 1000 / 8 * 1, y: height / 2},
+            '05:00 - 09:00': {x: 233 + 1000 / 8 * 2, y: height / 2},
+            '09:00 - 13:00': {x: 233 + 1000 / 8 * 3, y: height / 2},
+            '13:00 - 17:00': {x: 233 + 1000 / 8 * 4, y: height / 2},
+            '17:00 - 21:00': {x: 233 + 1000 / 8 * 5, y: height / 2},
+            '21:00 - 01:00': {x: 233 + 1000 / 8 * 6, y: height / 2},
+        }, 'titles': {
+            '01:00 - 05:00': 200,
+            '05:00 - 09:00': 375,
+            '09:00 - 13:00': 575,
+            '13:00 - 17:00': 775,
+            '17:00 - 21:00': 950,
+            '21:00 - 01:00': 1150,
+        }, 'sum': {
+            '01:00 - 05:00': null,
+            '05:00 - 09:00': null,
+            '09:00 - 13:00': null,
+            '13:00 - 17:00': null,
+            '17:00 - 21:00': null,
+            '21:00 - 01:00': null,
+        }, 'csv': 'assets/data/ausfaelle_tu_time.csv',
+    }, 'duration': {
         'center': {
-            'Unter 5 Minuten': {x: 133 + 1000 / 8 * 1, y: height / 2},
-            '5-15 Minuten': {x: 133 + 1000 / 8 * 2, y: height / 2},
-            '15-30 Minuten': {x: 133 + 1000 / 8 * 3, y: height / 2},
-            '30-60 Minuten': {x: 133 + 1000 / 8 * 4, y: height / 2},
-            '60+ Minuten': {x: 133 + 1000 / 8 * 5, y: height / 2},
-            'unbekannt': {x: 133 + 1000 / 8 * 6, y: height / 2},
-        },
-        'titles': {
-            'Unter 5 Minuten': 100,
-            '5-15 Minuten': 293,
-            '15-30 Minuten': 486,
-            '30-60 Minuten': 680,
-            '60+ Minuten': 873,
-            'unbekannt': 1066,
-        },
-        'csv': 'assets/data/ausfaelle_tu_duration.csv',
+            'Unter 5 Minuten': {x: 233 + 1000 / 8 * 1, y: height / 2},
+            '5-15 Minuten': {x: 233 + 1000 / 8 * 2, y: height / 2},
+            '15-30 Minuten': {x: 233 + 1000 / 8 * 3, y: height / 2},
+            '30-60 Minuten': {x: 233 + 1000 / 8 * 4, y: height / 2},
+            '60+ Minuten': {x: 233 + 1000 / 8 * 5, y: height / 2},
+            'unbekannt': {x: 233 + 1000 / 8 * 6, y: height / 2},
+        }, 'titles': {
+            'Unter 5 Minuten': 200,
+            '5-15 Minuten': 393,
+            '15-30 Minuten': 610,
+            '30-60 Minuten': 825,
+            '60+ Minuten': 1000,
+            'unbekannt': 1125,
+        }, 'sum': {
+            'Unter 5 Minuten': null,
+            '5-15 Minuten': null,
+            '15-30 Minuten': null,
+            '30-60 Minuten': null,
+            '60+ Minuten': null,
+            'unbekannt': null,
+        }, 'csv': 'assets/data/ausfaelle_tu_duration.csv',
     },
 
     'stops': {
         'center': {
-            '0 Haltestellen': {x: 133 + 1000 / 9 * 1, y: height / 2},
-            '1-2 Haltestellen': {x: 133 + 1000 / 9 * 2, y: height / 2},
-            '3-6 Haltestellen': {x: 133 + 1000 / 9 * 3, y: height / 2},
-            '7-13 Haltestellen': {x: 133 + 1000 / 9 * 4, y: height / 2},
-            '14-21 Haltestellen': {x: 133 + 1000 / 9 * 5, y: height / 2},
-            '22-39 Haltestellen': {x: 133 + 1000 / 9 * 6, y: height / 2},
-            '40+ Haltestellen': {x: 133 + 1000 / 9 * 7, y: height / 2}
-        },
-        'titles': {
-            '0 Haltestellen': 100,
-            '1-2 Haltestellen': 261,
-            '3-6 Haltestellen': 422,
-            '7-13 Haltestellen': 583,
-            '14-21 Haltestellen': 744,
-            '22-39 Haltestellen': 905,
-            '40+ Haltestellen': 1066,
-        },
-        'csv': 'assets/data/ausfaelle_tu_stops.csv',
-    },
-    'cause': {
+            '0 Haltestellen': {x: 233 + 1000 / 9 * 1, y: height / 2},
+            '1-2 Haltestellen': {x: 233 + 1000 / 9 * 2, y: height / 2},
+            '3-6 Haltestellen': {x: 233 + 1000 / 9 * 3, y: height / 2},
+            '7-13 Haltestellen': {x: 233 + 1000 / 9 * 4, y: height / 2},
+            '14-21 Haltestellen': {x: 233 + 1000 / 9 * 5, y: height / 2},
+            '22-39 Haltestellen': {x: 233 + 1000 / 9 * 6, y: height / 2},
+            '40+ Haltestellen': {x: 233 + 1000 / 9 * 7, y: height / 2}
+        }, 'titles': {
+            '0 Haltestellen': 200,
+            '1-2 Haltestellen': 361,
+            '3-6 Haltestellen': 522,
+            '7-13 Haltestellen': 683,
+            '14-21 Haltestellen': 844,
+            '22-39 Haltestellen': 1005,
+            '40+ Haltestellen': 1166,
+        }, 'sum': {
+            '0 Haltestellen': null,
+            '1-2 Haltestellen': null,
+            '3-6 Haltestellen': null,
+            '7-13 Haltestellen': null,
+            '14-21 Haltestellen': null,
+            '22-39 Haltestellen': null,
+            '40+ Haltestellen': null,
+        }, 'csv': 'assets/data/ausfaelle_tu_stops.csv',
+    }, 'cause': {
         'center': {
-            'Ausfall ganze Fahrt': {x: 133 + 1000 / 8 * 1, y: height / 2},
-            'Keine Daten': {x: 133 + 1000 / 8 * 2, y: height / 2},
-            'Status Unbekannt': {x: 133 + 1000 / 8 * 3, y: height / 2},
-            'Verspätung': {x: 133 + 1000 / 8 * 4, y: height / 2},
-            'Keine Daten Teilstrecke': {x: 133 + 1000 / 8 * 5, y: height / 2},
-            'Status Unbekannt Teilstrecke': {x: 133 + 1000 / 8 * 6, y: height / 2},
-        },
-        'titles': {
-            'Ausfall ganze Fahrt': 100,
-            'Keine Daten': 293,
-            'Status Unbekannt': 486,
-            'Verspätung': 680,
-            'Keine Daten Teilstrecke': 873,
-            'Status Unbekannt Teilstrecke': 1066,
-        },
-        'csv': 'assets/data/ausfaelle_tu_cause.csv',
-    },
-    'type': {
+            'Ausfall ganze Fahrt': {x: 233 + 1000 / 8 * 1, y: height / 2},
+            'Keine Daten': {x: 233 + 1000 / 8 * 2, y: height / 2},
+            'Status Unbekannt': {x: 233 + 1000 / 8 * 3, y: height / 2},
+            'Verspätung': {x: 233 + 1000 / 8 * 4, y: height / 2},
+            'Keine Daten Teilstrecke': {x: 233 + 1000 / 8 * 5, y: height / 2},
+            'Status Unbekannt Teilstrecke': {x: 233 + 1000 / 8 * 6.5, y: height / 2},
+        }, 'titles': {
+            'Ausfall ganze Fahrt': 250,
+            'Keine Daten': 450,
+            'Status Unbekannt': 650,
+            'Verspätung': 775,
+            'Keine Daten Teilstrecke': 925,
+            'Status Unbekannt Teilstrecke': 1130,
+        }, 'sum': {
+            'Ausfall ganze Fahrt': null,
+            'Keine Daten': null,
+            'Status Unbekannt': null,
+            'Verspätung': null,
+            'Keine Daten Teilstrecke': null,
+            'Status Unbekannt Teilstrecke': null,
+        }, 'csv': 'assets/data/ausfaelle_tu_cause.csv',
+    }, 'type': {
         'center': {
-            'Bus Überland/Berg': {x: 133 + 1000 / 6 * 1, y: height / 2},
-            'Bus Agglomeration': {x: 133 + 1000 / 6* 2, y: height / 2},
-            'Bahn Überland/Berg': {x: 133 + 1000 / 6 * 3, y: height / 2},
-            'Bahn Überland/Regionalverkehr': {x: 133 + 1000 / 6 * 4, y: height / 2},
-        },
-        'titles': {
-            'Bus Überland/Berg': 100,
-            'Bus Agglomeration': 422,
-            'Bahn Überland/Berg': 744,
-            'Bahn Überland/Regionalverkehr': 1066,
-        },
-        'csv': 'assets/data/ausfaelle_tu_type.csv',
+            'Bus Überland/Berg': {x: 233 + 1000 / 6 * 1, y: height / 2},
+            'Bus Agglomeration': {x: 233 + 1000 / 6 * 2, y: height / 2},
+            'Bahn Überland/Berg': {x: 233 + 1000 / 6 * 3, y: height / 2},
+            'Bahn Überland/Regionalverkehr': {x: 233 + 1000 / 6 * 4, y: height / 2},
+        }, 'titles': {
+            'Bus Überland/Berg': 250,
+            'Bus Agglomeration': 600,
+            'Bahn Überland/Berg': 800,
+            'Bahn Überland/Regionalverkehr': 1050,
+        }, 'sum': {
+            'Bus Überland/Berg': null,
+            'Bus Agglomeration': null,
+            'Bahn Überland/Berg': null,
+            'Bahn Überland/Regionalverkehr': null,
+        }, 'csv': 'assets/data/ausfaelle_tu_type.csv',
     },
 
 }
@@ -146,121 +176,45 @@ var sort = {
 var scales = {
     'all': {
         'all': {
-            'exponent': 0.6,
-            'range_min': 2,
-            'range_max': 200
-        },
-        'line': {
-            'exponent': 0.5,
-            'range_min': 2,
-            'range_max': 100
-        },
-        'line_bundles': {
-            'exponent': 0.5,
-            'range_min': 2,
-            'range_max': 115
+            'exponent': 0.6, 'range_min': 2, 'range_max': 170
+        }, 'line': {
+            'exponent': 0.5, 'range_min': 2, 'range_max': 80
         }
-    },
-    'day': {
+    }, 'day': {
         'all': {
-            'exponent': 0.5,
-            'range_min': 2,
-            'range_max': 60
-        },
-        'line': {
-            'exponent': 0.5,
-            'range_min': 2,
-            'range_max': 30
-        },
-        'line_bundles': {
-            'exponent': 0.5,
-            'range_min': 2,
-            'range_max': 35
+            'exponent': 0.5, 'range_min': 2, 'range_max': 65
+        }, 'line': {
+            'exponent': 0.5, 'range_min': 2, 'range_max': 35
         }
-    },
-    'time': {
+    }, 'time': {
         'all': {
-            'exponent': 0.4,
-            'range_min': 2,
-            'range_max': 60
-        },
-        'line': {
-            'exponent': 0.5,
-            'range_min': 2,
-            'range_max': 45
-        },
-        'line_bundles': {
-            'exponent': 0.5,
-            'range_min': 2,
-            'range_max': 35
+            'exponent': 0.4, 'range_min': 2, 'range_max': 60
+        }, 'line': {
+            'exponent': 0.5, 'range_min': 2, 'range_max': 45
         }
-    },
-    'duration': {
+    }, 'duration': {
         'all': {
-            'exponent': 0.4,
-            'range_min': 2,
-            'range_max': 80
-        },
-        'line': {
-            'exponent': 0.5,
-            'range_min': 2,
-            'range_max': 70
-        },
-        'line_bundles': {
-            'exponent': 0.5,
-            'range_min': 2,
-            'range_max': 60
+            'exponent': 0.4, 'range_min': 2, 'range_max': 80
+        }, 'line': {
+            'exponent': 0.5, 'range_min': 2, 'range_max': 70
         }
-    },
-    'stops': {
+    }, 'stops': {
         'all': {
-            'exponent': 0.4,
-            'range_min': 2,
-            'range_max': 100
-        },
-        'line': {
-            'exponent': 0.5,
-            'range_min': 2,
-            'range_max': 100
-        },
-        'line_bundles': {
-            'exponent': 0.5,
-            'range_min': 2,
-            'range_max': 60
+            'exponent': 0.4, 'range_min': 2, 'range_max': 90
+        }, 'line': {
+            'exponent': 0.5, 'range_min': 2, 'range_max': 90
         }
-    },
-    'cause': {
+    }, 'cause': {
         'all': {
-            'exponent': 0.4,
-            'range_min': 2,
-            'range_max': 100
-        },
-        'line': {
-            'exponent': 0.5,
-            'range_min': 2,
-            'range_max': 80
-        },
-        'line_bundles': {
-            'exponent': 0.5,
-            'range_min': 2,
-            'range_max': 60
+            'exponent': 0.4, 'range_min': 2, 'range_max': 100
+        }, 'line': {
+            'exponent': 0.5, 'range_min': 2, 'range_max': 80
         }
-    },
-    'type': {
+    }, 'type': {
         'all': {
-            'exponent': 0.4,
-            'range_min': 2,
-            'range_max': 120
-        },
-        'line': {
-            'exponent': 0.5,
-            'range_min': 2,
-            'range_max': 80
-        },
-        'line_bundles': {
-            'exponent': 0.5,
-            'range_min': 2,
-            'range_max': 60
+            'exponent': 0.4, 'range_min': 2, 'range_max': 120
+        }, 'line': {
+            'exponent': 0.5, 'range_min': 2, 'range_max': 80
         }
     }
 
@@ -275,9 +229,10 @@ function bubbleChart() {
     // Variablen für den Chart
     // erstellen eines svg elements fürs html
     var svg = d3.select('#vis')
-        .append('svg')
-        .attr('width', width)
-        .attr('height', height);
+            .append('svg')
+            .attr('viewBox', '0 0 1261 700')
+        /*        .attr('width', width)
+                .attr('height', height)*/;
     var bubbles = null;
     var text_name = null;
     var text_value = null;
@@ -288,7 +243,7 @@ function bubbleChart() {
 
     // Charge function für das Verhalten des Bubble Charts
     function charge(d) {
-        return -Math.pow(d.radius, 2.0) * forceStrength;
+        return -Math.pow(d.radius, 2.) * forceStrength;
     }
 
     // force Simulation und die dazugehörigen Forces
@@ -338,10 +293,10 @@ function bubbleChart() {
                 value: +d.anzahl_ausfaelle,
                 tu: d.tu,
                 name: d.name,
+                short_name: d.kurzer_name,
                 type: d.id_vmkat,
                 type_name: d.vmkat,
                 lines: d.anzahl_linien,
-                line_bundles: d.anzahl_linien_buendel,
                 x: Math.random() * 900,
                 y: Math.random() * 800
             };
@@ -407,10 +362,10 @@ function bubbleChart() {
                 return "circle" + d.id;
             })
             .attr('fill', function (d) {
-                return fillColor(d.type);
+                return fillColor(d.type - 1);
             })
             .attr('stroke', function (d) {
-                return d3.rgb(fillColor(d.type)).darker();
+                return d3.rgb(fillColor(d.type - 1)).darker();
             })
             .attr('stroke-width', 2)
             .on('mouseover', showDetail)
@@ -418,7 +373,7 @@ function bubbleChart() {
 
         // textfeld hinzufügen
         var text_nameE = text_name.enter().append('text')
-            .attr("dx", 12)
+            .attr("dx", 0)
             .attr("dy", ".35em")
             .on('mouseover', showDetail)
             .on('mouseout', hideDetail);
@@ -435,8 +390,21 @@ function bubbleChart() {
         text_name = text_name.merge(text_nameE);
         text_value = text_value.merge(text_valueE);
 
+        // Legende
+        svg.append("text").attr("x", 10).attr("y", 10).text("Legende").style("font-size", "20px").style("font-weight", "bold").attr("alignment-baseline", "middle")
+        svg.append("circle").attr("cx", 20).attr("cy", 40).attr("r", 10).style("fill", "#faa307")
+        svg.append("circle").attr("cx", 20).attr("cy", 70).attr("r", 10).style("fill", "#e85d04")
+        svg.append("circle").attr("cx", 20).attr("cy", 100).attr("r", 10).style("fill", "#0a9396")
+        svg.append("circle").attr("cx", 20).attr("cy", 130).attr("r", 10).style("fill", "#94d2bd")
+        svg.append("text").attr("x", 40).attr("y", 40).text("Bus Berg").style("font-size", "15px").attr("alignment-baseline", "middle")
+        svg.append("text").attr("x", 40).attr("y", 70).text("Bus Agglomeration").style("font-size", "15px").attr("alignment-baseline", "middle")
+        svg.append("text").attr("x", 40).attr("y", 100).text("Bahn Berg").style("font-size", "15px").attr("alignment-baseline", "middle")
+        svg.append("text").attr("x", 40).attr("y", 130).text("Bahn Regionalverkehr").style("font-size", "15px").attr("alignment-baseline", "middle")
+
+
         // Nodes der Simunlation durch die neuen Nodes ersetzen
 
+        updateTitles();
         myBubbleChart.scaleBubbles();
 
     }
@@ -458,6 +426,8 @@ function bubbleChart() {
             if (error) {
                 console.log(error);
             }
+            data = data.filter(d => filtered_tu.includes(d.tu));
+
             chart(data);
             splitBubbles();
             updateTitles();
@@ -466,19 +436,18 @@ function bubbleChart() {
     }
 
     function updateTitles() {
-        svg.selectAll('.day').remove();
-        svg.selectAll('.time').remove();
-        svg.selectAll('.duration').remove();
-        svg.selectAll('.stops').remove();
-        svg.selectAll('.cause').remove();
+
+        svg.selectAll('.title').remove();
+        svg.selectAll('.sum').remove();
+
 
         var data = d3.keys(sort[sort_type].titles);
         if (data.length > 0) {
-            var titles = svg.selectAll('.'+sort_type)
+            var titles = svg.selectAll('.' + sort_type)
                 .data(data);
 
             titles.enter().append('text')
-                .attr('class', sort_type)
+                .attr('class', 'title')
                 .attr('x', function (d) {
                     return sort[sort_type].titles[d];
                 })
@@ -487,29 +456,38 @@ function bubbleChart() {
                 .text(function (d) {
                     return d;
                 });
+
+            titles.enter().append('text')
+                .attr('class', 'sum')
+                .attr('x', function (d) {
+                    return sort[sort_type].titles[d];
+                })
+                .attr('y', 660)
+                .attr('text-anchor', ' middle')
+                .text(function (d) {
+                    return Math.floor(sort[sort_type].sum[d] / 1000) + 'k';
+                })
+
+
         }
-    }
-    function nodePos(d) {
-        if (d.sort) {
-            return sort[sort_type].center[d.sort].x;
-        }
-        return center.x;
     }
 
+    function nodePosX(d) {
+        return sort[sort_type].center[d.sort].x;
+    }
+
+
     function splitBubbles() {
-        // @v4 Reset the 'x' force to draw the bubbles to their year centers
-        simulation.force('x', d3.forceX().strength(forceStrength).x(nodePos));
+        // @v4 Reset the 'x' force to draw the bubbles to their sort centers
+        simulation.force('x', d3.forceX().strength(forceStrength).x(nodePosX));
 
         // @v4 We can reset the alpha value and restart the simulation
         simulation.alpha(1).restart();
-        simulation.alpha(1).restart();
-        simulation.alpha(1).restart();
-
-
     }
 
     chart.scaleBubbles = function () {
 
+        Object.keys(sort[sort_type].sum).forEach(key => sort[sort_type].sum[key] = null);
         nodes.forEach(function (d) {
             switch (scale_type) {
                 case 'line':
@@ -518,10 +496,10 @@ function bubbleChart() {
                 case 'all':
                     d.comp_value = d.value;
                     break;
-                case 'line_bundles':
-                    d.comp_value = d.value / d.line_bundles;
-                    break;
             }
+            d.sort = (typeof d.sort === 'undefined') ? 'Alle Ausfälle' : d.sort
+            sort[sort_type].sum[d.sort] += d.comp_value;
+            console.log(sort[sort_type].sum)
 
             d.radius = d3.scalePow()
                 .exponent(scales[sort_type][scale_type].exponent)
@@ -533,12 +511,18 @@ function bubbleChart() {
 
         text_name
             .text(function (d) {
-                return d.radius > d.tu.length * 10 ? d.tu : "";
+                if (d.radius > d.short_name.length * 6) return d.short_name
+                if (d.radius > d.tu.length * 10) return d.tu
+                return ""
+            })
+            .attr("dx", function (d) {
+                if (d.radius > d.short_name.length * 6) return -d.short_name.length
+                if (d.radius > d.tu.length * 10) return 12
             });
 
         text_value
             .text(function (d) {
-                return d.radius > 40 && d.radius > d.tu.length * 10 ? Math.floor((d.comp_value) / 1000) + "k" : "";
+                return d.radius > 40 && d.radius > d.tu.length * 10 ? d.comp_value > 1000 ? Math.floor((d.comp_value) / 1000) + "k" : Math.floor(d.comp_value) : "";
             });
 
         bubbles.transition()
@@ -552,7 +536,10 @@ function bubbleChart() {
         // @v4 We can reset the alpha value and restart the simulation
         simulation.alpha(1).restart();
 
+        updateTitles();
+
     }
+
     // Funktion für anzeigen der Tooltips
     function showDetail(d) {
         // change outline to indicate hover state.
@@ -560,64 +547,32 @@ function bubbleChart() {
 
         last_key = Object.keys(d)[Object.keys(d).length - 4];
 
-        var content = '<span class="name">Tu: </span><span class="value">' +
-            d.tu +
-            '</span><br/>' +
-            '<span class="name">Transportunternehmen: </span><span class="value">' +
-            d.name +
-            '</span><br/>' +
-            '<span class="name">Ausfälle: </span><span class="value">' +
-            d.value +
-            '</span><br/>' +
-            '<span class="name">Anzahl Linien: </span><span class="value">' +
-            d.lines +
-            '</span><br/>' +
-            '<span class="name">Ausfälle pro Linie: </span><span class="value">' +
-            Math.round(d.value / d.lines) +
-            '</span><br/>' +
-            '<span class="name">Anzahl Linienbündel: </span><span class="value">' +
-            d.line_bundles +
-            '</span><br/>' +
-            '<span class="name">Typ: </span><span class="value">' +
-            d.type_name +
-            '</span>';
-
+        var content = '' +
+            '<span class="name">Tu: </span><span class="value">' + d.tu + '</span><br/>'
+            + '<span class="name">Bezeichnung: </span><span class="value">' + d.short_name + '</span><br/>'
+            + '<span class="name">Transportunternehmen: </span><span class="value">' + d.name + '</span><br/>'
+            + '<span class="name">Ausfälle: </span><span class="value">' + d.value + '</span><br/>'
+            + '<span class="name">Anzahl Linien: </span><span class="value">' + d.lines + '</span><br/>'
+            + '<span class="name">Ausfälle pro Linie: </span><span class="value">' + Math.round(d.value / d.lines) + '</span><br/>'
+            + '<span class="name">Typ: </span><span class="value">' + d.type_name + '</span>';
         switch (sort_type) {
             case "day":
-                content += '<br/>' +
-                    '<span class="name">Tag: </span><span class="value">' +
-                    d.sort +
-                    '</span>';
+                content += '<br/>' + '<span class="name">Tag: </span><span class="value">' + d.sort + '</span>';
                 break;
             case "time":
-                content += '<br/>' +
-                    '<span class="name">Zeitraum: </span><span class="value">' +
-                    d.sort +
-                    '</span>';
+                content += '<br/>' + '<span class="name">Zeitraum: </span><span class="value">' + d.sort + '</span>';
                 break;
             case "duration":
-                content += '<br/>' +
-                    '<span class="name">Ausfalldauer: </span><span class="value">' +
-                    d.sort +
-                    '</span>';
+                content += '<br/>' + '<span class="name">Ausfalldauer: </span><span class="value">' + d.sort + '</span>';
                 break;
             case "stops":
-                content += '<br/>' +
-                    '<span class="name">Anzahl Haltestellen: </span><span class="value">' +
-                    d.sort +
-                    '</span>';
+                content += '<br/>' + '<span class="name">Anzahl Haltestellen: </span><span class="value">' + d.sort + '</span>';
                 break;
             case "cause":
-                content += '<br/>' +
-                    '<span class="name">Ausfall Meldung: </span><span class="value">' +
-                    d.sort +
-                    '</span>';
+                content += '<br/>' + '<span class="name">Ausfall Meldung: </span><span class="value">' + d.sort + '</span>';
                 break;
             case "type":
-                content += '<br/>' +
-                    '<span class="name">Verkehrsmittel : </span><span class="value">' +
-                    d.sort +
-                    '</span>';
+                content += '<br/>' + '<span class="name">Verkehrsmittel : </span><span class="value">' + d.sort + '</span>';
                 break;
 
         }
@@ -629,7 +584,7 @@ function bubbleChart() {
     function hideDetail(d) {
         // reset outline
         d3.select(document.getElementById("circle" + d.id))
-            .attr('stroke', d3.rgb(fillColor(d.type)).darker());
+            .attr('stroke', d3.rgb(fillColor(d.type - 1)).darker());
 
         tooltip.hideTooltip();
     }
@@ -686,12 +641,36 @@ function setupButtons() {
             console.log(scale_type);
             console.log(sort_type);
             myBubbleChart.updateChart();
+            myBubbleChart.scaleBubbles();
 
         });
 }
 
+
+$('#mySelect').multiselect({
+    buttonClass: 'btn btn-info',
+    buttonWidth: '120px',
+    nonSelectedText: 'Filter',
+    numberDisplayed: 1,
+    includeSelectAllOption: true,
+    enableCaseInsensitiveFiltering: true,
+    allSelectedText: "Alle",
+    maxHeight: 600,
+    widthSynchronizationMode: 'ifPopupIsWider',
+    onDropdownHidden: function (event) {
+        console.log(filtered_tu)
+        console.log($('#mySelect').val());
+        filtered_tu = $('#mySelect').val();
+        console.log(filtered_tu)
+        myBubbleChart.updateChart();
+    }
+});
+
+
+myBubbleChart.updateChart();
+
 // Load the data.
-d3.csv('assets/data/ausfaelle_tu_all.csv', display);
+/*d3.csv('assets/data/ausfaelle_tu_all.csv', display);*/
 
 // setup the buttons.
 setupButtons();
