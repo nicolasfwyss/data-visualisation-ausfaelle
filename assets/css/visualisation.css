@@ -11,12 +11,27 @@ a, a:visited, a:active {
     border: 1px solid #e0e0e0;
     text-decoration: none;
 }
-
+/*
 .button.active {
     background: #000;
     color: #fff;
+}*/
+
+@media only screen and (min-width: 600px) {
+    .dropdown-menu {
+        width: 350px !important;
+        transform: translate3d(-230px, 45px, 0px) !important;
+
+    }
 }
 
+.checkbox {
+    padding-left: 10px !important;
+}
+
+.sum, .title {
+    font-weight: bold;
+}
 
 #vis {
     width: 1166px;
