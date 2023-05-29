@@ -12,177 +12,195 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 
 </head>
-<body id=#page-top>
-<nav class="navbar navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#page-top">Home</a>
-    <a class="navbar text-white text-decoration-none text-capitalize" href="#grafik">Grafik</a>
-    <a class="navbar text-white text-decoration-none text-capitalize" href="#dokumentation">Dokumentation</a>
-    <a class="navbar text-white text-decoration-none text-capitalize" href="#impressum">Impressum</a>
+<body id="home">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-3 pb-4" aria-label="Eighth navbar example">
+  <div class="container">
+    <a class="navbar-brand" href="#home"><h4>Home</h4></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
+            aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExample07">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item h-3">
+          <a class="nav-link active" aria-current="page" href="#grafik">Grafik</a>
+        </li>
+        <li class="nav-item h-3">
+          <a class="nav-link active" aria-current="page" href="#dokumentation">Dokumentation</a>
+        </li>
+        <li class="nav-item h-3">
+          <a class="nav-link active" aria-current="page" href="#impressum">Impressum</a>
+        </li>
+      </ul>
+
+    </div>
   </div>
 </nav>
 
 <div class="container">
-  <div class="card my-5">
-    <div class="card-header">
-      <h1 class="text-center">Verkehrsausfälle in der Schweiz: Eine interaktive Reise durch Daten</h1>
-      <br>
-      <p>
-        Meine Open-Data Visualisierung zeigt Verkehrsausfälle in der Schweiz (23.03.2022 - 12.03.2023). Verschiedene
-        Verkehrstypen sind durch Farben gekennzeichnet, während die Größe die Anzahl der Ausfälle repräsentiert. Die
-        interaktive Darstellung ermöglicht es, Ausfälle nach verschiedenen Filtern (grüne Knöpfe) wie beispielsweise
-        Wochentag oder Ausfalldauer aufzuteilen. Zudem besteht die Möglichkeit, die Ausfälle zu normieren (blaue Knöpfe)
-        und so die Anzahl Ausfälle pro Linie anstelle der Gesamtanzahl der Ausfälle anzuzeigen. Falls man sich nur für
-        bestimmte Transportunternehmen interessiert, kann man diese mithilfe des Filters aussuchen. Tauche ein und
-        erhalte einen visuellen Überblick über Verkehrsausfälle in der Schweiz!
-      </p>
-    </div>
-    <div class="card-body" id="grafik">
-      <div class="row">
-        <div id="buttons_sort" class="col-sm-8">
-          <h3 class="px-1">Sortierung
-            <button type="button" class="btn btn-link shadow-none p-0" data-toggle="popover" data-trigger="focus"
-                    title="Sortierung"
-                    data-content="Mit der Sortierungsfunktionen können die Bubbles nach verschiedenen Kriterien sortiert und aufgeteilt werden">
-              <span class="bi bi-info-circle"></span>
-            </button>
-          </h3>
-
-          <!--
-                    <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>          <button data="all" class="btn btn-outline-success m-1 sort btn-success text-white" id="sort_all">Alle
-          -->
-          </button>
-          <button data="all" class="btn btn-outline-success m-1 sort btn-success text-white" id="sort_all">Alle
-          </button>
-          <button data="day" class="btn btn-outline-success m-1 sort">Wochentag</button>
-          <button data="time" class="btn btn-outline-success m-1 sort">Tageszeit</button>
-          <button data="duration" class="btn btn-outline-success m-1 sort">Ausfalldauer</button>
-          <button data="stops" class="btn btn-outline-success m-1 sort">Haltestellen</button>
-          <button data="cause" class="btn btn-outline-success m-1 sort">Ausfallmeldung</button>
-          <button data="type" class="btn btn-outline-success m-1 sort">Verkehrsmittel</button>
-        </div>
-        <div class="col-sm-4">
-          <div class="row">
-            <div id="buttons_scale" class="col-sm-8">
-              <h3 class="px-1">Normierung
-                <button type="button" class="btn btn-link shadow-none p-0" data-toggle="popover" data-trigger="focus"
-                        title="Normierung"
-                        data-content="Mit der Normierungsfunktion kann man zwischen der Gesamtanzahl an Ausfällen und der Anzahl Ausfälle pro Linie wechseln">
-                  <span class="bi bi-info-circle"></span>
-                </button>
-              </h3>
-              <button scale="all" class="btn btn-outline-primary m-1 scale btn-primary text-white">Total</button>
-              <button scale="line" class="btn btn-outline-primary m-1 scale ">Ausfälle pro
-                Linie
+  <div class="card bg-light my-5">
+    <div>
+      <div class="card-header">
+        <h1 class="text-center display-6">Verkehrsausfälle in der Schweiz: Eine interaktive Reise durch Daten</h1>
+        <br>
+        <p>
+          Meine Open-Data Visualisierung zeigt Verkehrsausfälle im öffentlichen Verkehr in der Schweiz zwischen dem
+          23.03.2022 und 12.03.2023. Verschiedene
+          Verkehrstypen sind durch Farben gekennzeichnet, während die Größe die Anzahl der Ausfälle repräsentiert. Die
+          interaktive Darstellung ermöglicht es, Ausfälle nach verschiedenen Filtern (grüne Knöpfe) wie beispielsweise
+          Wochentag oder Ausfalldauer aufzuteilen. Zudem besteht die Möglichkeit, die Ausfälle zu normieren (blaue
+          Knöpfe)
+          und so die Anzahl Ausfälle pro Linie anstelle der Gesamtanzahl der Ausfälle anzuzeigen. Falls man sich nur für
+          bestimmte Transportunternehmen interessiert, kann man diese mithilfe des Filters aussuchen. Tauche ein und
+          erhalte einen visuellen Überblick über Verkehrsausfälle in der Schweiz!
+        </p>
+      </div>
+      <div class="card-body" id="grafik">
+        <div class="row">
+          <div id="buttons_sort" class="col-sm-8">
+            <h3 class="px-1">Sortierung
+              <button type="button" class="btn btn-link shadow-none p-0" data-toggle="popover" data-trigger="focus"
+                      data-content="Mit der Sortierungsfunktionen können die Bubbles nach verschiedenen Kriterien sortiert und aufgeteilt werden">
+                <span class="bi bi-info-circle"></span>
               </button>
-            </div>
-            <div id="buttons_filter" class="col-sm-4 p-1">
-              <h3 class="px-1">Filter
-                <button type="button" class="btn btn-link shadow-none p-0" data-toggle="popover" data-trigger="focus"
-                        title="Filter"
-                        data-content="Mit der Filterfunktion kann man Transportunternehmen filtern und somit direkt miteinander vergleichen">
-                  <span class="bi bi-info-circle"></span></button>
-              </h3>
-              <select id="mySelect" multiple="multiple">
-                <option selected value="AAGL">AAGL - Bus Liestal</option>
-                <option selected value="AAGR">AAGR - Bus Rothenburg</option>
-                <option selected value="AAGS">AAGS - Bus Schwyz</option>
-                <option selected value="AAGU">AAGU - Bus Uri</option>
-                <option selected value="AB">AB - Appenzeller Bahnen</option>
-                <option selected value="ABG">ABG - Bustour Genf</option>
-                <option selected value="ABl">ABl - Bus Bleniesi</option>
-                <option selected value="AFA">AFA - Bus Frutigen</option>
-                <option selected value="AMSA">AMSA - Bus Mendrisiense</option>
-                <option selected value="AOT">AOT - Bus Oberthurgau</option>
-                <option selected value="ARAG">ARAG - Bus Rottal</option>
-                <option selected value="ARL">ARL - Bus Luganesi</option>
-                <option selected value="AS">AS - Bus Sernftal</option>
-                <option selected value="ASGS">ASGS - Bus René Ballestraz</option>
-                <option selected value="AVA">AVA - Bus Aargau</option>
-                <option selected value="AVJ">AVJ - Bus AVJ</option>
-                <option selected value="AWA">AWA - Bus Amden</option>
-                <option selected value="BBA">BBA - Bus Aarau</option>
-                <option selected value="BCS">BCS - Bus Sion</option>
-                <option selected value="BGU">BGU - Bus Grenchen</option>
-                <option selected value="BLAG">BLAG - Busland</option>
-                <option selected value="BLS">BLS - Bern-Lötschberg-Simplon-Bahn</option>
-                <option selected value="BLT">BLT - Bus Baselland</option>
-                <option selected value="BLWE">BLWE - Bus Wattwil</option>
-                <option selected value="BOB">BOB - Berner Oberbland</option>
-                <option selected value="BOGG">BOGG - Bus Olten</option>
-                <option selected value="BOS">BOS - BUS Ostschweiz</option>
-                <option selected value="BRER">BRER - Bus Schneider</option>
-                <option selected value="BSU">BSU - Bus Solothurn</option>
-                <option selected value="BVB">BVB - Basler Verkehrs</option>
-                <option selected value="BWS">BWS - Bus Bamert</option>
-                <option selected value="BuS">BuS - BuS AG</option>
-                <option selected value="FART">FART - Bus Tessin</option>
-                <option selected value="FLP">FLP - Bahn Lugano</option>
-                <option selected value="GWB">GWB - Grindelwald Bus</option>
-                <option selected value="LEB">LEB - Bahn Lausanne</option>
-                <option selected value="LLB">LLB - Bus Leuk</option>
-                <option selected value="MBC">MBC - Bahn MBC</option>
-                <option selected value="MGB">MGB - Bahn Matterhorn</option>
-                <option selected value="NStCM">NStCM - Bahn Waadt</option>
-                <option selected value="PAG">PAG - PostAuto</option>
-                <option selected value="RA">RA - Regionalps</option>
-                <option selected value="RBL">RBL - Bus Lenzburg</option>
-                <option selected value="RBS">RBS - Regionalverkehr Bern-Solothurn</option>
-                <option selected value="REGO">REGO - Regiobus St. Gallen</option>
-                <option selected value="RVBW">RVBW - Bus Baden</option>
-                <option selected value="RhB">RhB - Rhätische Bahn</option>
-                <option selected value="SBB">SBB - Schweizerische Bundesbahnen</option>
-                <option selected value="SBG">SBG - Bus Südbaden</option>
-                <option selected value="SBW">SBW - Bus Winterthur</option>
-                <option selected value="SMC">SMC - Bahn Montana</option>
-                <option selected value="SNL">SNL - Bus Lugano</option>
-                <option selected value="SOB">SOB - Südostbahn</option>
-                <option selected value="STI">STI - Verkehrsbetriebe Steffisburg-Thun-Interlaken</option>
-                <option selected value="SVB">SVB - Bernmobil</option>
-                <option selected value="SZU">SZU - Bahn Sihltal</option>
-                <option selected value="THURBO">THURBO - Thurbo</option>
-                <option selected value="TL">TL - Bus Lausanne</option>
-                <option selected value="TMR">TMR - Bus Wallis</option>
-                <option selected value="TPC">TPC - Bus Chablais</option>
-                <option selected value="TPF">TPF - Bus Fribourg</option>
-                <option selected value="TPG">TPG - Bus Genf</option>
-                <option selected value="TPL">TPL - Lugano Bus</option>
-                <option selected value="TPN">TPN - Bus Nyon</option>
-                <option selected value="TRAVYS">TRAVYS - Bus Yverdon</option>
-                <option selected value="TRN">TRN - Bus Neuchatel</option>
-                <option selected value="TSD">TSD - Theytaz</option>
-                <option selected value="VB">VB - Bus Biel</option>
-                <option selected value="VBD">VBD - Bus Davos</option>
-                <option selected value="VBG">VBG - Bus Glattal</option>
-                <option selected value="VBL">VBL - Bus Luzern</option>
-                <option selected value="VBSG">VBSG - Bus St.Gallen</option>
-                <option selected value="VBSH">VBSH - Bus Schaffhausen</option>
-                <option selected value="VBZ">VBZ - Bus Zürich</option>
-                <option selected value="VMCV">VMCV - Bus Montreux</option>
-                <option selected value="VZO">VZO - Bus Zürichsee</option>
-                <option selected value="WAB">WAB - Wengernalpbahn</option>
-                <option selected value="ZVB">ZVB - Bus Zug</option>
-                <option selected value="asm">asm - Bus Aare Seeland</option>
-                <option selected value="zb">zb - Zentralbahn</option>
-              </select>
+            </h3>
+
+            <!--
+                      <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>          <button data="all" class="btn btn-outline-success m-1 sort btn-success text-white" id="sort_all">Alle
+            -->
+            </button>
+            <button data="all" class="btn btn-outline-success m-1 sort btn-success text-white" id="sort_all">Alle
+            </button>
+            <button data="day" class="btn btn-outline-success m-1 sort">Wochentag</button>
+            <button data="time" class="btn btn-outline-success m-1 sort">Tageszeit</button>
+            <button data="duration" class="btn btn-outline-success m-1 sort">Ausfalldauer</button>
+            <button data="stops" class="btn btn-outline-success m-1 sort">Haltestellen</button>
+            <button data="cause" class="btn btn-outline-success m-1 sort">Ausfallmeldung</button>
+            <button data="type" class="btn btn-outline-success m-1 sort">Verkehrsmittel</button>
+          </div>
+          <div class="col-sm-4">
+            <div class="row">
+              <div id="buttons_scale" class="col-sm-8">
+                <h3 class="px-1">Normierung
+                  <button type="button" class="btn btn-link shadow-none p-0" data-toggle="popover" data-trigger="focus"
+                          data-content="Mit der Normierungsfunktion kann man zwischen der Gesamtanzahl und der Anzahl Ausfälle pro Linie wechseln">
+                    <span class="bi bi-info-circle"></span>
+                  </button>
+                </h3>
+                <button scale="all" class="btn btn-outline-primary m-1 scale btn-primary text-white">Total</button>
+                <button scale="line" class="btn btn-outline-primary m-1 scale ">Ausfälle pro
+                  Linie
+                </button>
+              </div>
+              <div id="buttons_filter" class="col-sm-4 p-1">
+                <h3 class="px-1">Filter
+                  <button type="button" class="btn btn-link shadow-none p-0" data-toggle="popover" data-trigger="focus"
+                          data-content="Mit der Filterfunktion kann man Transportunternehmen filtern und somit direkt miteinander vergleichen">
+                    <span class="bi bi-info-circle"></span></button>
+                </h3>
+                <select id="mySelect" multiple="multiple">
+                  <option selected value="AAGL">AAGL - Bus Liestal</option>
+                  <option selected value="AAGR">AAGR - Bus Rothenburg</option>
+                  <option selected value="AAGS">AAGS - Bus Schwyz</option>
+                  <option selected value="AAGU">AAGU - Bus Uri</option>
+                  <option selected value="AB">AB - Appenzeller Bahnen</option>
+                  <option selected value="ABG">ABG - Bustour Genf</option>
+                  <option selected value="ABl">ABl - Bus Bleniesi</option>
+                  <option selected value="AFA">AFA - Bus Frutigen</option>
+                  <option selected value="AMSA">AMSA - Bus Mendrisiense</option>
+                  <option selected value="AOT">AOT - Bus Oberthurgau</option>
+                  <option selected value="ARAG">ARAG - Bus Rottal</option>
+                  <option selected value="ARL">ARL - Bus Luganesi</option>
+                  <option selected value="AS">AS - Bus Sernftal</option>
+                  <option selected value="ASGS">ASGS - Bus René Ballestraz</option>
+                  <option selected value="AVA">AVA - Bus Aargau</option>
+                  <option selected value="AVJ">AVJ - Bus AVJ</option>
+                  <option selected value="AWA">AWA - Bus Amden</option>
+                  <option selected value="BBA">BBA - Bus Aarau</option>
+                  <option selected value="BCS">BCS - Bus Sion</option>
+                  <option selected value="BGU">BGU - Bus Grenchen</option>
+                  <option selected value="BLAG">BLAG - Busland</option>
+                  <option selected value="BLS">BLS - Bern-Lötschberg-Simplon-Bahn</option>
+                  <option selected value="BLT">BLT - Bus Baselland</option>
+                  <option selected value="BLWE">BLWE - Bus Wattwil</option>
+                  <option selected value="BOB">BOB - Berner Oberbland</option>
+                  <option selected value="BOGG">BOGG - Bus Olten</option>
+                  <option selected value="BOS">BOS - BUS Ostschweiz</option>
+                  <option selected value="BRER">BRER - Bus Schneider</option>
+                  <option selected value="BSU">BSU - Bus Solothurn</option>
+                  <option selected value="BVB">BVB - Basler Verkehrs</option>
+                  <option selected value="BWS">BWS - Bus Bamert</option>
+                  <option selected value="BuS">BuS - BuS AG</option>
+                  <option selected value="FART">FART - Bus Tessin</option>
+                  <option selected value="FLP">FLP - Bahn Lugano</option>
+                  <option selected value="GWB">GWB - Grindelwald Bus</option>
+                  <option selected value="LEB">LEB - Bahn Lausanne</option>
+                  <option selected value="LLB">LLB - Bus Leuk</option>
+                  <option selected value="MBC">MBC - Bahn MBC</option>
+                  <option selected value="MGB">MGB - Bahn Matterhorn</option>
+                  <option selected value="NStCM">NStCM - Bahn Waadt</option>
+                  <option selected value="PAG">PAG - PostAuto</option>
+                  <option selected value="RA">RA - Regionalps</option>
+                  <option selected value="RBL">RBL - Bus Lenzburg</option>
+                  <option selected value="RBS">RBS - Regionalverkehr Bern-Solothurn</option>
+                  <option selected value="REGO">REGO - Regiobus St. Gallen</option>
+                  <option selected value="RVBW">RVBW - Bus Baden</option>
+                  <option selected value="RhB">RhB - Rhätische Bahn</option>
+                  <option selected value="SBB">SBB - Schweizerische Bundesbahnen</option>
+                  <option selected value="SBG">SBG - Bus Südbaden</option>
+                  <option selected value="SBW">SBW - Bus Winterthur</option>
+                  <option selected value="SMC">SMC - Bahn Montana</option>
+                  <option selected value="SNL">SNL - Bus Lugano</option>
+                  <option selected value="SOB">SOB - Südostbahn</option>
+                  <option selected value="STI">STI - Verkehrsbetriebe Steffisburg-Thun-Interlaken</option>
+                  <option selected value="SVB">SVB - Bernmobil</option>
+                  <option selected value="SZU">SZU - Bahn Sihltal</option>
+                  <option selected value="THURBO">THURBO - Thurbo</option>
+                  <option selected value="TL">TL - Bus Lausanne</option>
+                  <option selected value="TMR">TMR - Bus Wallis</option>
+                  <option selected value="TPC">TPC - Bus Chablais</option>
+                  <option selected value="TPF">TPF - Bus Fribourg</option>
+                  <option selected value="TPG">TPG - Bus Genf</option>
+                  <option selected value="TPL">TPL - Lugano Bus</option>
+                  <option selected value="TPN">TPN - Bus Nyon</option>
+                  <option selected value="TRAVYS">TRAVYS - Bus Yverdon</option>
+                  <option selected value="TRN">TRN - Bus Neuchatel</option>
+                  <option selected value="TSD">TSD - Theytaz</option>
+                  <option selected value="VB">VB - Bus Biel</option>
+                  <option selected value="VBD">VBD - Bus Davos</option>
+                  <option selected value="VBG">VBG - Bus Glattal</option>
+                  <option selected value="VBL">VBL - Bus Luzern</option>
+                  <option selected value="VBSG">VBSG - Bus St.Gallen</option>
+                  <option selected value="VBSH">VBSH - Bus Schaffhausen</option>
+                  <option selected value="VBZ">VBZ - Bus Zürich</option>
+                  <option selected value="VMCV">VMCV - Bus Montreux</option>
+                  <option selected value="VZO">VZO - Bus Zürichsee</option>
+                  <option selected value="WAB">WAB - Wengernalpbahn</option>
+                  <option selected value="ZVB">ZVB - Bus Zug</option>
+                  <option selected value="asm">asm - Bus Aare Seeland</option>
+                  <option selected value="zb">zb - Zentralbahn</option>
+                </select>
+              </div>
             </div>
           </div>
         </div>
+        <hr>
       </div>
-      <hr>
-    </div>
-    <div class="card-body">
-      <div id="vis" viewBox="0 0 1261 700"></div>
+      <div class="card-body">
+        <div id="vis" viewBox="0 0 1261 700"></div>
+      </div>
     </div>
   </div>
+
   <div class="row">
-    <div class="col-sm-4">
-      <div class="card my-2">
-        <div id="#dokumentation" class="card-header">
-          <h3 class="card-title">Daten</h3>
+    <div class="col-sm-4 d-flex align-items-stretch" id="dokumentation">
+      <div class="card bg-light my-2">
+        <div class="card-header">
+          <h3 class="card-title display-6">Daten</h3>
         </div>
-        <div class="card-body">
-          <h5>Datenquelle</h5>
+        <div class="card-body" >
+          <h4>Datenquelle</h4>
           <p class="card-text">
             Die Daten für meine Visualisierung stammen von der Firma ETC Solutions. Der Datensatz
             umfasst Verkehrsausfälle vom 23.03.2022 bis 12.03.2023 und enthält detaillierte Informationen wie das
@@ -199,13 +217,13 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-4">
-      <div class="card my-2">
+    <div class="col-sm-4 d-flex align-items-stretch">
+      <div class="card bg-light my-2" >
         <div class="card-header">
-          <h3 class="card-title">Datenverarbeitung</h3>
+          <h3 class="card-title display-6">Datenverarbeitung</h3>
         </div>
         <div class="card-body">
-          <h5>Aggregration und Sortierung</h5>
+          <h4>Aggregration und Sortierung</h4>
           <p class="card-text">
             Aufgrund der enormen Größe des gesamten Datensatzes musste eine Vorverarbeitet für meine Visualisierung
             durchgeführt werden.
@@ -216,20 +234,20 @@
             Diese Aggregation und Sortierung erleichtert es den Betrachtern, spezifische Muster und Trends in den
             Verkehrsausfällen zu erkennen, ohne von der Fülle der Daten überwältigt zu werden.
           </p>
-          <h5>Downloads</h5>
+          <h4>Downloads</h4>
           <a href="https://etc-solutions.de/wp-content/uploads/2023/03/ausfall_-2022-01-01_2023-03-11.zip"
              class="btn align-items-center btn-success">Ganzer Datensatz (~400MB)</a>
           <a href="assets/data/data.zip" class="btn btn-success">Gefilterte Daten</a>
         </div>
       </div>
     </div>
-    <div class="col-sm-4">
-      <div class="card my-2">
+    <div class="col-sm-4 d-flex align-items-stretch">
+      <div class="card bg-light my-2" >
         <div class="card-header">
-          <h3 class="card-title">Programmierung</h3>
+          <h3 class="card-title display-6">Programmierung</h3>
         </div>
         <div class="card-body">
-          <h5 class="card-title">Technologien</h5>
+          <h4 class="card-title">Technologien</h4>
           <p class="card-text">
             Für meine Visualisierung habe ich HTML, CSS und JavaScript verwendet.
             Die Visualisierung wurde mit der leistungsstarken D3.js-Bibliothek erstellt, um den Bubble Chart zu
@@ -237,7 +255,7 @@
             Das Design wurde mithilfe von Bootstrap angepasst, um ein ansprechendes Erscheinungsbild zu gewährleisten.
             Die Daten wurden vorab mit SQL in einer Datenbank verarbeitet, um sie zu analysieren und zu aggregieren.
           </p>
-          <h5>Bubble Chart</h5>
+          <h4>Bubble Chart</h4>
           <p class="card-text">
             Für meinen Bubble Chart habe ich ein bereits bestehendes <a
               href="https://vallandingham.me/bubble_charts_with_d3v4.html"> Code-Snippet </a> als Ausgangspunkt
@@ -251,6 +269,56 @@
     </div>
   </div>
 </div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col-8 offset-2">
+      <div class="card my-2" id="impressum">
+        <div class="card-header">
+          <h3 class="card-title display-6">Impressum</h3>
+        </div>
+        <div class="card-body">
+          <p>Diese Visualisierung wurde im Rahmen der Open Data Vorlesung der Universität Bern im Frühlingssemester 2023 erstellt.
+            Verantwortlich für den Inhalt: <br>
+            <strong> Nicolas Wyss </strong> <a href="mailto:nicolas.wyss@students.unibe.ch">nicolas.wyss@students.unibe.ch</a>
+          </p>
+          <h4>Lizenz</h4>
+          <p class="card-text">
+            Die Visualisierung ist unter der GNU General Public License Version 3 (GPLv3) lizenziert. Gemäß den
+            Bestimmungen der GPLv3 können Sie die Visualisierung frei nutzen, kopieren, modifizieren und verbreiten.
+          </p>
+          <h4>Code auf Github</h4>
+          <p class="card-text">
+            Code auf GitHub:
+            Der Quellcode der Visualisierung ist auf GitHub verfügbar und kann unter folgendem Link abgerufen werden: <a
+              href="https://github.com/nicolasfwyss/data-visualisation-ausfaelle/">Visualisierung</a>
+          </p>
+          <h4>Haftungsausschluss</h4>
+          <p class="card-text">
+            Die Visualisierung wurde mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und
+            Aktualität der Inhalte wird jedoch keine Gewähr übernommen. Jegliche Haftung für Schäden, die durch die
+            Nutzung der Visualisierung entstehen, ist ausgeschlossen.
+          </p>
+          <h4>Fragen</h4>
+          <p class="card-text">
+            Bei Fragen oder Anmerkungen zu dieser Visualisierung können Sie sich gerne an die oben angegebene Kontaktadresse wenden. <br>
+            <strong> Stand: 1. Juli 2023</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#home" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#grafik" class="nav-link px-2 text-muted">Grafik</a></li>
+      <li class="nav-item"><a href="#dokumentation" class="nav-link px-2 text-muted">Dokumentation</a></li>
+      <li class="nav-item"><a href="#impressum" class="nav-link px-2 text-muted">Impressum</a></li>
+    </ul>
+    <p class="text-center text-muted">2023 Nicolas Wyss</p>
+  </footer>
+</div>
+
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="assets/bootstrap/js/bootstrap-multiselect.js"></script>
@@ -259,10 +327,5 @@
 <script src="assets/D3js/d3.v4.min.js"></script>
 <script src="assets/js/tooltip.js"></script>
 <script src="assets/js/bubble_chart.js"></script>
-<script>
-    $(function () {
-        $('[data-toggle="popover"]').popover()
-    })
-</script>
 
 </html>
