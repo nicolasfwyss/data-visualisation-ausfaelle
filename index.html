@@ -48,14 +48,14 @@
         <br>
         <p>
           Meine Open-Data Visualisierung zeigt Verkehrsausfälle im öffentlichen Verkehr in der Schweiz zwischen dem
-          23.03.2022 und 12.03.2023. Verschiedene
-          Verkehrstypen sind durch Farben gekennzeichnet, während die Größe die Anzahl der Ausfälle repräsentiert. Die
-          interaktive Darstellung ermöglicht es, Ausfälle nach verschiedenen Filtern (grüne Knöpfe) wie beispielsweise
-          Wochentag oder Ausfalldauer aufzuteilen. Zudem besteht die Möglichkeit, die Ausfälle zu normieren (blaue
-          Knöpfe)
-          und so die Anzahl Ausfälle pro Linie anstelle der Gesamtanzahl der Ausfälle anzuzeigen. Falls man sich nur für
-          bestimmte Transportunternehmen interessiert, kann man diese mithilfe des Filters aussuchen. Tauche ein und
-          erhalte einen visuellen Überblick über Verkehrsausfälle in der Schweiz!
+          23.03.2022 und 12.03.2023. <br>
+          Jede Bubble repräsentiert ein Transportunternehmen wobei die Farbe den primären Fahrzeugtyp des Transportunternehmens kennzeichnet und die Größe die
+          Anzahl der Ausfälle repräsentiert. Die interaktive Darstellung ermöglicht es, Ausfälle nach verschiedenen
+          Filtern (<span class="text-success">grüne Knöpfe</span>) wie beispielsweise Wochentag oder Ausfalldauer aufzuteilen. Zudem besteht die
+          Möglichkeit, die Ausfälle zu normieren (<span class="text-primary">blaue Knöpfe</span>) und so die Anzahl Ausfälle pro Linie anstelle der
+          Gesamtanzahl der Ausfälle anzuzeigen. Falls man sich nur für bestimmte Transportunternehmen interessiert, kann
+          man diese mithilfe des Filters (<span class="text-info">hellblauer Knopf</span>) auswählen. Tauche ein und erhalte einen visuellen Überblick über
+          Verkehrsausfälle in der Schweiz!
         </p>
       </div>
       <div class="card-body" id="grafik">
@@ -90,9 +90,8 @@
                     <span class="bi bi-info-circle"></span>
                   </button>
                 </h3>
-                <button scale="all" class="btn btn-outline-primary m-1 scale btn-primary text-white">Total</button>
-                <button scale="line" class="btn btn-outline-primary m-1 scale ">Ausfälle pro
-                  Linie
+                <button scale="all" class="btn btn-outline-primary m-1 scale btn-primary text-white">Alle</button>
+                <button scale="line" class="btn btn-outline-primary m-1 scale ">Ausfälle pro Linie
                 </button>
               </div>
               <div id="buttons_filter" class="col-sm-5 p-1">
@@ -227,7 +226,7 @@
         <div class="card-body">
           <h4>Aggregration und Sortierung</h4>
           <p class="card-text">
-            Aufgrund der enormen Größe des gesamten Datensatzes musste eine Vorverarbeitet für meine Visualisierung
+            Aufgrund der enormen Größe des gesamten Datensatzes musste eine Vorverarbeitung für meine Visualisierung
             durchgeführt werden.
             Um den Umfang zu reduzieren, wurden die Daten aggregiert und die Ausfälle der einzelnen Transportunternehmen
             zusammengefasst.
@@ -280,7 +279,8 @@
           <h3 class="card-title display-6">Impressum</h3>
         </div>
         <div class="card-body">
-          <p>Diese Visualisierung wurde im Rahmen der Open Data Vorlesung der Universität Bern im Frühlingssemester 2023 erstellt.
+          <p>Diese Visualisierung wurde im Rahmen der Open Data Vorlesung der Universität Bern im Frühlingssemester 2023
+            erstellt.
             Verantwortlich für den Inhalt: <br>
             <strong> Nicolas Wyss </strong> <a href="mailto:nicolas.wyss@students.unibe.ch">nicolas.wyss@students.unibe.ch</a>
           </p>
@@ -303,7 +303,8 @@
           </p>
           <h4>Fragen</h4>
           <p class="card-text">
-            Bei Fragen oder Anmerkungen zu dieser Visualisierung können Sie sich gerne an die oben angegebene Kontaktadresse wenden. <br>
+            Bei Fragen oder Anmerkungen zu dieser Visualisierung können Sie sich gerne an die oben angegebene
+            Kontaktadresse wenden. <br>
             <strong> Stand: 1. Juli 2023</strong>
           </p>
         </div>
