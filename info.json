@@ -1,0 +1,10 @@
+{
+  "title": "Verkehrsausfälle in der Schweiz: Eine interaktive Reise durch Daten",
+  "description": "Meine Open-Data Visualisierung zeigt Verkehrsausfälle im öffentlichen Verkehr in der Schweiz zwischen dem 23.03.2022 und 12.03.2023. Jede Bubble repräsentiert ein Transportunternehmen wobei die Farbe den primären Fahrzeugtyp des Transportunternehmens kennzeichnet und die Größe die Anzahl der Ausfälle repräsentiert.",
+  "authors": [
+    {"name": "Nicolas Wyss", "email": "nicolas.wyss@students.unibe.ch"}
+  ],
+  "date": "2023-06-01",
+  "category": "traffic",
+  "software_license": "GNU General Public License v3"
+}
