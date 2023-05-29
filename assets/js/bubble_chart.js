@@ -653,8 +653,11 @@ $('#mySelect').multiselect({
     nonSelectedText: 'Filter',
     numberDisplayed: 1,
     includeSelectAllOption: true,
+    filterPlaceholder: "Suche nach Transportunternehmen",
     enableCaseInsensitiveFiltering: true,
+    selectAllText: "Alle Auswählen",
     allSelectedText: "Alle",
+    nSelectedText: "Ausgewählt",
     maxHeight: 600,
     widthSynchronizationMode: 'ifPopupIsWider',
     onDropdownHidden: function (event) {
