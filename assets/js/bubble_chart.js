@@ -11,15 +11,17 @@ var tooltip = floatingTooltip('ausfaelle_tooltip', 300);
 var fillColor = d3.scaleOrdinal()
     .domain(['0', '1', '2', '3'])
     .range(['#faa307', '#e85d04', '#0a9396', '#94d2bd']);
-/*.range(['#ffbb08', '#87CEEB', '#e10000', '#325646']);*/
 
-// Variable die Skalierung angibt (scaling_line, scaling_line_bundles, scaling_all)
-
+// Variable die angibt welche Tu alle angezeigt werden sollen
 var filtered_tu = ['PAG', 'AB', 'SBB', 'TMR', 'TL', 'VBD', 'RBS', 'TPF', 'VBSH', 'AMSA', 'TPL', 'TRN', 'BOS', 'SBB-D', 'TPG', 'ZVB', 'SVB', 'BSU', 'asm', 'REGO', 'BGU', 'VBG', 'VBZ', 'BLAG', 'VZO', 'THURBO', 'BLT', 'AAGR', 'VMCV', 'NStCM', 'VBL', 'AS', 'TRAVYS', 'VB', 'VBSG', 'AVJ', 'AAGS', 'BOGG', 'ABG', 'AVA', 'BuS', 'BBA', 'RA', 'STI', 'AAGL', 'SBG', 'BLS', 'MBC', 'SZU', 'BVB', 'TPC', 'ASGS', 'SMC', 'TPN', 'SOB', 'ARL', 'LEB', 'ARAG', 'SBW', 'RhB', 'FLP', 'MGB', 'AOT', 'GWB', 'WAB', 'BOB', 'FART', 'TSD', 'RBL', 'BCS', 'BRER', 'AAGU', 'LLB', 'RVBW', 'ABl', 'SNL', 'zb', 'AFA', 'AWA', 'BLWE', 'BWS'];
 
+// Variable die Skalierung angibt (all, cause, day, duration, stops, time, type )
 var sort_type = 'all';
+
+// Variable die Sortierung angibt (line, all)
 var scale_type = 'all';
 
+// Konfigurationsdaten für den Charts, Position der Bubbles, Titel etc
 var sort = {
     'all': {
         'center': {
@@ -173,6 +175,7 @@ var sort = {
 
 }
 
+// Konfigurationsdaten für die Grösse der Bubbles
 var scales = {
     'all': {
         'all': {
@@ -220,19 +223,17 @@ var scales = {
 
 }
 
-// Funktion für die BubbleCharts ohne Sortierung
 function bubbleChart() {
 
-    // Ort wo sich die Bubbles hinbewegen sollen
+    // Ort wo sich die Bubbles ursprünglich hinbewegen sollen
     var center = {x: width / 2, y: height / 2};
 
-    // Variablen für den Chart
     // erstellen eines svg elements fürs html
     var svg = d3.select('#vis')
-            .append('svg')
-            .attr('viewBox', '0 0 1261 700')
-        /*        .attr('width', width)
-                .attr('height', height)*/;
+        .append('svg')
+        .attr('viewBox', '0 0 1261 700');
+
+    // Variablen für den Chart
     var bubbles = null;
     var text_name = null;
     var text_value = null;
@@ -282,10 +283,12 @@ function bubbleChart() {
             });
     }
 
+    // Funktion zum Updaten der Nodes, falls der Filter geändert wird
     function updateNodes(rawData) {
         keys = Object.keys(rawData[0]);
         last_key = keys[keys.length - 1];
 
+        // erstellen der Nodes aus den Daten
         var myNodes = rawData.map(function (d) {
             var node = {
                 id: d.id,
@@ -331,6 +334,7 @@ function bubbleChart() {
         nodes = myNodes;
     }
 
+    // Funktion zum erstellen des Charts
     var chart = function chart(rawData) {
 
         // erstellen der Nodes
@@ -390,7 +394,7 @@ function bubbleChart() {
         text_name = text_name.merge(text_nameE);
         text_value = text_value.merge(text_valueE);
 
-        // Legende
+        // Legende hinzufügen
         svg.append("text").attr("x", 10).attr("y", 10).text("Legende").style("font-size", "20px").style("font-weight", "bold").attr("alignment-baseline", "middle")
         svg.append("circle").attr("cx", 20).attr("cy", 40).attr("r", 10).style("fill", "#faa307")
         svg.append("circle").attr("cx", 20).attr("cy", 70).attr("r", 10).style("fill", "#e85d04")
@@ -401,33 +405,40 @@ function bubbleChart() {
         svg.append("text").attr("x", 40).attr("y", 100).text("Bahn Berg").style("font-size", "15px").attr("alignment-baseline", "middle")
         svg.append("text").attr("x", 40).attr("y", 130).text("Bahn Regionalverkehr").style("font-size", "15px").attr("alignment-baseline", "middle")
 
-
-        // Nodes der Simunlation durch die neuen Nodes ersetzen
-
+        // Beschriftungen hinzufügen
         updateTitles();
+
+        // Bubbles skalieren
         myBubbleChart.scaleBubbles();
 
     }
 
+    // Funktion zum Updaten des Charts bei ändern des Filters
     chart.updateChart = function () {
 
+        // Chart zurücksetzen
         svgE = d3.select('#vis');
         svgE.selectAll('.bubble').remove();
         svgE.selectAll('text').remove();
 
+        // Element des Charts löschen
         bubbles = null;
         text_name = null;
         text_value = null;
         nodes = [];
 
+        // Simulation stopppen
         simulation.stop();
 
+        // neue Daten laden
         d3.csv(sort[sort_type].csv, function (error, data) {
             if (error) {
                 console.log(error);
             }
+            // TU filtern
             data = data.filter(d => filtered_tu.includes(d.tu));
 
+            // Neuer Chart erstellen
             chart(data);
             splitBubbles();
             updateTitles();
@@ -435,12 +446,14 @@ function bubbleChart() {
         });
     }
 
+    // Updaten der Titel
     function updateTitles() {
 
+        // Alte Titel entfernen
         svg.selectAll('.title').remove();
         svg.selectAll('.sum').remove();
 
-
+        // Titles hinzufügen
         var data = d3.keys(sort[sort_type].titles);
         if (data.length > 0) {
             var titles = svg.selectAll('.' + sort_type)
@@ -472,11 +485,13 @@ function bubbleChart() {
         }
     }
 
+    // Funktion zum bestimmen der Zentreen
     function nodePosX(d) {
         return sort[sort_type].center[d.sort].x;
     }
 
 
+    // Aufteilen der Bubbles nach den Filter
     function splitBubbles() {
         // @v4 Reset the 'x' force to draw the bubbles to their sort centers
         simulation.force('x', d3.forceX().strength(forceStrength).x(nodePosX));
@@ -485,6 +500,7 @@ function bubbleChart() {
         simulation.alpha(1).restart();
     }
 
+    // Skalieren der Bubbles
     chart.scaleBubbles = function () {
 
         Object.keys(sort[sort_type].sum).forEach(key => sort[sort_type].sum[key] = null);
@@ -499,7 +515,6 @@ function bubbleChart() {
             }
             d.sort = (typeof d.sort === 'undefined') ? 'Alle Ausfälle' : d.sort
             sort[sort_type].sum[d.sort] += d.comp_value;
-            console.log(sort[sort_type].sum)
 
             d.radius = d3.scalePow()
                 .exponent(scales[sort_type][scale_type].exponent)
@@ -593,17 +608,10 @@ function bubbleChart() {
 
 }
 
-// Initialisierte den Bubblechart
+// Initialisiere den Bubblechart
 var myBubbleChart = bubbleChart();
 
-function display(error, data) {
-    if (error) {
-        console.log(error);
-    }
-    myBubbleChart(data);
-}
-
-// Einrichten der Button und der Aktion beim Drücken
+// Einrichten der Button und der Aktionen beim Drücken
 function setupButtons() {
     d3.select('#buttons_scale')
         .selectAll('.scale')
@@ -618,9 +626,6 @@ function setupButtons() {
 
             // Get the id of the button
             scale_type = button.attr('scale');
-
-            console.log(scale_type);
-            console.log(sort_type);
 
             myBubbleChart.scaleBubbles();
         });
@@ -638,15 +643,11 @@ function setupButtons() {
             // Get the id of the button
             sort_type = button.attr('data');
 
-            console.log(scale_type);
-            console.log(sort_type);
             myBubbleChart.updateChart();
-            myBubbleChart.scaleBubbles();
-
         });
 }
 
-
+// Einstelungen für den Multiselect Dropdown
 $('#mySelect').multiselect({
     buttonClass: 'btn btn-info',
     buttonWidth: '120px',
@@ -658,19 +659,18 @@ $('#mySelect').multiselect({
     maxHeight: 600,
     widthSynchronizationMode: 'ifPopupIsWider',
     onDropdownHidden: function (event) {
-        console.log(filtered_tu)
-        console.log($('#mySelect').val());
         filtered_tu = $('#mySelect').val();
-        console.log(filtered_tu)
         myBubbleChart.updateChart();
     }
 });
 
+// Popover für Informationen zu den Knöpfen
+$(function () {
+    $('[data-toggle="popover"]').popover()
+})
 
+// Laden des Charts
 myBubbleChart.updateChart();
-
-// Load the data.
-/*d3.csv('assets/data/ausfaelle_tu_all.csv', display);*/
 
 // setup the buttons.
 setupButtons();
