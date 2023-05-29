@@ -94,7 +94,7 @@ var sort = {
             '15-30 Minuten': 610,
             '30-60 Minuten': 825,
             '60+ Minuten': 1000,
-            'unbekannt': 1125,
+            'unbekannt': 1135,
         }, 'sum': {
             'Unter 5 Minuten': null,
             '5-15 Minuten': null,
@@ -145,7 +145,7 @@ var sort = {
             'Status Unbekannt': 650,
             'Verspätung': 775,
             'Keine Daten Teilstrecke': 925,
-            'Status Unbekannt Teilstrecke': 1130,
+            'Status Unbekannt Teilstrecke': 1150,
         }, 'sum': {
             'Ausfall ganze Fahrt': null,
             'Keine Daten': null,
@@ -478,7 +478,7 @@ function bubbleChart() {
                 .attr('y', 660)
                 .attr('text-anchor', ' middle')
                 .text(function (d) {
-                    return Math.floor(sort[sort_type].sum[d] / 1000) + 'k';
+                    return sort[sort_type].sum[d] > 10000 ? Math.floor(sort[sort_type].sum[d] / 1000) + 'k' : Math.floor(sort[sort_type].sum[d]);
                 })
 
 
@@ -515,7 +515,9 @@ function bubbleChart() {
             }
             d.sort = (typeof d.sort === 'undefined') ? 'Alle Ausfälle' : d.sort
             sort[sort_type].sum[d.sort] += d.comp_value;
+        });
 
+        nodes.forEach(function (d) {
             d.radius = d3.scalePow()
                 .exponent(scales[sort_type][scale_type].exponent)
                 .range([scales[sort_type][scale_type].range_min, scales[sort_type][scale_type].range_max])
@@ -543,6 +545,7 @@ function bubbleChart() {
         bubbles.transition()
             .duration(1000)
             .attr('r', function (d) {
+                console.log(d.radius)
                 return d.radius;
             });
 
@@ -589,9 +592,7 @@ function bubbleChart() {
             case "type":
                 content += '<br/>' + '<span class="name">Verkehrsmittel : </span><span class="value">' + d.sort + '</span>';
                 break;
-
         }
-
         tooltip.showTooltip(content, d3.event);
     }
 
@@ -600,12 +601,10 @@ function bubbleChart() {
         // reset outline
         d3.select(document.getElementById("circle" + d.id))
             .attr('stroke', d3.rgb(fillColor(d.type - 1)).darker());
-
         tooltip.hideTooltip();
     }
 
     return chart;
-
 }
 
 // Initialisiere den Bubblechart
@@ -650,7 +649,7 @@ function setupButtons() {
 // Einstelungen für den Multiselect Dropdown
 $('#mySelect').multiselect({
     buttonClass: 'btn btn-info',
-    buttonWidth: '120px',
+    buttonWidth: '150px',
     nonSelectedText: 'Filter',
     numberDisplayed: 1,
     includeSelectAllOption: true,
@@ -659,7 +658,7 @@ $('#mySelect').multiselect({
     maxHeight: 600,
     widthSynchronizationMode: 'ifPopupIsWider',
     onDropdownHidden: function (event) {
-        filtered_tu = $('#mySelect').val();
+        filtered_tu = $('#mySelect').val().length > 0 ? $('#mySelect').val() : filtered_tu;
         myBubbleChart.updateChart();
     }
 });
