@@ -20,13 +20,17 @@ a, a:visited, a:active {
 @media only screen and (min-width: 600px) {
     .dropdown-menu {
         width: 350px !important;
-        transform: translate3d(-230px, 45px, 0px) !important;
+        transform: translate3d(-200px, 45px, 0px) !important;
 
     }
 }
 
 body {
     font-family: 'Georgia' !important;
+}
+
+#vis {
+    font-family: 'Arial';
 }
 
 .checkbox {
@@ -38,7 +42,7 @@ body {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
 }
 
 #vis {
