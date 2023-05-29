@@ -25,12 +25,20 @@ a, a:visited, a:active {
     }
 }
 
+body {
+    font-family: 'Georgia' !important;
+}
+
 .checkbox {
     padding-left: 10px !important;
 }
 
 .sum, .title {
     font-weight: bold;
+}
+
+p {
+    font-size: 1.2rem;
 }
 
 #vis {
