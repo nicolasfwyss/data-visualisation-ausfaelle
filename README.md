@@ -9,3 +9,5 @@ Wochentag oder Ausfalldauer aufzuteilen. Zudem besteht die Möglichkeit, die Aus
 die Anzahl Ausfälle pro Linie anstelle der Gesamtanzahl der Ausfälle anzuzeigen. Falls man sich nur für bestimmte
 Transportunternehmen interessiert, kann man diese mithilfe des Filters (hellblauer Knopf) auswählen. Tauche ein und
 erhalte einen visuellen Überblick über Verkehrsausfälle in der Schweiz!
+
+[Link zur Visualisierung](https://nicolasfwyss.github.io/data-visualisation-ausfaelle/)
